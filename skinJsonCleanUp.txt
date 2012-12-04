@@ -1,0 +1,31 @@
+all
+	name
+	type | solid, border, gradient, image
+	color
+	top | top="0"
+	right | right="0"
+	bottom | 
+	left
+	(note: if top value equals the default then optionally print)
+
+border 
+	topWidth
+	rightWidth
+	bottomWidth
+	leftWidth (all default to 1)
+
+gradient
+	gradientColors | array
+	gradientAlphas 
+	positions 
+
+image
+	cropX
+	cropY
+	cropWidth
+	cropHeight
+	scale9Top
+	scale9Right
+	scale9Bottom
+	scale9Left
+	url
