@@ -1,7 +1,5 @@
 #! /usr/local/bin/python
 
-
-
 """
 from optparse import OptionParser
 
