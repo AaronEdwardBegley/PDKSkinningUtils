@@ -1,0 +1,4680 @@
+{
+    "title": "Cinematic",
+    "swfUrl": "../../../pdk/skins/cinematic/cinematic.swf",
+    "fontSwfUrl": "../../../pdk/fonts/arial.swf",
+    "css": ".PlayerLabelFont{font-family: Arial, Helvetica, sans-serif;font-size: 10px;color: #BEBEBE;}",
+    "assets": {
+        "ButtonSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "controlFrameColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0
+                        },
+                        {
+                            "name": "frame",
+                            "left": 1.0,
+                            "bottom": 1.0,
+                            "color": "controlBackgroundColor",
+                            "type": "solid",
+                            "right": 1.0,
+                            "top": 1.0
+                        },
+                        {
+                            "name": "gradient0",
+                            "left": 1.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#000000"
+                            ],
+                            "bottom": 1.0,
+                            "gradientAlphas": [
+                                0.1,
+                                0.1
+                            ],
+                            "type": "gradient",
+                            "right": 1.0,
+                            "rotation": 0.0,
+                            "top": 1.0
+                        },
+                        {
+                            "name": "gradient1",
+                            "left": 2.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#000000"
+                            ],
+                            "bottom": 2.0,
+                            "gradientAlphas": [
+                                0.2,
+                                0.2
+                            ],
+                            "type": "gradient",
+                            "right": 2.0,
+                            "rotation": 0.0,
+                            "top": 2.0
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "controlFrameColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0
+                        },
+                        {
+                            "name": "frame",
+                            "left": 1.0,
+                            "bottom": 1.0,
+                            "color": "controlBackgroundColor",
+                            "type": "solid",
+                            "right": 1.0,
+                            "top": 1.0
+                        },
+                        {
+                            "name": "gradient0",
+                            "left": 1.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#000000"
+                            ],
+                            "bottom": 1.0,
+                            "gradientAlphas": [
+                                0.1,
+                                0.1
+                            ],
+                            "type": "gradient",
+                            "right": 1.0,
+                            "rotation": 0.0,
+                            "top": 1.0
+                        },
+                        {
+                            "name": "gradient1",
+                            "left": 2.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#000000"
+                            ],
+                            "bottom": 2.0,
+                            "gradientAlphas": [
+                                0.2,
+                                0.2
+                            ],
+                            "type": "gradient",
+                            "right": 2.0,
+                            "rotation": 0.0,
+                            "top": 2.0
+                        },
+                        {
+                            "name": "shine",
+                            "left": 2.0,
+                            "positions": [
+                                0.0,
+                                0.54,
+                                0.56,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#FFFFFF",
+                                "#FFFFFF",
+                                "#FFFFFF"
+                            ],
+                            "bottom": 2.0,
+                            "gradientAlphas": [
+                                0.15,
+                                0.1,
+                                0.0,
+                                0.0
+                            ],
+                            "type": "gradient",
+                            "right": 2.0,
+                            "rotation": 0.0,
+                            "top": 2.0
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "controlFrameColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0
+                        },
+                        {
+                            "name": "frame",
+                            "left": 1.0,
+                            "bottom": 1.0,
+                            "color": "controlBackgroundColor",
+                            "type": "solid",
+                            "right": 1.0,
+                            "top": 1.0
+                        },
+                        {
+                            "name": "gradient0",
+                            "left": 1.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#000000"
+                            ],
+                            "bottom": 1.0,
+                            "gradientAlphas": [
+                                0.1,
+                                0.1
+                            ],
+                            "type": "gradient",
+                            "right": 1.0,
+                            "rotation": 0.0,
+                            "top": 1.0
+                        },
+                        {
+                            "name": "gradient1",
+                            "left": 2.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#000000"
+                            ],
+                            "bottom": 2.0,
+                            "gradientAlphas": [
+                                0.2,
+                                0.2
+                            ],
+                            "type": "gradient",
+                            "right": 2.0,
+                            "rotation": 0.0,
+                            "top": 2.0
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "controlFrameColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0
+                        },
+                        {
+                            "name": "frame",
+                            "left": 1.0,
+                            "bottom": 1.0,
+                            "color": "controlBackgroundColor",
+                            "type": "solid",
+                            "right": 1.0,
+                            "top": 1.0
+                        },
+                        {
+                            "name": "gradient0",
+                            "left": 1.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#000000"
+                            ],
+                            "bottom": 1.0,
+                            "gradientAlphas": [
+                                0.17,
+                                0.17
+                            ],
+                            "type": "gradient",
+                            "right": 1.0,
+                            "rotation": 0.0,
+                            "top": 1.0
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 18.0,
+                "defaultWidth": 24.0
+            }
+        },
+        "RowSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "controlFrameColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0
+                        },
+                        {
+                            "name": "frame",
+                            "left": 1.0,
+                            "bottom": 1.0,
+                            "color": "controlBackgroundColor",
+                            "type": "solid",
+                            "right": 1.0,
+                            "top": 1.0
+                        },
+                        {
+                            "name": "gradient0",
+                            "left": 1.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#000000"
+                            ],
+                            "bottom": 1.0,
+                            "gradientAlphas": [
+                                0.1,
+                                0.1
+                            ],
+                            "type": "gradient",
+                            "right": 1.0,
+                            "rotation": 0.0,
+                            "top": 1.0
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 28.0,
+                "defaultWidth": 24.0,
+                "verticalAlign": "middle",
+                "horizontalGap": -1,
+                "paddingTop" : 0.0,
+                "paddingRight" : 10.0,
+                "paddingBottom" : 10.0,
+                "paddingLeft" : 10.0
+            }
+        },
+        "GroupSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "controlFrameColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0
+                        },
+                        {
+                            "name": "frame",
+                            "left": 1.0,
+                            "bottom": 1.0,
+                            "color": "controlBackgroundColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 1.0
+                        },
+                        {
+                            "name": "gradient0",
+                            "left": 1.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#000000"
+                            ],
+                            "bottom": 1.0,
+                            "gradientAlphas": [
+                                0.1,
+                                0.1
+                            ],
+                            "type": "gradient",
+                            "right": 0.0,
+                            "rotation": 0.0,
+                            "top": 1.0
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 28.0,
+                "defaultWidth": 24.0,
+                "height": 18.0,
+                "verticalAlign": "middle",
+                "paddingTop" : 0.0,
+                "paddingRight" : 40.0,
+                "paddingBottom" : 0.0,
+                "paddingLeft" : 10.0
+            }
+        },
+        "ScrubberSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "gradient0",
+                            "left": 0.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#FFFFFF"
+                            ],
+                            "bottom": 0.0,
+                            "gradientAlphas": [
+                                0.0,
+                                0.0
+                            ],
+                            "type": "gradient",
+                            "right": 0.0,
+                            "rotation": 0.0,
+                            "top": 0.0
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 18.0,
+                "defaultWidth": 150.0,
+                "paddingLeft": 8,
+                "paddingRight": 8
+            }
+        },
+        "ScrubberTrackSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "scrubTrackColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0,
+                            "alpha": 0.25
+                        },
+                        {
+                            "name": "gradient0",
+                            "left": 0.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#000000",
+                                "#FFFFFF"
+                            ],
+                            "bottom": 0.0,
+                            "gradientAlphas": [
+                                0.25,
+                                0.25
+                            ],
+                            "type": "gradient",
+                            "right": 0.0,
+                            "rotation": 0.0,
+                            "top": 0.0
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "scrubTrackColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0,
+                            "alpha": 0.15
+                        },
+                        {
+                            "name": "gradient0",
+                            "left": 0.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#000000",
+                                "#FFFFFF"
+                            ],
+                            "bottom": 0.0,
+                            "gradientAlphas": [
+                                0.15,
+                                0.15
+                            ],
+                            "type": "gradient",
+                            "right": 0.0,
+                            "rotation": 0.0,
+                            "top": 0.0
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 8.0,
+                "defaultWidth": 50.0,
+                "paddingLeft": 8,
+                "paddingRight": 8
+
+            }
+        },
+        "ScrubberProgressSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "gradient0",
+                            "left": 0.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "playProgressColor",
+                                "playProgressColor"
+                            ],
+                            "bottom": 0.0,
+                            "gradientAlphas": [
+                                1.0,
+                                0.0
+                            ],
+                            "type": "gradient",
+
+                            "right": 0.0,
+                            "rotation": 90.0,
+                            "top": 0.0
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 8.0,
+                "defaultWidth": 50.0,
+                "paddingLeft": 8,
+                "paddingRight": 8
+            }
+        },
+        "ScrubberThumbSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "frame",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "scrubberFrameColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0
+                        },
+                        {
+                            "name": "background",
+                            "left": 1.0,
+                            "bottom": 1.0,
+                            "color": "scrubberColor",
+                            "type": "solid",
+                            "right": 1.0,
+                            "top": 1.0
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 8.0,
+                "defaultWidth": 8.0,
+                "paddingLeft": 12,
+                "paddingRight": 12,
+                "originX": 4.0,
+                "originY": 4.0
+            }
+        },
+        "ScrubberLoadedSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "loadProgressColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0,
+                            "alpha": 0.25
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 8.0,
+                "defaultWidth": 60.0,
+                "paddingLeft": 8,
+                "paddingRight": 8
+            }
+        },
+        "ScrubberChapterTickSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "scrubberColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 8.0,
+                "defaultWidth": 1.0,
+                "paddingLeft": 12,
+                "paddingRight": 12
+            }
+        },
+        "VerticalVolumeProgressSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "VerticalVolumeProgressSkinBackground",
+                            "left": 0.0,
+                            "top": 0.0,
+                            "right": 0.0,
+                            "bottom": 0.0,                                                                                                            
+                            "type": "gradient",
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "playProgressColor",
+                                "playProgressColor"
+                            ],
+                            "gradientAlphas": [
+                                1.0,
+                                0.0
+                            ],
+                            "rotation": 0.0
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 6.0,
+                "defaultHeight": 63.0
+            }
+        },
+        "VerticalVolumeSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "VerticalVolumeSkinBackground",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "#000000",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 2.0,
+                            "alpha": 0.52
+                        },
+                        {
+                            "name": "VerticalVolumeSkinBackground",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "controlBackgroundColor",
+                            "type": "solid",
+                            "right": 1.0,
+                            "top": 0.0
+                        },
+                        {
+                            "name": "VerticalVolumeGradient",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "type": "gradient",
+                            "right": 1.0,
+                            "top": 0.0,                            
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "playProgressColor",
+                                "playProgressColor"
+                            ],
+                            "bottom": 0.0,
+                            "gradientAlphas": [
+                                0.1,
+                                0.1
+                            ],
+                            "type": "gradient",                            
+                            "rotation": 0.0
+                            
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 21.0,
+                "defaultHeight": 100.0,
+                "paddingTop" : 11,
+                "paddingBottom" : 11,
+                "paddingLeft" : 6,
+                "paddingRight" : 6
+            }
+        },
+        "VerticalVolumeThumbSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "VerticalVolumeThumbSkinBackground",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "scrubberColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 8.0,
+                "defaultHeight": 8.0
+            }
+        },
+        "VerticalVolumeTrackSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "VerticalVolumeTrackSkinBackground",
+                            "type": "image",
+                            "cropX": 141,
+                            "cropY": 2,
+                            "cropWidth": 5.0,
+                            "cropHeight": 5.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlColor",
+                            "scale9Top": 1,
+                            "scale9Right": 1,
+                            "scale9Bottom": 1,
+                            "scale9Left": 1
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 8.0,
+                "defaultHeight": 80.0
+            }
+        },
+        "VolumeProgressSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "VolumeProgessSkinBackground",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "type": "gradient",
+                            "right": 0.0,
+                            "top": 0.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "playProgressColor",
+                                "playProgressColor"
+                            ],
+                            "gradientAlphas": [
+                                1.0,
+                                0.0
+                            ],
+                            "rotation": 90.0
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 60.0,
+                "defaultHeight": 6.0
+            }
+        },
+        "VolumeSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "VolumeSkinBackground",
+                            "left": 0.0,
+                            "bottom": 1.0,
+                            "color": "controlBackgroundColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 1.0,
+                            "alpha" : 1.0
+
+                        },
+                        {
+                            "name": "gradient0",
+                            "left": 0.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#000000"
+                            ],
+                            "bottom": 0.0,
+                            "gradientAlphas": [
+                                0.1,
+                                0.1
+                            ],
+                            "type": "gradient",
+                            "right": 0.0,
+                            "rotation": 0.0,
+                            "top": 1.0
+                        }
+                        
+                    ]
+                }
+            },
+            "properties": {                
+                "defaultWidth": 100.0,
+                "defaultHeight": 19.0,
+                "paddingLeft": 16,
+                "paddingRight": 16
+            }
+        },       
+        "VolumeThumbSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "VolumeThumbSkinBackground",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "scrubberColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 8.0,
+                "defaultHeight": 8.0,
+                "originX" : 4,
+                "originY" : 4
+            }
+        },
+        "VolumeTrackSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "VolumeTrackSkinBackground",
+                            "type": "image",
+                            "cropX": 141,
+                            "cropY": 2,
+                            "cropWidth": 5.0,
+                            "cropHeight": 5.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlColor",
+                            "scale9Top": 1,
+                            "scale9Right": 1,
+                            "scale9Bottom": 1,
+                            "scale9Left": 1
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 24.0,
+                "defaultHeight": 8.0
+            }
+        },
+        "MenuBarSkin": {
+          "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "ManuBarSkinFrame",
+                            "type" : "solid",
+                            "color" : "controlFrameColor"                            
+                        },
+                        {
+                            "name": "ManuBarSkinBackground",
+                            "type" : "solid",
+                            "color" : "controlBackgroundColor",
+                            "top": 1,
+                            "right": 1,
+                            "bottom": 1,
+                            "left": 1                            
+                        },
+                        {
+                            "name": "ManuBarSkinGradient",
+                            "left": 1.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "controlBackgroundColor"
+                            ],
+                            "bottom": 1.0,
+                            "gradientAlphas": [
+                                0.1,
+                                0.1
+                            ],
+                            "type": "gradient",
+                            "right": 1.0,
+                            "rotation": 0.0,
+                            "top": 1.0
+                        }
+
+                    ]
+                }
+            },
+            "properties": {                
+                "defaultHeight": 18.0,
+                "defaultHeight": 150.0,
+                "verticalAlign": "middle"
+            }  
+        },
+        "ClosedCaptionSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "ClosedCaptionSkinBackground",
+                            "left": 0.0,
+                            "bottom": 2.0,
+                            "color": "controlBackgroundColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 2.0
+                        },
+                        {
+                            "name": "ClosedCaptionSkinGradient",
+                            "left": 0.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#000000"
+                            ],
+                            "bottom": 2.0,
+                            "gradientAlphas": [
+                                0.1,
+                                0.1
+                            ],
+                            "type": "gradient",
+                            "right": 0.0,
+                            "rotation": 0.0,
+                            "top": 2.0
+                        },
+                        {
+                            "name": "ClosedCaptionSkinGradient",
+                            "left": 0.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#000000"
+                            ],
+                            "bottom": 2.0,
+                            "gradientAlphas": [
+                                0.2,
+                                0.2
+                            ],
+                            "type": "gradient",
+                            "right": 0.0,
+                            "rotation": 0.0,
+                            "top": 2.0
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 18.0,
+                "defaultWidth": 22.0
+            }
+        },
+        "IconPlay": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "playIcon",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 6.0,
+                            "cropHeight": 7.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "playIcon",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 6.0,
+                            "cropHeight": 7.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "playIcon",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 6.0,
+                            "cropHeight": 7.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "playIcon",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 6.0,
+                            "cropHeight": 7.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlColor",
+                            "alpha": 0.5
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 7.0,
+                "defaultWidth": 6.0
+            }
+        },
+        "IconPause": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "pauseIcon",
+                            "type": "image",
+                            "cropX": 10,
+                            "cropY": 0,
+                            "cropWidth": 6.0,
+                            "cropHeight": 7.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "pauseIcon",
+                            "type": "image",
+                            "cropX": 10,
+                            "cropY": 0,
+                            "cropWidth": 6.0,
+                            "cropHeight": 7.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "pauseIcon",
+                            "type": "image",
+                            "cropX": 10,
+                            "cropY": 0,
+                            "cropWidth": 6.0,
+                            "cropHeight": 7.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "pauseIcon",
+                            "type": "image",
+                            "cropX": 10,
+                            "cropY": 0,
+                            "cropWidth": 6.0,
+                            "cropHeight": 7.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlColor",
+                            "alpha": 0.5
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 7.0,
+                "defaultWidth": 6.0
+            }
+        },
+        "IconPrevious": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "prevIcon",
+                            "type": "image",
+                            "cropX": 30,
+                            "cropY": 0,
+                            "cropWidth": 7.0,
+                            "cropHeight": 7.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "prevIcon",
+                            "type": "image",
+                            "cropX": 30,
+                            "cropY": 0,
+                            "cropWidth": 7.0,
+                            "cropHeight": 7.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "prevIcon",
+                            "type": "image",
+                            "cropX": 30,
+                            "cropY": 0,
+                            "cropWidth": 7.0,
+                            "cropHeight": 7.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "prevIcon",
+                            "type": "image",
+                            "cropX": 30,
+                            "cropY": 0,
+                            "cropWidth": 7.0,
+                            "cropHeight": 7.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlColor",
+                            "alpha": 0.5
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 7.0,
+                "defaultWidth": 7.0
+            }
+        },
+        "IconNext": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "nextIcon",
+                            "type": "image",
+                            "cropX": 20,
+                            "cropY": 0,
+                            "cropWidth": 7.0,
+                            "cropHeight": 7.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "nextIcon",
+                            "type": "image",
+                            "cropX": 20,
+                            "cropY": 0,
+                            "cropWidth": 7.0,
+                            "cropHeight": 7.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "nextIcon",
+                            "type": "image",
+                            "cropX": 20,
+                            "cropY": 0,
+                            "cropWidth": 7.0,
+                            "cropHeight": 7.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "nextIcon",
+                            "type": "image",
+                            "cropX": 20,
+                            "cropY": 0,
+                            "cropWidth": 7.0,
+                            "cropHeight": 7.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlColor",
+                            "alpha": 0.5
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 7.0,
+                "defaultWidth": 7.0
+            }
+        },
+        "IconUnmuted": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "muteIcon",
+                            "type": "image",
+                            "cropX": 40,
+                            "cropY": 0,
+                            "cropWidth": 10.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "muteIcon",
+                            "type": "image",
+                            "cropX": 40,
+                            "cropY": 0,
+                            "cropWidth": 10.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "muteIcon",
+                            "type": "image",
+                            "cropX": 40,
+                            "cropY": 0,
+                            "cropWidth": 10.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "muteIcon",
+                            "type": "image",
+                            "cropX": 40,
+                            "cropY": 0,
+                            "cropWidth": 10.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlColor",
+                            "alpha": 0.5
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 10.0,
+                "defaultWidth": 10.0
+            }
+        },
+        "IconMuted": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "unMuteIcon",
+                            "type": "image",
+                            "cropX": 53,
+                            "cropY": 0,
+                            "cropWidth": 10.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "unMuteIcon",
+                            "type": "image",
+                            "cropX": 53,
+                            "cropY": 0,
+                            "cropWidth": 10.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "unMuteIcon",
+                            "type": "image",
+                            "cropX": 53,
+                            "cropY": 0,
+                            "cropWidth": 10.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "unMuteIcon",
+                            "type": "image",
+                            "cropX": 53,
+                            "cropY": 0,
+                            "cropWidth": 10.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlColor",
+                            "alpha": 0.5
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 10.0,
+                "defaultWidth": 10.0
+            }
+        },
+        "IconFullscreen": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconNormalScreen",
+                            "type": "image",
+                            "cropX": 64,
+                            "cropY": 0,
+                            "cropWidth": 12.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "IconNormalScreen",
+                            "type": "image",
+                            "cropX": 64,
+                            "cropY": 0,
+                            "cropWidth": 12.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "IconNormalScreen",
+                            "type": "image",
+                            "cropX": 64,
+                            "cropY": 0,
+                            "cropWidth": 12.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "IconNormalScreen",
+                            "type": "image",
+                            "cropX": 64,
+                            "cropY": 0,
+                            "cropWidth": 12.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlColor",
+                            "alpha": 0.5
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 10.0,
+                "defaultWidth": 12.0
+            }
+        },
+        "IconNormalscreen": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconFullScreen",
+                            "type": "image",
+                            "cropX": 76,
+                            "cropY": 0,
+                            "cropWidth": 12.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "IconFullScreen",
+                            "type": "image",
+                            "cropX": 76,
+                            "cropY": 0,
+                            "cropWidth": 12.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "IconFullScreen",
+                            "type": "image",
+                            "cropX": 76,
+                            "cropY": 0,
+                            "cropWidth": 12.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "IconFullScreen",
+                            "type": "image",
+                            "cropX": 76,
+                            "cropY": 0,
+                            "cropWidth": 12.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlColor",
+                            "alpha": 0.5
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 10.0,
+                "defaultWidth": 12.0
+            }
+        },
+        "IconCC": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconCC",
+                            "type": "image",
+                            "cropX": 88,
+                            "cropY": 0,
+                            "cropWidth": 12.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "IconCC",
+                            "type": "image",
+                            "cropX": 88,
+                            "cropY": 0,
+                            "cropWidth": 12.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "IconCC",
+                            "type": "image",
+                            "cropX": 88,
+                            "cropY": 0,
+                            "cropWidth": 12.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "IconCC",
+                            "type": "image",
+                            "cropX": 88,
+                            "cropY": 0,
+                            "cropWidth": 12.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlColor",
+                            "alpha": 0.5
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 10.0,
+                "defaultWidth": 12.0
+            }
+        },
+        "IconMenuClosed": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconMenu",
+                            "type": "image",
+                            "cropX": 100,
+                            "cropY": 1,
+                            "cropWidth": 9.0,
+                            "cropHeight": 9.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "IconMenu",
+                            "type": "image",
+                            "cropX": 100,
+                            "cropY": 1,
+                            "cropWidth": 9.0,
+                            "cropHeight": 9.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "IconMenu",
+                            "type": "image",
+                            "cropX": 100,
+                            "cropY": 1,
+                            "cropWidth": 9.0,
+                            "cropHeight": 9.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "IconMenu",
+                            "type": "image",
+                            "cropX": 100,
+                            "cropY": 1,
+                            "cropWidth": 9.0,
+                            "cropHeight": 9.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlColor",
+                            "alpha": 0.5
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 9.0,
+                "defaultWidth": 9.0
+            }
+        },
+        "IconMenuOpened": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconMenuClosed",
+                            "type": "image",
+                            "cropX": 110,
+                            "cropY": 1,
+                            "cropWidth": 8.0,
+                            "cropHeight": 8.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "IconMenuClosed",
+                            "type": "image",
+                            "cropX": 110,
+                            "cropY": 1,
+                            "cropWidth": 8.0,
+                            "cropHeight": 8.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "IconMenuClosed",
+                            "type": "image",
+                            "cropX": 110,
+                            "cropY": 1,
+                            "cropWidth": 8.0,
+                            "cropHeight": 8.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "IconMenuClosed",
+                            "type": "image",
+                            "cropX": 110,
+                            "cropY": 1,
+                            "cropWidth": 8.0,
+                            "cropHeight": 8.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlColor",
+                            "alpha": 0.5
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 8.0,
+                "defaultWidth": 8.0
+            }
+        },
+        "IconVolumePlus" : {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconVolumePlusNormal",
+                            "type": "image",
+                            "cropX": 120,
+                            "cropY": 1,
+                            "cropWidth": 8.0,
+                            "cropHeight": 3.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                }  
+            },
+            "properties": {
+                "defaultWidth": 8.0,
+                "defaultHeight": 3.0
+            }
+        },
+        "IconVolumeMinus" : {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconVolumeMinusNormal",
+                            "type": "image",
+                            "cropX": 132,
+                            "cropY": 1,
+                            "cropWidth": 8.0,
+                            "cropHeight": 3.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 8.0,
+                "defaultHeight": 3.0
+            }
+        },
+        "Spacer": {
+            "properties": {
+                "defaultHeight": 4.0,
+                "defaultWidth": 4.0
+            }
+        },
+        "PlayerBackgroundSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "PlayerBackgroundSkinFrame",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0,
+                            "color": "frameColor",
+                            "alpha": 1.0
+                        },
+                        {
+                            "name": "PlayerBackgroundSkinBackground",
+                            "left": 1.0,
+                            "bottom": 1.0,
+                            "type": "solid",
+                            "right": 1.0,
+                            "top": 1.0,
+                            "color": "backgroundColor",
+                            "alpha": 1.0
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "paddingTop": 1.0,
+                "paddingRight": 1.0,
+                "paddingBottom": 1.0,
+                "paddingLeft": 1.0,
+                "controlPaddingTop": -1.0,
+                "controlPaddingRight": -1.0,
+                "controlPaddingBottom": -1.0,
+                "controlPaddingLeft": -1.0
+            }
+        },
+        "MediaAreaBorderSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "MediaAreaBorderSkinFrame",
+                            "type": "image",
+                            "cropX": 141,
+                            "cropY": 2,
+                            "cropWidth": 5.0,
+                            "cropHeight": 5.0,
+                            "url": "library:CinematicAssets",
+                            "color": "backgroundColor",
+                            "scale9Top": 1,
+                            "scale9Right": 1,
+                            "scale9Bottom": 1,
+                            "scale9Left": 1
+                        }                     
+                    ]
+                }     
+            },
+            "properties": {
+                "paddingTop": 0.0,
+                "paddingRight": 0.0,
+                "paddingBottom": 0.0,
+                "paddingLeft": 0.0,
+                "bottomRegionOffset": 0.0,
+                "defaultWidth": 77.0,
+                "defaultHeight": 77.0
+            }
+        },
+        "ToolTipBackgroundSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 2.0,
+                            "bottom": 1.0,
+                            "color": "frameColor",
+                            "type": "solid",
+                            "right": 2.0,
+                            "top": 1.0
+                        },
+                        {
+                            "name": "frame",
+                            "left": 3.0,
+                            "bottom": 2.0,
+                            "color": "textBackgroundColor",
+                            "type": "solid",
+                            "right": 3.0,
+                            "top": 2.0
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 18.0,
+                "defaultWidth": 24.0
+            }
+        },
+        "PlayerTitleSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "frame",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "#000000",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0,
+                            "alpha": 0.0                            
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "paddingTop": 2.0,
+                "paddingBottom": 2.0
+            }
+        },
+        "PlayerCountdownSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "PlayerCountdownSkinBorder",
+                            "type" : "image",
+                            "color" : "#FFFFFF",
+                            "cropX": 148,
+                            "cropY": 2,
+                            "cropWidth": 5.0,
+                            "cropHeight": 5.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlColor",
+                            "scale9Top": 1,
+                            "scale9Right": 1,
+                            "scale9Bottom": 1,
+                            "scale9Left": 1
+                             
+                        },
+                        {
+                            "name": "PlayerCountdownSkinBackground",
+                            "type":  "solid",
+                            "color": "textBackgroundColor",
+                            "top": 0,
+                            "right": 0,
+                            "bottom": 0,
+                            "left": 0,
+                            "alpha" : 0.5                              
+                        }                        
+                    ]
+                }
+            },
+            "properties": {                
+                "paddingLeft": 5,
+                "paddingRight": 5,
+                "paddingTop": 2,
+                "paddingBottom": 2,
+                "defaultWidth": 100.0,
+                "defaultHeight": 30.0
+            } 
+        },        
+        "IconHDHigh": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconHDHighNormal",
+                            "type": "image",
+                            "cropX": 120,
+                            "cropY": 0,
+                            "cropWidth": 17.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "IconHDHighHover",
+                            "type": "image",
+                            "cropX": 120,
+                            "cropY": 0,
+                            "cropWidth": 17.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "IconHDHighSelected",
+                            "type": "image",
+                            "cropX": 120,
+                            "cropY": 0,
+                            "cropWidth": 17.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "IconHDHighDisabled",
+                            "type": "image",
+                            "cropX": 120,
+                            "cropY": 0,
+                            "cropWidth": 17.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 17.0,
+                "defaultHeight": 10.0
+            }
+        },
+        "IconHDMedium": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconHDMediumNormal",
+                            "type": "image",
+                            "cropX": 140,
+                            "cropY": 0,
+                            "cropWidth": 17.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "IconHDMediumHover",
+                            "type": "image",
+                            "cropX": 140,
+                            "cropY": 0,
+                            "cropWidth": 17.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "IconHDMediumSelected",
+                            "type": "image",
+                            "cropX": 140,
+                            "cropY": 0,
+                            "cropWidth": 17.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "IconHDMediumDisabled",
+                            "type": "image",
+                            "cropX": 140,
+                            "cropY": 0,
+                            "cropWidth": 17.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 17.0,
+                "defaultHeight": 10.0
+            }
+        },
+        "IconHDLow": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconHDLowNormal",
+                            "type": "image",
+                            "cropX": 160,
+                            "cropY": 0,
+                            "cropWidth": 17.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "IconHDLowHover",
+                            "type": "image",
+                            "cropX": 160,
+                            "cropY": 0,
+                            "cropWidth": 17.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "IconHDLowSelected",
+                            "type": "image",
+                            "cropX": 160,
+                            "cropY": 0,
+                            "cropWidth": 17.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "IconHDLowDisabled",
+                            "type": "image",
+                            "cropX": 160,
+                            "cropY": 0,
+                            "cropWidth": 17.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 17.0,
+                "defaultHeight": 10.0
+            }
+        },
+        "FormCardSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "CardSkinBackground",
+                            "alpha": 0.6,
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "backgroundColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0
+                        }                        
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 30.0,
+                "defaultWidth": 30.0
+            }
+        },
+        "ExcerptBackground": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "excerptBackgroundBorder",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "controlFrameColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0
+                        },
+                        {
+                            "name": "excerptBackgroundFill",
+                            "left": 0.0,
+                            "bottom": 1.0,
+                            "color": "controlBackgroundColor",
+                            "type": "solid",
+                            "right": 1.0,
+                            "top": 1.0
+                        }                    
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 18.0,
+                "defaultWidth": 40.0,
+                "paddingLeft": 8,
+                "paddingRight": 8
+            }            
+        },
+        "ExcerptCursor": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "ExcerptCursorNormal",
+                            "type": "image",
+                            "cropX": 1,
+                            "cropY": 1,
+                            "cropWidth": 7.0,
+                            "cropHeight": 25.0,
+                            "originX": 4.0,
+                            "originY": 0.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "ExcerptCursorHover",
+                            "type": "image",
+                            "cropX": 1,
+                            "cropY": 1,
+                            "cropWidth": 7.0,
+                            "cropHeight": 25.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "ExcerptCursorSelected",
+                            "type": "image",
+                            "cropX": 1,
+                            "cropY": 1,
+                            "cropWidth": 7.0,
+                            "cropHeight": 25.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "ExcerptCursorDisabled",
+                            "type": "image",
+                            "cropX": 1,
+                            "cropY": 1,
+                            "cropWidth": 7.0,
+                            "cropHeight": 25.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                
+                "originX": 4.0,
+                "originY": 0.0,
+                "defaultWidth": 7.0,
+                "defaultHeight": 25.0
+            }
+        },
+        "FormsButtonSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "frame",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "controlFrameColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0
+                        },
+                        {
+                            "name": "background",
+                            "left": 1.0,
+                            "bottom": 1.0,
+                            "color": "controlBackgroundColor",
+                            "type": "solid",
+                            "right": 1.0,
+                            "top": 1.0
+                        },
+                        {
+                            "name": "gradient0",
+                            "left": 1.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#000000"
+                            ],
+                            "bottom": 1.0,
+                            "gradientAlphas": [
+                                0.1,
+                                0.1
+                            ],
+                            "type": "gradient",
+                            "right": 1.0,
+                            "rotation": 0.0,
+                            "top": 1.0
+                        },
+                        {
+                            "name": "gradient1",
+                            "left": 2.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#000000"
+                            ],
+                            "bottom": 2.0,
+                            "gradientAlphas": [
+                                0.2,
+                                0.2
+                            ],
+                            "type": "gradient",
+                            "right": 2.0,
+                            "rotation": 0.0,
+                            "top": 2.0
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "frame",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "controlFrameColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0
+                        },
+                        {
+                            "name": "background",
+                            "left": 1.0,
+                            "bottom": 1.0,
+                            "color": "controlBackgroundColor",
+                            "type": "solid",
+                            "right": 1.0,
+                            "top": 1.0
+                        },
+                        {
+                            "name": "gradient0",
+                            "left": 1.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#000000"
+                            ],
+                            "bottom": 1.0,
+                            "gradientAlphas": [
+                                0.1,
+                                0.1
+                            ],
+                            "type": "gradient",
+                            "right": 1.0,
+                            "rotation": 0.0,
+                            "top": 1.0
+                        },
+                        {
+                            "name": "gradient1",
+                            "left": 2.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#000000"
+                            ],
+                            "bottom": 2.0,
+                            "gradientAlphas": [
+                                0.2,
+                                0.2
+                            ],
+                            "type": "gradient",
+                            "right": 2.0,
+                            "rotation": 0.0,
+                            "top": 2.0
+                        },
+                        {
+                            "name": "shine",
+                            "left": 2.0,
+                            "positions": [
+                                0.0,
+                                0.54,
+                                0.56,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#FFFFFF",
+                                "#FFFFFF",
+                                "#FFFFFF"
+                            ],
+                            "bottom": 2.0,
+                            "gradientAlphas": [
+                                0.15,
+                                0.1,
+                                0.0,
+                                0.0
+                            ],
+                            "type": "gradient",
+                            "right": 2.0,
+                            "rotation": 0.0,
+                            "top": 2.0
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "frame",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "controlFrameColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0
+                        },
+                        {
+                            "name": "background",
+                            "left": 1.0,
+                            "bottom": 1.0,
+                            "color": "controlBackgroundColor",
+                            "type": "solid",
+                            "right": 1.0,
+                            "top": 1.0
+                        },
+                        {
+                            "name": "gradient0",
+                            "left": 1.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#000000"
+                            ],
+                            "bottom": 1.0,
+                            "gradientAlphas": [
+                                0.1,
+                                0.1
+                            ],
+                            "type": "gradient",
+                            "right": 1.0,
+                            "rotation": 0.0,
+                            "top": 1.0
+                        },
+                        {
+                            "name": "gradient1",
+                            "left": 2.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#000000"
+                            ],
+                            "bottom": 2.0,
+                            "gradientAlphas": [
+                                0.2,
+                                0.2
+                            ],
+                            "type": "gradient",
+                            "right": 2.0,
+                            "rotation": 0.0,
+                            "top": 2.0
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "frame",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "controlFrameColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0
+                        },
+                        {
+                            "name": "background",
+                            "left": 1.0,
+                            "bottom": 1.0,
+                            "color": "controlBackgroundColor",
+                            "type": "solid",
+                            "right": 1.0,
+                            "top": 1.0
+                        },
+                        {
+                            "name": "gradient0",
+                            "left": 1.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#000000"
+                            ],
+                            "bottom": 1.0,
+                            "gradientAlphas": [
+                                0.1,
+                                0.1
+                            ],
+                            "type": "gradient",
+                            "right": 1.0,
+                            "rotation": 0.0,
+                            "top": 1.0
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 18.0,
+                "defaultWidth": 24.0
+            }
+        },
+        "FormsNavButtonSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "backgroundColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0,
+                            "alpha": 0.0
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "backgroundColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0,
+                            "alpha": 0.6
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "backgroundColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0,
+                            "alpha": 0.6
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 18.0,
+                "defaultWidth": 24.0
+            }
+        },        
+        "RelatedItemsBackgroundSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "backgroundColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0,
+                            "alpha":0.6
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 30.0,
+                "defaultWidth": 30.0
+            }
+        },
+        "RelatedItemsHeaderBackgroundSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 1.0,
+                            "color": "controlBackgroundColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0,
+                            "alpha":0.6
+                        },
+                        {
+                            "name": "frame",
+                            "type": "image",
+                            "cropX": 382,
+                            "cropY": 1,
+                            "cropWidth": 30.0,
+                            "cropHeight": 30.0,
+                            "scale9Top": 1.0,
+                            "scale9Right": 1.0,
+                            "scale9Bottom": 1.0,
+                            "scale9Left": 1.0,
+                            "color": "controlFrameColor",
+                            "url": "library:CinematicFormsAssets"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+               "defaultHeight": 30.0,
+                "defaultWidth": 30.0
+            }
+        },
+        "RelatedItemsItemBackgroundSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "controlFrameColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0
+                        },
+                        {
+                            "name": "RelatedItemsItemBackgroundSkinNormal",
+                            "type": "image",
+                            "cropX": 413,
+                            "cropY": 1,
+                            "cropWidth": 30.0,
+                            "cropHeight": 30.0,
+                            "scale9Top": 1.0,
+                            "scale9Right": 1.0,
+                            "scale9Bottom": 1.0,
+                            "scale9Left": 1.0,
+                            "color": "controlBackgroundColor",
+                            "url": "library:CinematicFormsAssets"
+                        }
+                    ]
+                }                
+            },
+            "properties": {
+                "defaultHeight": 30.0,
+                "defaultWidth": 30.0
+            }
+        },
+        "PlayerHorizontalScrollBackground": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "frame",
+                            "type": "image",
+                            "cropX": 324,
+                            "cropY": 1,
+                            "cropWidth": 14.0,
+                            "cropHeight": 14.0,
+                            "scale9Top": 1.0,
+                            "scale9Right": 1.0,
+                            "scale9Bottom": 1.0,
+                            "scale9Left": 1.0,
+                            "color": "controlFrameColor",
+                            "url": "library:CinematicFormsAssets"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 14.0,
+                "defaultWidth": 14.0
+            }
+        },
+        "PlayerHorizontalScrollButtonSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "frame",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "controlFrameColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0                            
+                        },
+                        {
+                            "name": "background",
+                            "left": 1.0,
+                            "bottom": 1.0,
+                            "color": "controlBackgroundColor",
+                            "type": "solid",
+                            "right": 1.0,
+                            "top": 1.0                            
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 14.0,
+                "defaultWidth": 14.0
+            }
+        },
+        "PlayerHorizontalScrollThumbSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "frame",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "controlFrameColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0                            
+                        },
+                        {
+                            "name": "background",
+                            "left": 1.0,
+                            "bottom": 1.0,
+                            "color": "controlBackgroundColor",
+                            "type": "solid",
+                            "right": 1.0,
+                            "top": 1.0                            
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 12.0,
+                "defaultWidth": 12.0
+            }
+        },
+        "PlayerHorizontalScrollTrackSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "controlBackgroundColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0,
+                            "alpha": 0.49
+                        }                    
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 12.0,
+                "defaultWidth": 12.0
+            }
+        },
+        "PlayerVerticalScrollBackground": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "frame",
+                            "type": "image",
+                            "cropX": 367,
+                            "cropY": 1,
+                            "cropWidth": 14.0,
+                            "cropHeight": 14.0,
+                            "scale9Top": 1.0,
+                            "scale9Right": 1.0,
+                            "scale9Bottom": 1.0,
+                            "scale9Left": 1.0,
+                            "color": "controlFrameColor",
+                            "url": "library:CinematicFormsAssets"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 14.0,
+                "defaultWidth": 14.0
+            }
+        },
+        "PlayerVerticalScrollButtonSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "frame",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "controlFrameColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0                            
+                        },
+                        {
+                            "name": "background",
+                            "left": 1.0,
+                            "bottom": 1.0,
+                            "color": "controlBackgroundColor",
+                            "type": "solid",
+                            "right": 1.0,
+                            "top": 1.0                            
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 14.0,
+                "defaultWidth": 14.0
+            }
+        },
+        "PlayerVerticalScrollThumbSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "frame",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "controlColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0                            
+                        },
+                        {
+                            "name": "background",
+                            "left": 1.0,
+                            "bottom": 1.0,
+                            "color": "controlBackgroundColor",
+                            "type": "solid",
+                            "right": 1.0,
+                            "top": 1.0                            
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 12.0,
+                "defaultWidth": 12.0
+            }
+        },
+        "PlayerVerticalScrollTrackSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "controlBackgroundColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0,
+                            "alpha": 0.49
+                        }                    
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 12.0,
+                "defaultWidth": 12.0
+            }
+        },        
+        "PlayerPopupBackgroundSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "frameColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0
+                        },
+                        {
+                            "name": "frame",
+                            "left": 1.0,
+                            "bottom": 1.0,
+                            "color": "textBackgroundColor",
+                            "type": "solid",
+                            "right": 1.0,
+                            "top": 1.0
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 18.0,
+                "defaultWidth": 24.0,
+                "paddingLeft": 2.5,
+                "paddingRight": 2.5,
+                "tailOverlap": 1
+            }
+        },        
+        "PlayerPopupTailSkin" : {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "PlayerTipTailFrameNormal",
+                            "type": "image",
+                            "cropX": 457,
+                            "cropY": 1,
+                            "cropWidth": 14.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "frameColor"
+                        },
+                        {
+                            "name": "PlayerTipTailBackgroundNormal",
+                            "type": "image",
+                            "cropX": 443,
+                            "cropY": 1,
+                            "cropWidth": 14.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "textBackgroundColor"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 14.0,
+                "defaultHeight": 10.0,
+                "originX": 7.0,
+                "originY": 10
+            }
+        },
+        "TextAreaSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "frame",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "textBackgroundColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0,
+                            "alpha": 0.8
+                        },
+                        {
+                            "name": "frame",
+                            "type": "image",
+                            "cropX": 503,
+                            "cropY": 1,
+                            "cropWidth": 30.0,
+                            "cropHeight": 30.0,
+                            "scale9Top": 1.0,
+                            "scale9Right": 1.0,
+                            "scale9Bottom": 1.0,
+                            "scale9Left": 1.0,
+                            "color": "controlFrameColor",
+                            "url": "library:CinematicFormsAssets"
+                        }                       
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "textBackgroundColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0,
+                            "alpha": 0.8
+                        },
+                        {
+                            "name": "frame",
+                            "type": "image",
+                            "cropX": 503,
+                            "cropY": 1,
+                            "cropWidth": 30.0,
+                            "cropHeight": 30.0,
+                            "scale9Top": 1.0,
+                            "scale9Right": 1.0,
+                            "scale9Bottom": 1.0,
+                            "scale9Left": 1.0,
+                            "color": "controlSelectedColor",
+                            "url": "library:CinematicFormsAssets"
+                        }
+                                                
+                    ]
+                }            
+            },
+            "properties" : {
+                "defaultHeight": 30.0,
+                "defaultWidth": 30.0
+            }
+        },
+        "SiteListBackgroundSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "frame",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "textBackgroundColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0,
+                            "alpha": 0.8
+                        },
+                        {
+                            "name": "frame",
+                            "type": "image",
+                            "cropX": 503,
+                            "cropY": 1,
+                            "cropWidth": 30.0,
+                            "cropHeight": 30.0,
+                            "scale9Top": 1.0,
+                            "scale9Right": 1.0,
+                            "scale9Bottom": 1.0,
+                            "scale9Left": 1.0,
+                            "color": "controlFrameColor",
+                            "url": "library:CinematicFormsAssets"
+                        }                       
+                    ]
+                }     
+            },
+            "properties" : {
+                "defaultHeight": 30.0,
+                "defaultWidth": 30.0
+            }
+        },
+        "IconChecked": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconCheckedNormal",
+                            "type": "image",
+                            "cropX": 9,
+                            "cropY": 1,
+                            "cropWidth": 14.0,
+                            "cropHeight": 14.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "IconCheckedHover",
+                            "type": "image",
+                            "cropX": 9,
+                            "cropY": 1,
+                            "cropWidth": 14.0,
+                            "cropHeight": 14.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "IconCheckedSelected",
+                            "type": "image",
+                            "cropX": 9,
+                            "cropY": 1,
+                            "cropWidth": 14.0,
+                            "cropHeight": 14.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "IconCheckedDisabled",
+                            "type": "image",
+                            "cropX": 9,
+                            "cropY": 1,
+                            "cropWidth": 14.0,
+                            "cropHeight": 14.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 14.0,
+                "defaultHeight": 14.0
+            }
+        },
+        "IconEmbed": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconEmbedNormal",
+                            "type": "image",
+                            "cropX": 24,
+                            "cropY": 1,
+                            "cropWidth": 15.0,
+                            "cropHeight": 9.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "IconEmbedHover",
+                            "type": "image",
+                            "cropX": 24,
+                            "cropY": 1,
+                            "cropWidth": 15.0,
+                            "cropHeight": 9.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "IconEmbedSelected",
+                            "type": "image",
+                            "cropX": 24,
+                            "cropY": 1,
+                            "cropWidth": 15.0,
+                            "cropHeight": 9.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "IconEmbedDisabled",
+                            "type": "image",
+                            "cropX": 24,
+                            "cropY": 1,
+                            "cropWidth": 15.0,
+                            "cropHeight": 9.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 15.0,
+                "defaultHeight": 9.0
+            }
+        },
+        "IconEmbed_big": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconEmbed_bigNormal",
+                            "type": "image",
+                            "cropX": 40,
+                            "cropY": 1,
+                            "cropWidth": 21.0,
+                            "cropHeight": 8.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "IconEmbed_bigHover",
+                            "type": "image",
+                            "cropX": 40,
+                            "cropY": 1,
+                            "cropWidth": 21.0,
+                            "cropHeight": 8.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "IconEmbed_bigSelected",
+                            "type": "image",
+                            "cropX": 40,
+                            "cropY": 1,
+                            "cropWidth": 21.0,
+                            "cropHeight": 8.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "IconEmbed_bigDisabled",
+                            "type": "image",
+                            "cropX": 40,
+                            "cropY": 1,
+                            "cropWidth": 21.0,
+                            "cropHeight": 8.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 21.0,
+                "defaultHeight": 8.0
+            }
+        },
+        "IconFormScrollDown": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconFormScrollDownNormal",
+                            "type": "image",
+                            "cropX": 62,
+                            "cropY": 1,
+                            "cropWidth": 8.0,
+                            "cropHeight": 9.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "IconFormScrollDownHover",
+                            "type": "image",
+                            "cropX": 62,
+                            "cropY": 1,
+                            "cropWidth": 8.0,
+                            "cropHeight": 9.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "IconFormScrollDownSelected",
+                            "type": "image",
+                            "cropX": 62,
+                            "cropY": 1,
+                            "cropWidth": 8.0,
+                            "cropHeight": 9.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "IconFormScrollDownDisabled",
+                            "type": "image",
+                            "cropX": 62,
+                            "cropY": 1,
+                            "cropWidth": 8.0,
+                            "cropHeight": 9.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 8.0,
+                "defaultHeight": 9.0
+            }
+        },
+        "IconFormScrollUp": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconFormScrollUpNormal",
+                            "type": "image",
+                            "cropX": 71,
+                            "cropY": 1,
+                            "cropWidth": 8.0,
+                            "cropHeight": 9.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "IconFormScrollUpHover",
+                            "type": "image",
+                            "cropX": 71,
+                            "cropY": 1,
+                            "cropWidth": 8.0,
+                            "cropHeight": 9.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "IconFormScrollUpSelected",
+                            "type": "image",
+                            "cropX": 71,
+                            "cropY": 1,
+                            "cropWidth": 8.0,
+                            "cropHeight": 9.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "IconFormScrollUpDisabled",
+                            "type": "image",
+                            "cropX": 71,
+                            "cropY": 1,
+                            "cropWidth": 8.0,
+                            "cropHeight": 9.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 8.0,
+                "defaultHeight": 9.0
+            }
+        },
+        "IconInfo": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconInfoNormal",
+                            "type": "image",
+                            "cropX": 80,
+                            "cropY": 1,
+                            "cropWidth": 5.0,
+                            "cropHeight": 13.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "IconInfoHover",
+                            "type": "image",
+                            "cropX": 80,
+                            "cropY": 1,
+                            "cropWidth": 5.0,
+                            "cropHeight": 13.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "IconInfoSelected",
+                            "type": "image",
+                            "cropX": 80,
+                            "cropY": 1,
+                            "cropWidth": 5.0,
+                            "cropHeight": 13.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "IconInfoDisabled",
+                            "type": "image",
+                            "cropX": 80,
+                            "cropY": 1,
+                            "cropWidth": 5.0,
+                            "cropHeight": 13.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 5.0,
+                "defaultHeight": 13.0
+            }
+        },
+        "IconInfo_big": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconInfo_bigNormal",
+                            "type": "image",
+                            "cropX": 86,
+                            "cropY": 1,
+                            "cropWidth": 6.0,
+                            "cropHeight": 19.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "IconInfo_bigHover",
+                            "type": "image",
+                            "cropX": 86,
+                            "cropY": 1,
+                            "cropWidth": 6.0,
+                            "cropHeight": 19.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "IconInfo_bigSelected",
+                            "type": "image",
+                            "cropX": 86,
+                            "cropY": 1,
+                            "cropWidth": 6.0,
+                            "cropHeight": 19.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "IconInfo_bigDisabled",
+                            "type": "image",
+                            "cropX": 86,
+                            "cropY": 1,
+                            "cropWidth": 6.0,
+                            "cropHeight": 19.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 6.0,
+                "defaultHeight": 19.0
+            }
+        },
+        "IconLink": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconLinkNormal",
+                            "type": "image",
+                            "cropX": 93,
+                            "cropY": 1,
+                            "cropWidth": 16.0,
+                            "cropHeight": 9.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "IconLinkHover",
+                            "type": "image",
+                            "cropX": 93,
+                            "cropY": 1,
+                            "cropWidth": 16.0,
+                            "cropHeight": 9.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "IconLinkSelected",
+                            "type": "image",
+                            "cropX": 93,
+                            "cropY": 1,
+                            "cropWidth": 16.0,
+                            "cropHeight": 9.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "IconLinkDisabled",
+                            "type": "image",
+                            "cropX": 93,
+                            "cropY": 1,
+                            "cropWidth": 16.0,
+                            "cropHeight": 9.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 16.0,
+                "defaultHeight": 9.0
+            }
+        },
+        "IconLink_big": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconLink_bigNormal",
+                            "type": "image",
+                            "cropX": 110,
+                            "cropY": 1,
+                            "cropWidth": 19.0,
+                            "cropHeight": 20.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "IconLink_bigHover",
+                            "type": "image",
+                            "cropX": 110,
+                            "cropY": 1,
+                            "cropWidth": 19.0,
+                            "cropHeight": 20.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "IconLink_bigSelected",
+                            "type": "image",
+                            "cropX": 110,
+                            "cropY": 1,
+                            "cropWidth": 19.0,
+                            "cropHeight": 20.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "IconLink_bigDisabled",
+                            "type": "image",
+                            "cropX": 110,
+                            "cropY": 1,
+                            "cropWidth": 19.0,
+                            "cropHeight": 20.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 19.0,
+                "defaultHeight": 20.0
+            }
+        },
+        "IconMail": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconMailNormal",
+                            "type": "image",
+                            "cropX": 130,
+                            "cropY": 1,
+                            "cropWidth": 12.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "IconMailHover",
+                            "type": "image",
+                            "cropX": 130,
+                            "cropY": 1,
+                            "cropWidth": 12.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "IconMailSelected",
+                            "type": "image",
+                            "cropX": 130,
+                            "cropY": 1,
+                            "cropWidth": 12.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "IconMailDisabled",
+                            "type": "image",
+                            "cropX": 130,
+                            "cropY": 1,
+                            "cropWidth": 12.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 12.0,
+                "defaultHeight": 10.0
+            }
+        },
+        "IconMail_big": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconMail_bigNormal",
+                            "type": "image",
+                            "cropX": 143,
+                            "cropY": 1,
+                            "cropWidth": 19.0,
+                            "cropHeight": 15.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "IconMail_bigHover",
+                            "type": "image",
+                            "cropX": 143,
+                            "cropY": 1,
+                            "cropWidth": 19.0,
+                            "cropHeight": 15.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "IconMail_bigSelected",
+                            "type": "image",
+                            "cropX": 143,
+                            "cropY": 1,
+                            "cropWidth": 19.0,
+                            "cropHeight": 15.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "IconMail_bigDisabled",
+                            "type": "image",
+                            "cropX": 143,
+                            "cropY": 1,
+                            "cropWidth": 19.0,
+                            "cropHeight": 15.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 19.0,
+                "defaultHeight": 15.0
+            }
+        },
+        "IconMenuClosed_big": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconMenuClosedNormal",
+                            "type": "image",
+                            "cropX": 163,
+                            "cropY": 1,
+                            "cropWidth": 11.0,
+                            "cropHeight": 11.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "IconMenuClosedHover",
+                            "type": "image",
+                            "cropX": 163,
+                            "cropY": 1,
+                            "cropWidth": 11.0,
+                            "cropHeight": 11.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "IconMenuClosedSelected",
+                            "type": "image",
+                            "cropX": 163,
+                            "cropY": 1,
+                            "cropWidth": 11.0,
+                            "cropHeight": 11.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "IconMenuClosedDisabled",
+                            "type": "image",
+                            "cropX": 163,
+                            "cropY": 1,
+                            "cropWidth": 11.0,
+                            "cropHeight": 11.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 11.0,
+                "defaultHeight": 11.0
+            }
+        },
+        "IconMenuOpened_big": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconMenuOpen_bigNormal",
+                            "type": "image",
+                            "cropX": 206,
+                            "cropY": 1,
+                            "cropWidth": 17.0,
+                            "cropHeight": 17.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "IconMenuOpen_bigHover",
+                            "type": "image",
+                            "cropX": 206,
+                            "cropY": 1,
+                            "cropWidth": 17.0,
+                            "cropHeight": 17.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "IconMenuOpen_bigSelected",
+                            "type": "image",
+                            "cropX": 206,
+                            "cropY": 1,
+                            "cropWidth": 17.0,
+                            "cropHeight": 17.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "IconMenuOpen_bigDisabled",
+                            "type": "image",
+                            "cropX": 206,
+                            "cropY": 1,
+                            "cropWidth": 17.0,
+                            "cropHeight": 17.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 17.0,
+                "defaultHeight": 17.0
+            }
+        },
+        "IconPost": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconPostNormal",
+                            "type": "image",
+                            "cropX": 224,
+                            "cropY": 1,
+                            "cropWidth": 16.0,
+                            "cropHeight": 17.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "IconPostHover",
+                            "type": "image",
+                            "cropX": 224,
+                            "cropY": 1,
+                            "cropWidth": 16.0,
+                            "cropHeight": 17.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "IconPostSelected",
+                            "type": "image",
+                            "cropX": 224,
+                            "cropY": 1,
+                            "cropWidth": 16.0,
+                            "cropHeight": 17.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "IconPostDisabled",
+                            "type": "image",
+                            "cropX": 224,
+                            "cropY": 1,
+                            "cropWidth": 16.0,
+                            "cropHeight": 17.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 16.0,
+                "defaultHeight": 17.0
+            }
+        },
+        "IconPost_big": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconPost_bigNormal",
+                            "type": "image",
+                            "cropX": 241,
+                            "cropY": 1,
+                            "cropWidth": 13.0,
+                            "cropHeight": 17.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "IconPost_bigHover",
+                            "type": "image",
+                            "cropX": 241,
+                            "cropY": 1,
+                            "cropWidth": 13.0,
+                            "cropHeight": 17.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "IconPost_bigSelected",
+                            "type": "image",
+                            "cropX": 241,
+                            "cropY": 1,
+                            "cropWidth": 13.0,
+                            "cropHeight": 17.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "IconPost_bigDisabled",
+                            "type": "image",
+                            "cropX": 241,
+                            "cropY": 1,
+                            "cropWidth": 13.0,
+                            "cropHeight": 17.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 13.0,
+                "defaultHeight": 17.0
+            }
+        },
+        "IconRSS": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconRSSNormal",
+                            "type": "image",
+                            "cropX": 255,
+                            "cropY": 1,
+                            "cropWidth": 11.0,
+                            "cropHeight": 11.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "IconRSSHover",
+                            "type": "image",
+                            "cropX": 255,
+                            "cropY": 1,
+                            "cropWidth": 11.0,
+                            "cropHeight": 11.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "IconRSSSelected",
+                            "type": "image",
+                            "cropX": 255,
+                            "cropY": 1,
+                            "cropWidth": 11.0,
+                            "cropHeight": 11.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "IconRSSDisabled",
+                            "type": "image",
+                            "cropX": 255,
+                            "cropY": 1,
+                            "cropWidth": 11.0,
+                            "cropHeight": 11.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 11.0,
+                "defaultHeight": 11.0
+            }
+        },
+        "IconRSS_big": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconRSS_bigNormal",
+                            "type": "image",
+                            "cropX": 267,
+                            "cropY": 1,
+                            "cropWidth": 18.0,
+                            "cropHeight": 19.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "IconRSS_bigHover",
+                            "type": "image",
+                            "cropX": 267,
+                            "cropY": 1,
+                            "cropWidth": 18.0,
+                            "cropHeight": 19.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "IconRSS_bigSelected",
+                            "type": "image",
+                            "cropX": 267,
+                            "cropY": 1,
+                            "cropWidth": 18.0,
+                            "cropHeight": 19.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "IconRSS_bigDisabled",
+                            "type": "image",
+                            "cropX": 267,
+                            "cropY": 1,
+                            "cropWidth": 18.0,
+                            "cropHeight": 19.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 18.0,
+                "defaultHeight": 19.0
+            }
+        },
+        "IconShare": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconShareNormal",
+                            "type": "image",
+                            "cropX": 286,
+                            "cropY": 1,
+                            "cropWidth": 13.0,
+                            "cropHeight": 9.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "IconShareHover",
+                            "type": "image",
+                            "cropX": 286,
+                            "cropY": 1,
+                            "cropWidth": 13.0,
+                            "cropHeight": 9.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "IconShareSelected",
+                            "type": "image",
+                            "cropX": 286,
+                            "cropY": 1,
+                            "cropWidth": 13.0,
+                            "cropHeight": 9.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "IconShareDisabled",
+                            "type": "image",
+                            "cropX": 286,
+                            "cropY": 1,
+                            "cropWidth": 13.0,
+                            "cropHeight": 9.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 13.0,
+                "defaultHeight": 9.0
+            }
+        },
+        "IconShare_big": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconShare_bigNormal",
+                            "type": "image",
+                            "cropX": 300,
+                            "cropY": 1,
+                            "cropWidth": 23.0,
+                            "cropHeight": 17.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "IconShare_bigHover",
+                            "type": "image",
+                            "cropX": 300,
+                            "cropY": 1,
+                            "cropWidth": 23.0,
+                            "cropHeight": 17.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "IconShare_bigSelected",
+                            "type": "image",
+                            "cropX": 300,
+                            "cropY": 1,
+                            "cropWidth": 23.0,
+                            "cropHeight": 17.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "IconShare_bigDisabled",
+                            "type": "image",
+                            "cropX": 300,
+                            "cropY": 1,
+                            "cropWidth": 23.0,
+                            "cropHeight": 17.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 23.0,
+                "defaultHeight": 17.0
+            }
+        },
+        "IconUnchecked": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "controlFrameColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0,
+                            "alpha":0.0
+                        }                        
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "controlFrameColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0,
+                            "alpha":0.0
+                        }                        
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "controlFrameColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0,
+                            "alpha":0.0
+                        }                        
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "controlFrameColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0,
+                            "alpha":0.0
+                        }                        
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 18.0,
+                "defaultWidth": 24.0
+            }
+        },        
+        "ImageShare": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "ImageShareNormal",
+                            "type": "image",
+                            "cropX": 300,
+                            "cropY": 1,
+                            "cropWidth": 23.0,
+                            "cropHeight": 17.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "ImageShareHover",
+                            "type": "image",
+                            "cropX": 300,
+                            "cropY": 1,
+                            "cropWidth": 23.0,
+                            "cropHeight": 17.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "ImageShareSelected",
+                            "type": "image",
+                            "cropX": 300,
+                            "cropY": 1,
+                            "cropWidth": 23.0,
+                            "cropHeight": 17.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "ImageShareDisabled",
+                            "type": "image",
+                            "cropX": 300,
+                            "cropY": 1,
+                            "cropWidth": 23.0,
+                            "cropHeight": 17.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 23.0,
+                "defaultHeight": 17.0
+            }
+        },
+        "ImageInfo": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "ImageInfoNormal",
+                            "type": "image",
+                            "cropX": 86,
+                            "cropY": 1,
+                            "cropWidth": 6.0,
+                            "cropHeight": 19.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "ImageInfoHover",
+                            "type": "image",
+                            "cropX": 86,
+                            "cropY": 1,
+                            "cropWidth": 6.0,
+                            "cropHeight": 19.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "ImageInfoSelected",
+                            "type": "image",
+                            "cropX": 86,
+                            "cropY": 1,
+                            "cropWidth": 6.0,
+                            "cropHeight": 19.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "ImageInfoDisabled",
+                            "type": "image",
+                            "cropX": 86,
+                            "cropY": 1,
+                            "cropWidth": 6.0,
+                            "cropHeight": 19.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 6.0,
+                "defaultHeight": 19.0
+            }
+        },
+        "ImageRSS": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "ImageRSSNormal",
+                            "type": "image",
+                            "cropX": 267,
+                            "cropY": 1,
+                            "cropWidth": 18.0,
+                            "cropHeight": 19.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "ImageRSSHover",
+                            "type": "image",
+                            "cropX": 267,
+                            "cropY": 1,
+                            "cropWidth": 18.0,
+                            "cropHeight": 19.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "ImageRSSSelected",
+                            "type": "image",
+                            "cropX": 267,
+                            "cropY": 1,
+                            "cropWidth": 18.0,
+                            "cropHeight": 19.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "ImageRSSDisabled",
+                            "type": "image",
+                            "cropX": 267,
+                            "cropY": 1,
+                            "cropWidth": 18.0,
+                            "cropHeight": 19.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 18.0,
+                "defaultHeight": 19.0
+            }
+        },
+        "FormsCardSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "backgroundColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0,
+                            "alpha": 0.6
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 18.0,
+                "defaultWidth": 24.0
+            }
+        },
+        "ScrubberTipBackgroundSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "frameColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0
+                        },
+                        {
+                            "name": "frame",
+                            "left": 1.0,
+                            "bottom": 1.0,
+                            "color": "textBackgroundColor",
+                            "type": "solid",
+                            "right": 1.0,
+                            "top": 1.0
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 18.0,
+                "defaultWidth": 24.0,
+                "paddingLeft": 2.5,
+                "paddingRight": 2.5,
+                "tailOverlap": 1.0
+            }
+        },
+        "ScrubberTipTailSkin" : {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "ScrubberTipTailFrameNormal",
+                            "type": "image",
+                            "cropX": 457,
+                            "cropY": 1,
+                            "cropWidth": 14.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "frameColor"
+                        },
+                        {
+                            "name": "ScrubberTipTailBackgroundNormal",
+                            "type": "image",
+                            "cropX": 443,
+                            "cropY": 1,
+                            "cropWidth": 14.0,
+                            "cropHeight": 10.0,
+                            "url": "library:CinematicFormsAssets",
+                            "color": "textBackgroundColor"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 14.0,
+                "defaultHeight": 10.0,
+                "originX": 7.0,
+                "originY": 10
+            }
+        },
+        "PlayerBufferingIndicatorSkin" : {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "PlayerLoadingIndicatorSkin",
+                            "type": "image",
+                            "cropX": 147,
+                            "cropY": 0,
+                            "cropWidth": 34.0,
+                            "cropHeight": 34.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 34.0,
+                "defaultHeight": 34.0,
+                "align": "M",
+                "verticalAlign": "M",
+                "paddingTop": 15,
+                "paddingRight": 10,
+                "paddingBottom": 10,
+                "paddingLeft": 10,
+                "animate": true
+            }
+        },
+        "PlayerLoadingIndicatorSkin" : {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "PlayerLoadingIndicatorSkin",
+                            "type": "image",
+                            "cropX": 147,
+                            "cropY": 0,
+                            "cropWidth": 34.0,
+                            "cropHeight": 34.0,
+                            "url": "library:CinematicAssets",
+                            "color": "controlColor"
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultWidth": 34.0,
+                "defaultHeight": 34.0,
+                "align": "M",
+                "verticalAlign": "M",
+                "paddingTop": 15,
+                "paddingRight": 10,
+                "paddingBottom": 10,
+                "paddingLeft": 10,
+                "animate": true
+            }
+        }
+    },
+    "fonts": {
+    },
+    "library": {
+        "assets": [
+            {
+            "id" : "CinematicAssets",
+            "url" : "data:image/png;base64,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"
+            },
+            {
+            "id" : "CinematicFormsAssets",
+            "url" : "data:image/png;base64,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"  
+            }            
+        ]                            
+    },
+    "properties":{
+    }
+}

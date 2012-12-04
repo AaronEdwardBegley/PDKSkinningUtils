@@ -1,0 +1,1 @@
+<?xml version="1.0"?><layout> <controls>  <region id="tpBottomRegion">   <row>      <control id="tpPlay" />    <group> 	  <spacer />      <control id="tpCurrentTime" />       <spacer />      <control id="tpTotalTime" />      <spacer />      <control id="tpScrubber" />     </group>	    <control id="tpFullScreen" />   </row>  </region> </controls></layout>

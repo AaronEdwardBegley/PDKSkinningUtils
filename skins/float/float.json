@@ -1,0 +1,3899 @@
+{
+  "title": "Float",
+  "swfUrl": "..\/..\/..\/pdk\/skins\/float\/float.swf",
+  "fontSwfUrl": "..\/..\/..\/pdk\/fonts\/helveticaNeue.swf",
+  "css": ".PlayerLabelFont{font-family: Helvetica, Arial, sans-serif;font-size: 10px;color: #BEBEBE;}",
+  "assets": {
+    "ButtonSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "background",
+              "color": "controlBackgroundColor",
+              "type": "solid"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "background",
+              "color": "controlBackgroundColor",
+              "type": "solid"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "background",
+              "color": "controlBackgroundColor",
+              "type": "solid"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "background",
+              "color": "controlBackgroundColor",
+              "type": "solid"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 18,
+        "defaultWidth": 18
+      }
+    },
+    "RowSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "background",
+              "color": "controlBackgroundColor",
+              "type": "solid"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 18,
+        "defaultWidth": 150
+      }
+    },
+    "GroupSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "background",
+              "left": 0,
+              "bottom": 0,
+              "color": "controlBackgroundColor",
+              "type": "solid",
+              "right": 0,
+              "top": 0
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 18,
+        "defaultWidth": 150,
+        "height": 18,
+        "verticalAlign": "middle"
+      }
+    },
+    "ScrubberSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "gradient0",
+              "left": 0,
+              "positions": [
+                0,
+                1
+              ],
+              "gradientColors": [
+                "#FFFFFF",
+                "#FFFFFF"
+              ],
+              "bottom": 0,
+              "gradientAlphas": [
+                0,
+                0
+              ],
+              "type": "gradient",
+              "right": 0,
+              "rotation": 0,
+              "top": 0
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 18,
+        "defaultWidth": 150,
+        "paddingLeft": 8,
+        "paddingRight": 8
+      }
+    },
+    "ScrubberTrackSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "background",
+              "color": "scrubTrackColor",
+              "type": "solid",
+              "alpha": 0.25
+            },
+            {
+              "name": "gradient0",
+              "left": 0,
+              "positions": [
+                0,
+                1
+              ],
+              "gradientColors": [
+                "#000000",
+                "#FFFFFF"
+              ],
+              "bottom": 0,
+              "gradientAlphas": [
+                0.25,
+                0.25
+              ],
+              "type": "gradient",
+              "right": 0,
+              "rotation": 0,
+              "top": 0
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "background",
+              "left": 0,
+              "bottom": 0,
+              "color": "scrubTrackColor",
+              "type": "solid",
+              "right": 0,
+              "top": 0,
+              "alpha": 0.15
+            },
+            {
+              "name": "gradient0",
+              "left": 0,
+              "positions": [
+                0,
+                1
+              ],
+              "gradientColors": [
+                "#000000",
+                "#FFFFFF"
+              ],
+              "bottom": 0,
+              "gradientAlphas": [
+                0.15,
+                0.15
+              ],
+              "type": "gradient",
+              "right": 0,
+              "rotation": 0,
+              "top": 0
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 8,
+        "defaultWidth": 50,
+        "paddingLeft": 8,
+        "paddingRight": 8
+      }
+    },
+    "ScrubberProgressSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "background",
+              "color": "playProgressColor",
+              "type": "solid",
+              "alpha": 0.75
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 8,
+        "defaultWidth": 50,
+        "paddingLeft": 8,
+        "paddingRight": 8
+      }
+    },
+    "ScrubberThumbSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "frame",
+              "color": "scrubberFrameColor",
+              "type": "border"
+            },
+            {
+              "name": "background",
+              "left": 1,
+              "bottom": 1,
+              "color": "scrubberColor",
+              "type": "solid",
+              "right": 1,
+              "top": 1
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 8,
+        "defaultWidth": 8,
+        "paddingLeft": 12,
+        "paddingRight": 12,
+        "originX": 4,
+        "originY": 4
+      }
+    },
+    "ScrubberLoadedSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "background",
+              "color": "loadProgressColor",
+              "type": "solid",
+              "alpha": 0.5
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 8,
+        "defaultWidth": 60,
+        "paddingLeft": 8,
+        "paddingRight": 8
+      }
+    },
+    "ScrubberChapterTickSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "background",
+              "color": "scrubberColor",
+              "type": "solid"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 8,
+        "defaultWidth": 1,
+        "paddingLeft": 12,
+        "paddingRight": 12
+      }
+    },
+    "VerticalVolumeProgressSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "VerticalVolumeProgressSkinBackground",
+              "left": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "type": "gradient",
+              "positions": [
+                0,
+                1
+              ],
+              "gradientColors": [
+                "playProgressColor",
+                "playProgressColor"
+              ],
+              "gradientAlphas": [
+                1,
+                0
+              ],
+              "rotation": 0
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 6,
+        "defaultHeight": 63
+      }
+    },
+    "VerticalVolumeSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "VerticalVolumeSkinBackground",
+              "color": "controlBackgroundColor",
+              "type": "solid"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 21,
+        "defaultHeight": 100,
+        "paddingTop": 11,
+        "paddingBottom": 11,
+        "paddingLeft": 6,
+        "paddingRight": 6
+      }
+    },
+    "VerticalVolumeThumbSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "VerticalVolumeThumbSkinBackground",
+              "color": "scrubberColor",
+              "type": "solid"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 8,
+        "defaultHeight": 8
+      }
+    },
+    "VerticalVolumeTrackSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "VerticalVolumeTrackSkinBackground",
+              "type": "image",
+              "cropX": 141,
+              "cropY": 2,
+              "cropWidth": 5,
+              "cropHeight": 5,
+              "url": "library:FloatAssets",
+              "color": "controlColor",
+              "scale9Top": 1,
+              "scale9Right": 1,
+              "scale9Bottom": 1,
+              "scale9Left": 1
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 8,
+        "defaultHeight": 80
+      }
+    },
+    "VolumeProgressSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "VolumeProgessSkinBackground",
+              "left": 0,
+              "bottom": 0,
+              "type": "gradient",
+              "right": 0,
+              "top": 0,
+              "positions": [
+                0,
+                1
+              ],
+              "gradientColors": [
+                "playProgressColor",
+                "playProgressColor"
+              ],
+              "gradientAlphas": [
+                1,
+                0
+              ],
+              "rotation": 90
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 60,
+        "defaultHeight": 6,
+        "paddingLeft": 8,
+        "paddingRight": 8
+      }
+    },
+    "VolumeSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "VolumeSkinBackground",
+              "color": "controlBackgroundColor",
+              "type": "solid"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 100,
+        "defaultHeight": 18,
+        "paddingLeft": 16,
+        "paddingRight": 16
+      }
+    },
+    "VolumeThumbSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "VolumeThumbSkinBackground",
+              "color": "scrubberColor",
+              "type": "solid",
+              "bottom": 1
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 8,
+        "defaultHeight": 8,
+        "originX": 4,
+        "originY": 4,
+        "paddingLeft": 12,
+        "paddingRight": 12
+      }
+    },
+    "VolumeTrackSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "VolumeTrackSkinBackground",
+              "type": "border",
+              "color": "controlColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 24,
+        "defaultHeight": 8,
+        "paddingLeft": 8,
+        "paddingRight": 8
+      }
+    },
+    "MenuBarSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "frame",
+              "color": "controlBackgroundColor",
+              "type": "solid"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 18,
+        "verticalAlign": "middle"
+      }
+    },
+    "IconPlay": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "playIcon",
+              "type": "image",
+              "cropX": 0,
+              "cropY": 0,
+              "cropWidth": 6,
+              "cropHeight": 7,
+              "url": "library:FloatAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "playIcon",
+              "type": "image",
+              "cropX": 0,
+              "cropY": 0,
+              "cropWidth": 6,
+              "cropHeight": 7,
+              "url": "library:FloatAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "playIcon",
+              "type": "image",
+              "cropX": 0,
+              "cropY": 0,
+              "cropWidth": 6,
+              "cropHeight": 7,
+              "url": "library:FloatAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "playIcon",
+              "type": "image",
+              "cropX": 0,
+              "cropY": 0,
+              "cropWidth": 6,
+              "cropHeight": 7,
+              "url": "library:FloatAssets",
+              "color": "controlColor",
+              "alpha": 0.5
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 7,
+        "defaultWidth": 6
+      }
+    },
+    "IconPause": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "pauseIcon",
+              "type": "image",
+              "cropX": 10,
+              "cropY": 0,
+              "cropWidth": 6,
+              "cropHeight": 7,
+              "url": "library:FloatAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "pauseIcon",
+              "type": "image",
+              "cropX": 10,
+              "cropY": 0,
+              "cropWidth": 6,
+              "cropHeight": 7,
+              "url": "library:FloatAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "pauseIcon",
+              "type": "image",
+              "cropX": 10,
+              "cropY": 0,
+              "cropWidth": 6,
+              "cropHeight": 7,
+              "url": "library:FloatAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "pauseIcon",
+              "type": "image",
+              "cropX": 10,
+              "cropY": 0,
+              "cropWidth": 6,
+              "cropHeight": 7,
+              "url": "library:FloatAssets",
+              "color": "controlColor",
+              "alpha": 0.5
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 7,
+        "defaultWidth": 6
+      }
+    },
+    "IconPrevious": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "prevIcon",
+              "type": "image",
+              "cropX": 30,
+              "cropY": 0,
+              "cropWidth": 7,
+              "cropHeight": 7,
+              "url": "library:FloatAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "prevIcon",
+              "type": "image",
+              "cropX": 30,
+              "cropY": 0,
+              "cropWidth": 7,
+              "cropHeight": 7,
+              "url": "library:FloatAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "prevIcon",
+              "type": "image",
+              "cropX": 30,
+              "cropY": 0,
+              "cropWidth": 7,
+              "cropHeight": 7,
+              "url": "library:FloatAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "prevIcon",
+              "type": "image",
+              "cropX": 30,
+              "cropY": 0,
+              "cropWidth": 7,
+              "cropHeight": 7,
+              "url": "library:FloatAssets",
+              "color": "controlColor",
+              "alpha": 0.5
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 7,
+        "defaultWidth": 7
+      }
+    },
+    "IconNext": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "nextIcon",
+              "type": "image",
+              "cropX": 20,
+              "cropY": 0,
+              "cropWidth": 7,
+              "cropHeight": 7,
+              "url": "library:FloatAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "nextIcon",
+              "type": "image",
+              "cropX": 20,
+              "cropY": 0,
+              "cropWidth": 7,
+              "cropHeight": 7,
+              "url": "library:FloatAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "nextIcon",
+              "type": "image",
+              "cropX": 20,
+              "cropY": 0,
+              "cropWidth": 7,
+              "cropHeight": 7,
+              "url": "library:FloatAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "nextIcon",
+              "type": "image",
+              "cropX": 20,
+              "cropY": 0,
+              "cropWidth": 7,
+              "cropHeight": 7,
+              "url": "library:FloatAssets",
+              "color": "controlColor",
+              "alpha": 0.5
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 7,
+        "defaultWidth": 7
+      }
+    },
+    "IconUnmuted": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "muteIcon",
+              "type": "image",
+              "cropX": 40,
+              "cropY": 0,
+              "cropWidth": 10,
+              "cropHeight": 10,
+              "url": "library:FloatAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "muteIcon",
+              "type": "image",
+              "cropX": 40,
+              "cropY": 0,
+              "cropWidth": 10,
+              "cropHeight": 10,
+              "url": "library:FloatAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "muteIcon",
+              "type": "image",
+              "cropX": 40,
+              "cropY": 0,
+              "cropWidth": 10,
+              "cropHeight": 10,
+              "url": "library:FloatAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "muteIcon",
+              "type": "image",
+              "cropX": 40,
+              "cropY": 0,
+              "cropWidth": 10,
+              "cropHeight": 10,
+              "url": "library:FloatAssets",
+              "color": "controlColor",
+              "alpha": 0.5
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 10,
+        "defaultWidth": 10
+      }
+    },
+    "IconMuted": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "unMuteIcon",
+              "type": "image",
+              "cropX": 53,
+              "cropY": 0,
+              "cropWidth": 10,
+              "cropHeight": 10,
+              "url": "library:FloatAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "unMuteIcon",
+              "type": "image",
+              "cropX": 53,
+              "cropY": 0,
+              "cropWidth": 10,
+              "cropHeight": 10,
+              "url": "library:FloatAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "unMuteIcon",
+              "type": "image",
+              "cropX": 53,
+              "cropY": 0,
+              "cropWidth": 10,
+              "cropHeight": 10,
+              "url": "library:FloatAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "unMuteIcon",
+              "type": "image",
+              "cropX": 53,
+              "cropY": 0,
+              "cropWidth": 10,
+              "cropHeight": 10,
+              "url": "library:FloatAssets",
+              "color": "controlColor",
+              "alpha": 0.5
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 10,
+        "defaultWidth": 10
+      }
+    },
+    "IconNormalscreen": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "IconNormalScreen",
+              "type": "image",
+              "cropX": 76,
+              "cropY": 0,
+              "cropWidth": 12,
+              "cropHeight": 10,
+              "url": "library:FloatAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "IconNormalScreen",
+              "type": "image",
+              "cropX": 76,
+              "cropY": 0,
+              "cropWidth": 12,
+              "cropHeight": 10,
+              "url": "library:FloatAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "IconNormalScreen",
+              "type": "image",
+              "cropX": 76,
+              "cropY": 0,
+              "cropWidth": 12,
+              "cropHeight": 10,
+              "url": "library:FloatAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "IconNormalScreen",
+              "type": "image",
+              "cropX": 76,
+              "cropY": 0,
+              "cropWidth": 12,
+              "cropHeight": 10,
+              "url": "library:FloatAssets",
+              "color": "controlColor",
+              "alpha": 0.5
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 10,
+        "defaultWidth": 12
+      }
+    },
+    "IconFullscreen": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "IconFullScreen",
+              "type": "image",
+              "cropX": 64,
+              "cropY": 0,
+              "cropWidth": 12,
+              "cropHeight": 10,
+              "url": "library:FloatAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "IconFullScreen",
+              "type": "image",
+              "cropX": 64,
+              "cropY": 0,
+              "cropWidth": 12,
+              "cropHeight": 10,
+              "url": "library:FloatAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "IconFullScreen",
+              "type": "image",
+              "cropX": 64,
+              "cropY": 0,
+              "cropWidth": 12,
+              "cropHeight": 10,
+              "url": "library:FloatAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "IconFullScreen",
+              "type": "image",
+              "cropX": 64,
+              "cropY": 0,
+              "cropWidth": 12,
+              "cropHeight": 10,
+              "url": "library:FloatAssets",
+              "color": "controlColor",
+              "alpha": 0.5
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 10,
+        "defaultWidth": 12
+      }
+    },
+    "IconCC": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "IconCC",
+              "type": "image",
+              "cropX": 88,
+              "cropY": 0,
+              "cropWidth": 12,
+              "cropHeight": 10,
+              "url": "library:FloatAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "IconCC",
+              "type": "image",
+              "cropX": 88,
+              "cropY": 0,
+              "cropWidth": 12,
+              "cropHeight": 10,
+              "url": "library:FloatAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "IconCC",
+              "type": "image",
+              "cropX": 88,
+              "cropY": 0,
+              "cropWidth": 12,
+              "cropHeight": 10,
+              "url": "library:FloatAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "IconCC",
+              "type": "image",
+              "cropX": 88,
+              "cropY": 0,
+              "cropWidth": 12,
+              "cropHeight": 10,
+              "url": "library:FloatAssets",
+              "color": "controlColor",
+              "alpha": 0.5
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 10,
+        "defaultWidth": 12
+      }
+    },
+    "IconMenuClosed": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "IconMenu",
+              "type": "image",
+              "cropX": 100,
+              "cropY": 1,
+              "cropWidth": 9,
+              "cropHeight": 9,
+              "url": "library:FloatAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "IconMenu",
+              "type": "image",
+              "cropX": 100,
+              "cropY": 1,
+              "cropWidth": 9,
+              "cropHeight": 9,
+              "url": "library:FloatAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "IconMenu",
+              "type": "image",
+              "cropX": 100,
+              "cropY": 1,
+              "cropWidth": 9,
+              "cropHeight": 9,
+              "url": "library:FloatAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "IconMenu",
+              "type": "image",
+              "cropX": 100,
+              "cropY": 1,
+              "cropWidth": 9,
+              "cropHeight": 9,
+              "url": "library:FloatAssets",
+              "color": "controlColor",
+              "alpha": 0.5
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 9,
+        "defaultWidth": 9
+      }
+    },
+    "IconMenuOpened": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "IconMenuClosed",
+              "type": "image",
+              "cropX": 110,
+              "cropY": 1,
+              "cropWidth": 8,
+              "cropHeight": 8,
+              "url": "library:FloatAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "IconMenuClosed",
+              "type": "image",
+              "cropX": 110,
+              "cropY": 1,
+              "cropWidth": 8,
+              "cropHeight": 8,
+              "url": "library:FloatAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "IconMenuClosed",
+              "type": "image",
+              "cropX": 110,
+              "cropY": 1,
+              "cropWidth": 8,
+              "cropHeight": 8,
+              "url": "library:FloatAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "IconMenuClosed",
+              "type": "image",
+              "cropX": 110,
+              "cropY": 1,
+              "cropWidth": 8,
+              "cropHeight": 8,
+              "url": "library:FloatAssets",
+              "color": "controlColor",
+              "alpha": 0.5
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 8,
+        "defaultWidth": 8
+      }
+    },
+    "IconVolumePlus": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "IconVolumePlusNormal",
+              "type": "image",
+              "cropX": 120,
+              "cropY": 1,
+              "cropWidth": 8,
+              "cropHeight": 3,
+              "url": "library:FloatAssets",
+              "color": "controlColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 8,
+        "defaultHeight": 3
+      }
+    },
+    "IconVolumeMinus": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "IconVolumeMinusNormal",
+              "type": "image",
+              "cropX": 132,
+              "cropY": 1,
+              "cropWidth": 8,
+              "cropHeight": 3,
+              "url": "library:FloatAssets",
+              "color": "controlColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 8,
+        "defaultHeight": 3
+      }
+    },
+    "Spacer": {
+      "properties": {
+        "defaultHeight": 4,
+        "defaultWidth": 4
+      }
+    },
+    "PlayerBackgroundSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "PlayerPopupBackgroundSkin",
+              "type": "image",
+              "cropX": 0,
+              "cropY": 10,
+              "cropWidth": 30,
+              "cropHeight": 30,
+              "scale9Top": 3,
+              "scale9Right": 4,
+              "scale9Bottom": 6,
+              "scale9Left": 4,
+              "url": "library:FloatAssets",
+              "color": "backgroundColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "paddingTop": 3,
+        "paddingRight": 4,
+        "paddingBottom": 6,
+        "paddingLeft": 4,
+        "controlPaddingTop": 0,
+        "controlPaddingRight": 0,
+        "controlPaddingBottom": 0,
+        "controlPaddingLeft": 0
+      }
+    },
+    "MediaAreaBorderSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "background",
+              "color": "pageBackgroundColor",
+              "type": "border"
+            },
+            {
+              "name": "frame",
+              "left": 1,
+              "bottom": 1,
+              "color": "controlBackgroundColor",
+              "type": "solid",
+              "right": 1,
+              "top": 1
+            }
+          ]
+        }
+      },
+      "properties": {
+        "paddingTop": 1,
+        "paddingRight": 1,
+        "paddingBottom": 1,
+        "paddingLeft": 1
+      }
+    },
+    "ToolTipBackgroundSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "background",
+              "left": 2,
+              "bottom": 1,
+              "color": "frameColor",
+              "type": "solid",
+              "right": 2,
+              "top": 1
+            },
+            {
+              "name": "frame",
+              "left": 3,
+              "bottom": 2,
+              "color": "textBackgroundColor",
+              "type": "solid",
+              "right": 3,
+              "top": 2
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 18,
+        "defaultWidth": 24
+      }
+    },
+    "IconHDHigh": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "IconHDHighNormal",
+              "type": "image",
+              "cropX": 120,
+              "cropY": 0,
+              "cropWidth": 17,
+              "cropHeight": 10,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "IconHDHighHover",
+              "type": "image",
+              "cropX": 120,
+              "cropY": 0,
+              "cropWidth": 17,
+              "cropHeight": 10,
+              "url": "library:FloatFormsAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "IconHDHighSelected",
+              "type": "image",
+              "cropX": 120,
+              "cropY": 0,
+              "cropWidth": 17,
+              "cropHeight": 10,
+              "url": "library:FloatFormsAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "IconHDHighDisabled",
+              "type": "image",
+              "cropX": 120,
+              "cropY": 0,
+              "cropWidth": 17,
+              "cropHeight": 10,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 17,
+        "defaultHeight": 10
+      }
+    },
+    "IconHDMedium": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "IconHDMediumNormal",
+              "type": "image",
+              "cropX": 140,
+              "cropY": 0,
+              "cropWidth": 17,
+              "cropHeight": 10,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "IconHDMediumHover",
+              "type": "image",
+              "cropX": 140,
+              "cropY": 0,
+              "cropWidth": 17,
+              "cropHeight": 10,
+              "url": "library:FloatFormsAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "IconHDMediumSelected",
+              "type": "image",
+              "cropX": 140,
+              "cropY": 0,
+              "cropWidth": 17,
+              "cropHeight": 10,
+              "url": "library:FloatFormsAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "IconHDMediumDisabled",
+              "type": "image",
+              "cropX": 140,
+              "cropY": 0,
+              "cropWidth": 17,
+              "cropHeight": 10,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 17,
+        "defaultHeight": 10
+      }
+    },
+    "IconHDLow": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "IconHDLowNormal",
+              "type": "image",
+              "cropX": 160,
+              "cropY": 0,
+              "cropWidth": 17,
+              "cropHeight": 10,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "IconHDLowHover",
+              "type": "image",
+              "cropX": 160,
+              "cropY": 0,
+              "cropWidth": 17,
+              "cropHeight": 10,
+              "url": "library:FloatFormsAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "IconHDLowSelected",
+              "type": "image",
+              "cropX": 160,
+              "cropY": 0,
+              "cropWidth": 17,
+              "cropHeight": 10,
+              "url": "library:FloatFormsAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "IconHDLowDisabled",
+              "type": "image",
+              "cropX": 160,
+              "cropY": 0,
+              "cropWidth": 17,
+              "cropHeight": 10,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 17,
+        "defaultHeight": 10
+      }
+    },
+    "ExcerptBackground": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "excerptBackgroundFill",
+              "left": 0,
+              "bottom": 0,
+              "color": "controlBackgroundColor",
+              "type": "solid",
+              "right": 0,
+              "top": 0
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 18,
+        "defaultWidth": 40,
+        "paddingLeft": 8,
+        "paddingRight": 8
+      }
+    },
+    "ExcerptCursor": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "ExcerptCursorNormal",
+              "type": "image",
+              "cropX": 1,
+              "cropY": 1,
+              "cropWidth": 7,
+              "cropHeight": 25,
+              "originX": 4,
+              "originY": 0,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "ExcerptCursorHover",
+              "type": "image",
+              "cropX": 1,
+              "cropY": 1,
+              "cropWidth": 7,
+              "cropHeight": 25,
+              "url": "library:FloatFormsAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "ExcerptCursorSelected",
+              "type": "image",
+              "cropX": 1,
+              "cropY": 1,
+              "cropWidth": 7,
+              "cropHeight": 25,
+              "url": "library:FloatFormsAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "ExcerptCursorDisabled",
+              "type": "image",
+              "cropX": 1,
+              "cropY": 1,
+              "cropWidth": 7,
+              "cropHeight": 25,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "originX": 4,
+        "originY": 0,
+        "defaultWidth": 7,
+        "defaultHeight": 25
+      }
+    },
+    "FormsButtonSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "background",
+              "left": 0,
+              "bottom": 0,
+              "color": "frameColor",
+              "type": "solid",
+              "right": 0,
+              "top": 0
+            },
+            {
+              "name": "frame",
+              "left": 1,
+              "bottom": 1,
+              "color": "textBackgroundColor",
+              "type": "solid",
+              "right": 1,
+              "top": 1
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 18,
+        "defaultWidth": 24
+      }
+    },
+    "FormsNavButtonSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "background",
+              "left": 0,
+              "bottom": 0,
+              "color": "backgroundColor",
+              "type": "solid",
+              "right": 0,
+              "top": 0,
+              "alpha": 0
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "background",
+              "left": 0,
+              "bottom": 0,
+              "color": "backgroundColor",
+              "type": "solid",
+              "right": 0,
+              "top": 0,
+              "alpha": 0.6
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "background",
+              "left": 0,
+              "bottom": 0,
+              "color": "backgroundColor",
+              "type": "solid",
+              "right": 0,
+              "top": 0,
+              "alpha": 0.6
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 18,
+        "defaultWidth": 24
+      }
+    },
+    "RelatedItemsBackgroundSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "background",
+              "left": 0,
+              "bottom": 0,
+              "color": "backgroundColor",
+              "type": "solid",
+              "right": 0,
+              "top": 0,
+              "alpha": 0.6
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 30,
+        "defaultWidth": 30
+      }
+    },
+    "RelatedItemsHeaderBackgroundSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "background",
+              "left": 0,
+              "bottom": 1,
+              "color": "controlBackgroundColor",
+              "type": "solid",
+              "right": 0,
+              "top": 0,
+              "alpha": 0.6
+            },
+            {
+              "name": "frame",
+              "type": "image",
+              "cropX": 382,
+              "cropY": 1,
+              "cropWidth": 30,
+              "cropHeight": 30,
+              "scale9Top": 1,
+              "scale9Right": 1,
+              "scale9Bottom": 1,
+              "scale9Left": 1,
+              "color": "controlFrameColor",
+              "url": "library:FloatFormsAssets"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 30,
+        "defaultWidth": 30
+      }
+    },
+    "RelatedItemsItemBackgroundSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "background",
+              "left": 0,
+              "bottom": 0,
+              "color": "controlFrameColor",
+              "type": "solid",
+              "right": 0,
+              "top": 0
+            },
+            {
+              "name": "RelatedItemsItemBackgroundSkinNormal",
+              "type": "image",
+              "cropX": 413,
+              "cropY": 1,
+              "cropWidth": 30,
+              "cropHeight": 30,
+              "scale9Top": 1,
+              "scale9Right": 1,
+              "scale9Bottom": 1,
+              "scale9Left": 1,
+              "color": "controlBackgroundColor",
+              "url": "library:FloatFormsAssets"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 30,
+        "defaultWidth": 30
+      }
+    },
+    "PlayerHorizontalScrollBackground": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "frame",
+              "type": "image",
+              "cropX": 324,
+              "cropY": 1,
+              "cropWidth": 14,
+              "cropHeight": 14,
+              "scale9Top": 1,
+              "scale9Right": 1,
+              "scale9Bottom": 1,
+              "scale9Left": 1,
+              "color": "controlFrameColor",
+              "url": "library:FloatFormsAssets"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 14,
+        "defaultWidth": 14
+      }
+    },
+    "PlayerHorizontalScrollButtonSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "frame",
+              "left": 0,
+              "bottom": 0,
+              "color": "controlFrameColor",
+              "type": "solid",
+              "right": 0,
+              "top": 0
+            },
+            {
+              "name": "background",
+              "left": 1,
+              "bottom": 1,
+              "color": "controlBackgroundColor",
+              "type": "solid",
+              "right": 1,
+              "top": 1
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 14,
+        "defaultWidth": 14
+      }
+    },
+    "PlayerHorizontalScrollThumbSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "frame",
+              "left": 0,
+              "bottom": 0,
+              "color": "controlFrameColor",
+              "type": "solid",
+              "right": 0,
+              "top": 0
+            },
+            {
+              "name": "background",
+              "left": 1,
+              "bottom": 1,
+              "color": "controlBackgroundColor",
+              "type": "solid",
+              "right": 1,
+              "top": 1
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 12,
+        "defaultWidth": 12
+      }
+    },
+    "PlayerHorizontalScrollTrackSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "background",
+              "left": 0,
+              "bottom": 0,
+              "color": "controlBackgroundColor",
+              "type": "solid",
+              "right": 0,
+              "top": 0,
+              "alpha": 0.49
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 12,
+        "defaultWidth": 12
+      }
+    },
+    "PlayerVerticalScrollBackground": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "frame",
+              "type": "image",
+              "cropX": 367,
+              "cropY": 1,
+              "cropWidth": 14,
+              "cropHeight": 14,
+              "scale9Top": 1,
+              "scale9Right": 1,
+              "scale9Bottom": 1,
+              "scale9Left": 1,
+              "color": "controlFrameColor",
+              "url": "library:FloatFormsAssets"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 14,
+        "defaultWidth": 14
+      }
+    },
+    "PlayerVerticalScrollButtonSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "frame",
+              "left": 0,
+              "bottom": 0,
+              "color": "controlFrameColor",
+              "type": "solid",
+              "right": 0,
+              "top": 0
+            },
+            {
+              "name": "background",
+              "left": 1,
+              "bottom": 1,
+              "color": "controlBackgroundColor",
+              "type": "solid",
+              "right": 1,
+              "top": 1
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 14,
+        "defaultWidth": 14
+      }
+    },
+    "PlayerVerticalScrollThumbSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "frame",
+              "left": 1,
+              "bottom": 0,
+              "color": "controlColor",
+              "type": "solid",
+              "right": 1,
+              "top": 0
+            },
+            {
+              "name": "background",
+              "left": 2,
+              "bottom": 1,
+              "color": "controlBackgroundColor",
+              "type": "solid",
+              "right": 2,
+              "top": 1
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 12,
+        "defaultWidth": 12
+      }
+    },
+    "PlayerVerticalScrollTrackSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "background",
+              "left": 0,
+              "bottom": 0,
+              "color": "controlBackgroundColor",
+              "type": "solid",
+              "right": 0,
+              "top": 0,
+              "alpha": 0.49
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 12,
+        "defaultWidth": 12
+      }
+    },
+    "PlayerPopupBackgroundSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "background",
+              "left": 0,
+              "bottom": 0,
+              "color": "frameColor",
+              "type": "solid",
+              "right": 0,
+              "top": 0
+            },
+            {
+              "name": "frame",
+              "left": 1,
+              "bottom": 1,
+              "color": "textBackgroundColor",
+              "type": "solid",
+              "right": 1,
+              "top": 1
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 18,
+        "defaultWidth": 24,
+        "paddingLeft": 2.5,
+        "paddingRight": 2.5,
+        "tailOverlap": 1
+      }
+    },
+    "PlayerPopupTailSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "PlayerTipTailFrameNormal",
+              "type": "image",
+              "cropX": 457,
+              "cropY": 1,
+              "cropWidth": 14,
+              "cropHeight": 10,
+              "url": "library:FloatFormsAssets",
+              "color": "frameColor"
+            },
+            {
+              "name": "PlayerTipTailBackgroundNormal",
+              "type": "image",
+              "cropX": 443,
+              "cropY": 1,
+              "cropWidth": 14,
+              "cropHeight": 10,
+              "url": "library:FloatFormsAssets",
+              "color": "textBackgroundColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 14,
+        "defaultHeight": 10,
+        "originX": 7,
+        "originY": 10
+      }
+    },
+    "TextAreaSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "frame",
+              "left": 0,
+              "bottom": 0,
+              "color": "textBackgroundColor",
+              "type": "solid",
+              "right": 0,
+              "top": 0,
+              "alpha": 0.8
+            },
+            {
+              "name": "frame",
+              "type": "image",
+              "cropX": 503,
+              "cropY": 1,
+              "cropWidth": 30,
+              "cropHeight": 30,
+              "scale9Top": 1,
+              "scale9Right": 1,
+              "scale9Bottom": 1,
+              "scale9Left": 1,
+              "color": "controlFrameColor",
+              "url": "library:FloatFormsAssets"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "background",
+              "left": 0,
+              "bottom": 0,
+              "color": "textBackgroundColor",
+              "type": "solid",
+              "right": 0,
+              "top": 0,
+              "alpha": 0.8
+            },
+            {
+              "name": "frame",
+              "type": "image",
+              "cropX": 503,
+              "cropY": 1,
+              "cropWidth": 30,
+              "cropHeight": 30,
+              "scale9Top": 1,
+              "scale9Right": 1,
+              "scale9Bottom": 1,
+              "scale9Left": 1,
+              "color": "controlSelectedColor",
+              "url": "library:FloatFormsAssets"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 30,
+        "defaultWidth": 30
+      }
+    },
+    "SiteListBackgroundSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "frame",
+              "left": 0,
+              "bottom": 0,
+              "color": "textBackgroundColor",
+              "type": "solid",
+              "right": 0,
+              "top": 0,
+              "alpha": 0.8
+            },
+            {
+              "name": "frame",
+              "type": "image",
+              "cropX": 503,
+              "cropY": 1,
+              "cropWidth": 30,
+              "cropHeight": 30,
+              "scale9Top": 1,
+              "scale9Right": 1,
+              "scale9Bottom": 1,
+              "scale9Left": 1,
+              "color": "controlFrameColor",
+              "url": "library:FloatFormsAssets"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 30,
+        "defaultWidth": 30
+      }
+    },
+    "IconChecked": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "IconCheckedNormal",
+              "type": "image",
+              "cropX": 9,
+              "cropY": 1,
+              "cropWidth": 14,
+              "cropHeight": 14,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "IconCheckedHover",
+              "type": "image",
+              "cropX": 9,
+              "cropY": 1,
+              "cropWidth": 14,
+              "cropHeight": 14,
+              "url": "library:FloatFormsAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "IconCheckedSelected",
+              "type": "image",
+              "cropX": 9,
+              "cropY": 1,
+              "cropWidth": 14,
+              "cropHeight": 14,
+              "url": "library:FloatFormsAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "IconCheckedDisabled",
+              "type": "image",
+              "cropX": 9,
+              "cropY": 1,
+              "cropWidth": 14,
+              "cropHeight": 14,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 14,
+        "defaultHeight": 14
+      }
+    },
+    "IconEmbed": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "IconEmbedNormal",
+              "type": "image",
+              "cropX": 24,
+              "cropY": 1,
+              "cropWidth": 15,
+              "cropHeight": 9,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "IconEmbedHover",
+              "type": "image",
+              "cropX": 24,
+              "cropY": 1,
+              "cropWidth": 15,
+              "cropHeight": 9,
+              "url": "library:FloatFormsAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "IconEmbedSelected",
+              "type": "image",
+              "cropX": 24,
+              "cropY": 1,
+              "cropWidth": 15,
+              "cropHeight": 9,
+              "url": "library:FloatFormsAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "IconEmbedDisabled",
+              "type": "image",
+              "cropX": 24,
+              "cropY": 1,
+              "cropWidth": 15,
+              "cropHeight": 9,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 15,
+        "defaultHeight": 9
+      }
+    },
+    "IconEmbed_big": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "IconEmbed_bigNormal",
+              "type": "image",
+              "cropX": 40,
+              "cropY": 1,
+              "cropWidth": 21,
+              "cropHeight": 8,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "IconEmbed_bigHover",
+              "type": "image",
+              "cropX": 40,
+              "cropY": 1,
+              "cropWidth": 21,
+              "cropHeight": 8,
+              "url": "library:FloatFormsAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "IconEmbed_bigSelected",
+              "type": "image",
+              "cropX": 40,
+              "cropY": 1,
+              "cropWidth": 21,
+              "cropHeight": 8,
+              "url": "library:FloatFormsAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "IconEmbed_bigDisabled",
+              "type": "image",
+              "cropX": 40,
+              "cropY": 1,
+              "cropWidth": 21,
+              "cropHeight": 8,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 21,
+        "defaultHeight": 8
+      }
+    },
+    "IconFormScrollDown": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "IconFormScrollDownNormal",
+              "type": "image",
+              "cropX": 62,
+              "cropY": 1,
+              "cropWidth": 8,
+              "cropHeight": 9,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "IconFormScrollDownHover",
+              "type": "image",
+              "cropX": 62,
+              "cropY": 1,
+              "cropWidth": 8,
+              "cropHeight": 9,
+              "url": "library:FloatFormsAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "IconFormScrollDownSelected",
+              "type": "image",
+              "cropX": 62,
+              "cropY": 1,
+              "cropWidth": 8,
+              "cropHeight": 9,
+              "url": "library:FloatFormsAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "IconFormScrollDownDisabled",
+              "type": "image",
+              "cropX": 62,
+              "cropY": 1,
+              "cropWidth": 8,
+              "cropHeight": 9,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 8,
+        "defaultHeight": 9
+      }
+    },
+    "IconFormScrollUp": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "IconFormScrollUpNormal",
+              "type": "image",
+              "cropX": 71,
+              "cropY": 1,
+              "cropWidth": 8,
+              "cropHeight": 9,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "IconFormScrollUpHover",
+              "type": "image",
+              "cropX": 71,
+              "cropY": 1,
+              "cropWidth": 8,
+              "cropHeight": 9,
+              "url": "library:FloatFormsAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "IconFormScrollUpSelected",
+              "type": "image",
+              "cropX": 71,
+              "cropY": 1,
+              "cropWidth": 8,
+              "cropHeight": 9,
+              "url": "library:FloatFormsAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "IconFormScrollUpDisabled",
+              "type": "image",
+              "cropX": 71,
+              "cropY": 1,
+              "cropWidth": 8,
+              "cropHeight": 9,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 8,
+        "defaultHeight": 9
+      }
+    },
+    "IconInfo": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "IconInfoNormal",
+              "type": "image",
+              "cropX": 80,
+              "cropY": 1,
+              "cropWidth": 5,
+              "cropHeight": 13,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "IconInfoHover",
+              "type": "image",
+              "cropX": 80,
+              "cropY": 1,
+              "cropWidth": 5,
+              "cropHeight": 13,
+              "url": "library:FloatFormsAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "IconInfoSelected",
+              "type": "image",
+              "cropX": 80,
+              "cropY": 1,
+              "cropWidth": 5,
+              "cropHeight": 13,
+              "url": "library:FloatFormsAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "IconInfoDisabled",
+              "type": "image",
+              "cropX": 80,
+              "cropY": 1,
+              "cropWidth": 5,
+              "cropHeight": 13,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 5,
+        "defaultHeight": 13
+      }
+    },
+    "IconInfo_big": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "IconInfo_bigNormal",
+              "type": "image",
+              "cropX": 86,
+              "cropY": 1,
+              "cropWidth": 6,
+              "cropHeight": 19,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "IconInfo_bigHover",
+              "type": "image",
+              "cropX": 86,
+              "cropY": 1,
+              "cropWidth": 6,
+              "cropHeight": 19,
+              "url": "library:FloatFormsAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "IconInfo_bigSelected",
+              "type": "image",
+              "cropX": 86,
+              "cropY": 1,
+              "cropWidth": 6,
+              "cropHeight": 19,
+              "url": "library:FloatFormsAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "IconInfo_bigDisabled",
+              "type": "image",
+              "cropX": 86,
+              "cropY": 1,
+              "cropWidth": 6,
+              "cropHeight": 19,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 6,
+        "defaultHeight": 19
+      }
+    },
+    "IconLink": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "IconLinkNormal",
+              "type": "image",
+              "cropX": 93,
+              "cropY": 1,
+              "cropWidth": 16,
+              "cropHeight": 9,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "IconLinkHover",
+              "type": "image",
+              "cropX": 93,
+              "cropY": 1,
+              "cropWidth": 16,
+              "cropHeight": 9,
+              "url": "library:FloatFormsAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "IconLinkSelected",
+              "type": "image",
+              "cropX": 93,
+              "cropY": 1,
+              "cropWidth": 16,
+              "cropHeight": 9,
+              "url": "library:FloatFormsAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "IconLinkDisabled",
+              "type": "image",
+              "cropX": 93,
+              "cropY": 1,
+              "cropWidth": 16,
+              "cropHeight": 9,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 16,
+        "defaultHeight": 9
+      }
+    },
+    "IconLink_big": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "IconLink_bigNormal",
+              "type": "image",
+              "cropX": 110,
+              "cropY": 1,
+              "cropWidth": 19,
+              "cropHeight": 20,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "IconLink_bigHover",
+              "type": "image",
+              "cropX": 110,
+              "cropY": 1,
+              "cropWidth": 19,
+              "cropHeight": 20,
+              "url": "library:FloatFormsAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "IconLink_bigSelected",
+              "type": "image",
+              "cropX": 110,
+              "cropY": 1,
+              "cropWidth": 19,
+              "cropHeight": 20,
+              "url": "library:FloatFormsAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "IconLink_bigDisabled",
+              "type": "image",
+              "cropX": 110,
+              "cropY": 1,
+              "cropWidth": 19,
+              "cropHeight": 20,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 19,
+        "defaultHeight": 20
+      }
+    },
+    "IconMail": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "IconMailNormal",
+              "type": "image",
+              "cropX": 130,
+              "cropY": 1,
+              "cropWidth": 12,
+              "cropHeight": 10,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "IconMailHover",
+              "type": "image",
+              "cropX": 130,
+              "cropY": 1,
+              "cropWidth": 12,
+              "cropHeight": 10,
+              "url": "library:FloatFormsAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "IconMailSelected",
+              "type": "image",
+              "cropX": 130,
+              "cropY": 1,
+              "cropWidth": 12,
+              "cropHeight": 10,
+              "url": "library:FloatFormsAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "IconMailDisabled",
+              "type": "image",
+              "cropX": 130,
+              "cropY": 1,
+              "cropWidth": 12,
+              "cropHeight": 10,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 12,
+        "defaultHeight": 10
+      }
+    },
+    "IconMail_big": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "IconMail_bigNormal",
+              "type": "image",
+              "cropX": 143,
+              "cropY": 1,
+              "cropWidth": 19,
+              "cropHeight": 15,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "IconMail_bigHover",
+              "type": "image",
+              "cropX": 143,
+              "cropY": 1,
+              "cropWidth": 19,
+              "cropHeight": 15,
+              "url": "library:FloatFormsAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "IconMail_bigSelected",
+              "type": "image",
+              "cropX": 143,
+              "cropY": 1,
+              "cropWidth": 19,
+              "cropHeight": 15,
+              "url": "library:FloatFormsAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "IconMail_bigDisabled",
+              "type": "image",
+              "cropX": 143,
+              "cropY": 1,
+              "cropWidth": 19,
+              "cropHeight": 15,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 19,
+        "defaultHeight": 15
+      }
+    },
+    "IconMenuClosed_big": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "IconMenuClosedNormal",
+              "type": "image",
+              "cropX": 163,
+              "cropY": 1,
+              "cropWidth": 11,
+              "cropHeight": 11,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "IconMenuClosedHover",
+              "type": "image",
+              "cropX": 163,
+              "cropY": 1,
+              "cropWidth": 11,
+              "cropHeight": 11,
+              "url": "library:FloatFormsAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "IconMenuClosedSelected",
+              "type": "image",
+              "cropX": 163,
+              "cropY": 1,
+              "cropWidth": 11,
+              "cropHeight": 11,
+              "url": "library:FloatFormsAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "IconMenuClosedDisabled",
+              "type": "image",
+              "cropX": 163,
+              "cropY": 1,
+              "cropWidth": 11,
+              "cropHeight": 11,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 11,
+        "defaultHeight": 11
+      }
+    },
+    "IconMenuOpened_big": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "IconMenuOpen_bigNormal",
+              "type": "image",
+              "cropX": 206,
+              "cropY": 1,
+              "cropWidth": 17,
+              "cropHeight": 17,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "IconMenuOpen_bigHover",
+              "type": "image",
+              "cropX": 206,
+              "cropY": 1,
+              "cropWidth": 17,
+              "cropHeight": 17,
+              "url": "library:FloatFormsAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "IconMenuOpen_bigSelected",
+              "type": "image",
+              "cropX": 206,
+              "cropY": 1,
+              "cropWidth": 17,
+              "cropHeight": 17,
+              "url": "library:FloatFormsAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "IconMenuOpen_bigDisabled",
+              "type": "image",
+              "cropX": 206,
+              "cropY": 1,
+              "cropWidth": 17,
+              "cropHeight": 17,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 17,
+        "defaultHeight": 17
+      }
+    },
+    "IconPost": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "IconPostNormal",
+              "type": "image",
+              "cropX": 224,
+              "cropY": 1,
+              "cropWidth": 16,
+              "cropHeight": 17,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "IconPostHover",
+              "type": "image",
+              "cropX": 224,
+              "cropY": 1,
+              "cropWidth": 16,
+              "cropHeight": 17,
+              "url": "library:FloatFormsAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "IconPostSelected",
+              "type": "image",
+              "cropX": 224,
+              "cropY": 1,
+              "cropWidth": 16,
+              "cropHeight": 17,
+              "url": "library:FloatFormsAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "IconPostDisabled",
+              "type": "image",
+              "cropX": 224,
+              "cropY": 1,
+              "cropWidth": 16,
+              "cropHeight": 17,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 16,
+        "defaultHeight": 17
+      }
+    },
+    "IconPost_big": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "IconPost_bigNormal",
+              "type": "image",
+              "cropX": 241,
+              "cropY": 1,
+              "cropWidth": 13,
+              "cropHeight": 17,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "IconPost_bigHover",
+              "type": "image",
+              "cropX": 241,
+              "cropY": 1,
+              "cropWidth": 13,
+              "cropHeight": 17,
+              "url": "library:FloatFormsAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "IconPost_bigSelected",
+              "type": "image",
+              "cropX": 241,
+              "cropY": 1,
+              "cropWidth": 13,
+              "cropHeight": 17,
+              "url": "library:FloatFormsAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "IconPost_bigDisabled",
+              "type": "image",
+              "cropX": 241,
+              "cropY": 1,
+              "cropWidth": 13,
+              "cropHeight": 17,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 13,
+        "defaultHeight": 17
+      }
+    },
+    "IconRSS": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "IconRSSNormal",
+              "type": "image",
+              "cropX": 255,
+              "cropY": 1,
+              "cropWidth": 11,
+              "cropHeight": 11,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "IconRSSHover",
+              "type": "image",
+              "cropX": 255,
+              "cropY": 1,
+              "cropWidth": 11,
+              "cropHeight": 11,
+              "url": "library:FloatFormsAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "IconRSSSelected",
+              "type": "image",
+              "cropX": 255,
+              "cropY": 1,
+              "cropWidth": 11,
+              "cropHeight": 11,
+              "url": "library:FloatFormsAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "IconRSSDisabled",
+              "type": "image",
+              "cropX": 255,
+              "cropY": 1,
+              "cropWidth": 11,
+              "cropHeight": 11,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 11,
+        "defaultHeight": 11
+      }
+    },
+    "IconRSS_big": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "IconRSS_bigNormal",
+              "type": "image",
+              "cropX": 267,
+              "cropY": 1,
+              "cropWidth": 18,
+              "cropHeight": 19,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "IconRSS_bigHover",
+              "type": "image",
+              "cropX": 267,
+              "cropY": 1,
+              "cropWidth": 18,
+              "cropHeight": 19,
+              "url": "library:FloatFormsAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "IconRSS_bigSelected",
+              "type": "image",
+              "cropX": 267,
+              "cropY": 1,
+              "cropWidth": 18,
+              "cropHeight": 19,
+              "url": "library:FloatFormsAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "IconRSS_bigDisabled",
+              "type": "image",
+              "cropX": 267,
+              "cropY": 1,
+              "cropWidth": 18,
+              "cropHeight": 19,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 18,
+        "defaultHeight": 19
+      }
+    },
+    "IconShare": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "IconShareNormal",
+              "type": "image",
+              "cropX": 286,
+              "cropY": 1,
+              "cropWidth": 13,
+              "cropHeight": 9,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "IconShareHover",
+              "type": "image",
+              "cropX": 286,
+              "cropY": 1,
+              "cropWidth": 13,
+              "cropHeight": 9,
+              "url": "library:FloatFormsAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "IconShareSelected",
+              "type": "image",
+              "cropX": 286,
+              "cropY": 1,
+              "cropWidth": 13,
+              "cropHeight": 9,
+              "url": "library:FloatFormsAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "IconShareDisabled",
+              "type": "image",
+              "cropX": 286,
+              "cropY": 1,
+              "cropWidth": 13,
+              "cropHeight": 9,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 13,
+        "defaultHeight": 9
+      }
+    },
+    "IconShare_big": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "IconShare_bigNormal",
+              "type": "image",
+              "cropX": 300,
+              "cropY": 1,
+              "cropWidth": 23,
+              "cropHeight": 17,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "IconShare_bigHover",
+              "type": "image",
+              "cropX": 300,
+              "cropY": 1,
+              "cropWidth": 23,
+              "cropHeight": 17,
+              "url": "library:FloatFormsAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "IconShare_bigSelected",
+              "type": "image",
+              "cropX": 300,
+              "cropY": 1,
+              "cropWidth": 23,
+              "cropHeight": 17,
+              "url": "library:FloatFormsAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "IconShare_bigDisabled",
+              "type": "image",
+              "cropX": 300,
+              "cropY": 1,
+              "cropWidth": 23,
+              "cropHeight": 17,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 23,
+        "defaultHeight": 17
+      }
+    },
+    "IconUnchecked": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "background",
+              "left": 0,
+              "bottom": 0,
+              "color": "controlFrameColor",
+              "type": "solid",
+              "right": 0,
+              "top": 0,
+              "alpha": 0
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "background",
+              "left": 0,
+              "bottom": 0,
+              "color": "controlFrameColor",
+              "type": "solid",
+              "right": 0,
+              "top": 0,
+              "alpha": 0
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "background",
+              "left": 0,
+              "bottom": 0,
+              "color": "controlFrameColor",
+              "type": "solid",
+              "right": 0,
+              "top": 0,
+              "alpha": 0
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "background",
+              "left": 0,
+              "bottom": 0,
+              "color": "controlFrameColor",
+              "type": "solid",
+              "right": 0,
+              "top": 0,
+              "alpha": 0
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 18,
+        "defaultWidth": 24
+      }
+    },
+    "ImageShare": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "ImageShareNormal",
+              "type": "image",
+              "cropX": 300,
+              "cropY": 1,
+              "cropWidth": 23,
+              "cropHeight": 17,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "ImageShareHover",
+              "type": "image",
+              "cropX": 300,
+              "cropY": 1,
+              "cropWidth": 23,
+              "cropHeight": 17,
+              "url": "library:FloatFormsAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "ImageShareSelected",
+              "type": "image",
+              "cropX": 300,
+              "cropY": 1,
+              "cropWidth": 23,
+              "cropHeight": 17,
+              "url": "library:FloatFormsAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "ImageShareDisabled",
+              "type": "image",
+              "cropX": 300,
+              "cropY": 1,
+              "cropWidth": 23,
+              "cropHeight": 17,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 23,
+        "defaultHeight": 17
+      }
+    },
+    "ImageInfo": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "ImageInfoNormal",
+              "type": "image",
+              "cropX": 86,
+              "cropY": 1,
+              "cropWidth": 6,
+              "cropHeight": 19,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "ImageInfoHover",
+              "type": "image",
+              "cropX": 86,
+              "cropY": 1,
+              "cropWidth": 6,
+              "cropHeight": 19,
+              "url": "library:FloatFormsAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "ImageInfoSelected",
+              "type": "image",
+              "cropX": 86,
+              "cropY": 1,
+              "cropWidth": 6,
+              "cropHeight": 19,
+              "url": "library:FloatFormsAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "ImageInfoDisabled",
+              "type": "image",
+              "cropX": 86,
+              "cropY": 1,
+              "cropWidth": 6,
+              "cropHeight": 19,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 6,
+        "defaultHeight": 19
+      }
+    },
+    "ImageRSS": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "ImageRSSNormal",
+              "type": "image",
+              "cropX": 267,
+              "cropY": 1,
+              "cropWidth": 18,
+              "cropHeight": 19,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        },
+        "hover": {
+          "layers": [
+            {
+              "name": "ImageRSSHover",
+              "type": "image",
+              "cropX": 267,
+              "cropY": 1,
+              "cropWidth": 18,
+              "cropHeight": 19,
+              "url": "library:FloatFormsAssets",
+              "color": "controlHoverColor"
+            }
+          ]
+        },
+        "selected": {
+          "layers": [
+            {
+              "name": "ImageRSSSelected",
+              "type": "image",
+              "cropX": 267,
+              "cropY": 1,
+              "cropWidth": 18,
+              "cropHeight": 19,
+              "url": "library:FloatFormsAssets",
+              "color": "controlSelectedColor"
+            }
+          ]
+        },
+        "disabled": {
+          "layers": [
+            {
+              "name": "ImageRSSDisabled",
+              "type": "image",
+              "cropX": 267,
+              "cropY": 1,
+              "cropWidth": 18,
+              "cropHeight": 19,
+              "url": "library:FloatFormsAssets",
+              "color": "controlColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 18,
+        "defaultHeight": 19
+      }
+    },
+    "FormsCardSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "background",
+              "left": 0,
+              "bottom": 0,
+              "color": "backgroundColor",
+              "type": "solid",
+              "right": 0,
+              "top": 0,
+              "alpha": 0.6
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 18,
+        "defaultWidth": 24
+      }
+    },
+    "ScrubberTipBackgroundSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "background",
+              "left": 0,
+              "bottom": 0,
+              "color": "frameColor",
+              "type": "solid",
+              "right": 0,
+              "top": 0
+            },
+            {
+              "name": "frame",
+              "left": 1,
+              "bottom": 1,
+              "color": "textBackgroundColor",
+              "type": "solid",
+              "right": 1,
+              "top": 1
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 18,
+        "defaultWidth": 24,
+        "paddingLeft": 2.5,
+        "paddingRight": 2.5,
+        "tailOverlap": 1
+      }
+    },
+    "ScrubberTipTailSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "ScrubberTipTailFrameNormal",
+              "type": "image",
+              "cropX": 457,
+              "cropY": 1,
+              "cropWidth": 14,
+              "cropHeight": 10,
+              "url": "library:FloatFormsAssets",
+              "color": "frameColor"
+            },
+            {
+              "name": "ScrubberTipTailBackgroundNormal",
+              "type": "image",
+              "cropX": 443,
+              "cropY": 1,
+              "cropWidth": 14,
+              "cropHeight": 10,
+              "url": "library:FloatFormsAssets",
+              "color": "textBackgroundColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 14,
+        "defaultHeight": 10,
+        "originX": 7,
+        "originY": 10
+      }
+    },
+    "PlayerTitleSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "frame",
+              "left": 0,
+              "bottom": 0,
+              "color": "backgroundColor",
+              "type": "solid",
+              "right": 0,
+              "top": 0,
+              "alpha": 0
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 30,
+        "defaultWidth": 100,
+        "paddingLeft": 5,
+        "paddingRight": 5,
+        "paddingTop": 2,
+        "paddingBottom": 2
+      }
+    },
+    "PlayerCountdownSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "frame",
+              "left": 0,
+              "bottom": 0,
+              "color": "textBackgroundColor",
+              "type": "solid",
+              "right": 0,
+              "top": 0,
+              "alpha": 0.5
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultHeight": 30,
+        "defaultWidth": 100,
+        "paddingLeft": 5,
+        "paddingRight": 5,
+        "paddingTop": 2,
+        "paddingBottom": 2
+      }
+    },
+    "PlayerBufferingIndicatorSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "PlayerLoadingIndicatorSkin",
+              "type": "image",
+              "cropX": 147,
+              "cropY": 0,
+              "cropWidth": 34,
+              "cropHeight": 34,
+              "url": "library:FloatAssets",
+              "color": "controlColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 34,
+        "defaultHeight": 34,
+        "align": "M",
+        "verticalAlign": "M",
+        "paddingTop": 15,
+        "paddingRight": 10,
+        "paddingBottom": 10,
+        "paddingLeft": 10,
+        "animate": true
+      }
+    },
+    "PlayerLoadingIndicatorSkin": {
+      "states": {
+        "normal": {
+          "layers": [
+            {
+              "name": "PlayerLoadingIndicatorSkin",
+              "type": "image",
+              "cropX": 147,
+              "cropY": 0,
+              "cropWidth": 34,
+              "cropHeight": 34,
+              "url": "library:FloatAssets",
+              "color": "controlColor"
+            }
+          ]
+        }
+      },
+      "properties": {
+        "defaultWidth": 34,
+        "defaultHeight": 34,
+        "align": "M",
+        "verticalAlign": "M",
+        "paddingTop": 15,
+        "paddingRight": 10,
+        "paddingBottom": 10,
+        "paddingLeft": 10,
+        "animate": true
+      }
+    }
+  },
+  "fonts": {
+    
+  },
+  "library": {
+    "assets": [
+      {
+        "id": "FloatAssets",
+        "url": "data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAALgAAAAoCAYAAABNVTCEAAAKMGlDQ1BJQ0MgUHJvZmlsZQAAeJydlndUVNcWh8+9d3qhzTAUKUPvvQ0gvTep0kRhmBlgKAMOMzSxIaICEUVEBBVBgiIGjIYisSKKhYBgwR6QIKDEYBRRUXkzslZ05eW9l5ffH2d9a5+99z1n733WugCQvP25vHRYCoA0noAf4uVKj4yKpmP7AQzwAAPMAGCyMjMCQj3DgEg+Hm70TJET+CIIgDd3xCsAN428g+h08P9JmpXBF4jSBInYgs3JZIm4UMSp2YIMsX1GxNT4FDHDKDHzRQcUsbyYExfZ8LPPIjuLmZ3GY4tYfOYMdhpbzD0i3pol5IgY8RdxURaXky3iWyLWTBWmcUX8VhybxmFmAoAiie0CDitJxKYiJvHDQtxEvBQAHCnxK47\/igWcHIH4Um7pGbl8bmKSgK7L0qOb2doy6N6c7FSOQGAUxGSlMPlsult6WgaTlwvA4p0\/S0ZcW7qoyNZmttbWRubGZl8V6r9u\/k2Je7tIr4I\/9wyi9X2x\/ZVfej0AjFlRbXZ8scXvBaBjMwDy97\/YNA8CICnqW\/vAV\/ehieclSSDIsDMxyc7ONuZyWMbigv6h\/+nwN\/TV94zF6f4oD92dk8AUpgro4rqx0lPThXx6ZgaTxaEb\/XmI\/3HgX5\/DMISTwOFzeKKIcNGUcXmJonbz2FwBN51H5\/L+UxP\/YdiftDjXIlEaPgFqrDGQGqAC5Nc+gKIQARJzQLQD\/dE3f3w4EL+8CNWJxbn\/LOjfs8Jl4iWTm\/g5zi0kjM4S8rMW98TPEqABAUgCKlAAKkAD6AIjYA5sgD1wBh7AFwSCMBAFVgEWSAJpgA+yQT7YCIpACdgBdoNqUAsaQBNoASdABzgNLoDL4Dq4AW6DB2AEjIPnYAa8AfMQBGEhMkSBFCBVSAsygMwhBuQIeUD+UAgUBcVBiRAPEkL50CaoBCqHqqE6qAn6HjoFXYCuQoPQPWgUmoJ+h97DCEyCqbAyrA2bwAzYBfaDw+CVcCK8Gs6DC+HtcBVcDx+D2+EL8HX4NjwCP4dnEYAQERqihhghDMQNCUSikQSEj6xDipFKpB5pQbqQXuQmMoJMI+9QGBQFRUcZoexR3qjlKBZqNWodqhRVjTqCakf1oG6iRlEzqE9oMloJbYC2Q\/ugI9GJ6Gx0EboS3YhuQ19C30aPo99gMBgaRgdjg\/HGRGGSMWswpZj9mFbMecwgZgwzi8ViFbAGWAdsIJaJFWCLsHuxx7DnsEPYcexbHBGnijPHeeKicTxcAa4SdxR3FjeEm8DN46XwWng7fCCejc\/Fl+Eb8F34Afw4fp4gTdAhOBDCCMmEjYQqQgvhEuEh4RWRSFQn2hKDiVziBmIV8TjxCnGU+I4kQ9InuZFiSELSdtJh0nnSPdIrMpmsTXYmR5MF5O3kJvJF8mPyWwmKhLGEjwRbYr1EjUS7xJDEC0m8pJaki+QqyTzJSsmTkgOS01J4KW0pNymm1DqpGqlTUsNSs9IUaTPpQOk06VLpo9JXpSdlsDLaMh4ybJlCmUMyF2XGKAhFg+JGYVE2URoolyjjVAxVh+pDTaaWUL+j9lNnZGVkLWXDZXNka2TPyI7QEJo2zYeWSiujnaDdob2XU5ZzkePIbZNrkRuSm5NfIu8sz5Evlm+Vvy3\/XoGu4KGQorBToUPhkSJKUV8xWDFb8YDiJcXpJdQl9ktYS4qXnFhyXwlW0lcKUVqjdEipT2lWWUXZSzlDea\/yReVpFZqKs0qySoXKWZUpVYqqoypXtUL1nOozuizdhZ5Kr6L30GfUlNS81YRqdWr9avPqOurL1QvUW9UfaRA0GBoJGhUa3RozmqqaAZr5ms2a97XwWgytJK09Wr1ac9o62hHaW7Q7tCd15HV8dPJ0mnUe6pJ1nXRX69br3tLD6DH0UvT2693Qh\/Wt9JP0a\/QHDGADawOuwX6DQUO0oa0hz7DecNiIZORilGXUbDRqTDP2Ny4w7jB+YaJpEm2y06TX5JOplWmqaYPpAzMZM1+zArMus9\/N9c1Z5jXmtyzIFp4W6y06LV5aGlhyLA9Y3rWiWAVYbbHqtvpobWPNt26xnrLRtImz2WczzKAyghiljCu2aFtX2\/W2p23f2VnbCexO2P1mb2SfYn\/UfnKpzlLO0oalYw7qDkyHOocRR7pjnONBxxEnNSemU73TE2cNZ7Zzo\/OEi55Lsssxlxeupq581zbXOTc7t7Vu590Rdy\/3Yvd+DxmP5R7VHo891T0TPZs9Z7ysvNZ4nfdGe\/t57\/Qe9lH2Yfk0+cz42viu9e3xI\/mF+lX7PfHX9+f7dwXAAb4BuwIeLtNaxlvWEQgCfQJ3BT4K0glaHfRjMCY4KLgm+GmIWUh+SG8oJTQ29GjomzDXsLKwB8t1lwuXd4dLhseEN4XPRbhHlEeMRJpEro28HqUYxY3qjMZGh0c3Rs+u8Fixe8V4jFVMUcydlTorc1ZeXaW4KnXVmVjJWGbsyTh0XETc0bgPzEBmPXM23id+X\/wMy421h\/Wc7cyuYE9xHDjlnIkEh4TyhMlEh8RdiVNJTkmVSdNcN24192Wyd3Jt8lxKYMrhlIXUiNTWNFxaXNopngwvhdeTrpKekz6YYZBRlDGy2m717tUzfD9+YyaUuTKzU0AV\/Uz1CXWFm4WjWY5ZNVlvs8OzT+ZI5\/By+nL1c7flTuR55n27BrWGtaY7Xy1\/Y\/7oWpe1deugdfHrutdrrC9cP77Ba8ORjYSNKRt\/KjAtKC94vSliU1ehcuGGwrHNXpubiySK+EXDW+y31G5FbeVu7d9msW3vtk\/F7OJrJaYllSUfSlml174x+6bqm4XtCdv7y6zLDuzA7ODtuLPTaeeRcunyvPKxXQG72ivoFcUVr3fH7r5aaVlZu4ewR7hnpMq\/qnOv5t4dez9UJ1XfrnGtad2ntG\/bvrn97P1DB5wPtNQq15bUvj\/IPXi3zquuvV67vvIQ5lDWoacN4Q293zK+bWpUbCxp\/HiYd3jkSMiRniabpqajSkfLmuFmYfPUsZhjN75z\/66zxailrpXWWnIcHBcef\/Z93Pd3Tvid6D7JONnyg9YP+9oobcXtUHtu+0xHUsdIZ1Tn4CnfU91d9l1tPxr\/ePi02umaM7Jnys4SzhaeXTiXd272fMb56QuJF8a6Y7sfXIy8eKsnuKf\/kt+lK5c9L1\/sdek9d8XhyumrdldPXWNc67hufb29z6qv7Sern9r6rfvbB2wGOm\/Y3ugaXDp4dshp6MJN95uXb\/ncun572e3BO8vv3B2OGR65y747eS\/13sv7WffnH2x4iH5Y\/EjqUeVjpcf1P+v93DpiPXJm1H2070nokwdjrLHnv2T+8mG88Cn5aeWE6kTTpPnk6SnPqRvPVjwbf57xfH666FfpX\/e90H3xw2\/Ov\/XNRM6Mv+S\/XPi99JXCq8OvLV93zwbNPn6T9mZ+rvitwtsj7xjvet9HvJ+Yz\/6A\/VD1Ue9j1ye\/Tw8X0hYW\/gUDmPP8uaxzGQAACDJJREFUeJztnEuMHEcZx3\/f7Hr9wPbEjnCckMSOAAeQwkZARMQhDlw4RGj3EHF1hOEcRwbEKWuCkDhYci4cTYiCRJCC1iBOKGQdhJAiEOsEIYKxSIgTOTFgY+PE7\/pzqGpPT031TM\/O9PpVP+nTTHd99ejqf39dXf1AEpK2MABJc5K2l5a3S5pL+CXLin1TecP6dp82tKPlmX7+g8obBklaYr5sV9GKPyclPT5oB5dFGQTfs9Oryop9K\/LOSDpZUX9b0mK0blrSG6o+qHryVPjNh3J6KNoaLQ\/rv6\/KP\/BG8KlqX9s5t885t+Ccm5bfZ7dImk34zkrarPQOV8X68QmqASTZEL5JgRcsqFosUj2BJ8uKfcvL8kKcL4si8p2WtBjlWZQ\/IOYkzdfJk+qA0vb3PYsV5YS2DvSPtq2vv6Qt8oEhme6cm3bOKdh8aPPOUG58VlVIS23jlS6uYf38UyQFLulBSV+TtFfS8xX2ZPBbH+VtSZqUtDLYZI3+7itwhY7ensgoDSfwrrJi32JZnZ3b6aluv+mQ\/kxI3lFKWwz5a+WRF1vPjii15UlJ+0sdv1\/S7tQ2DvIvt6nu\/0R34pzb4ZybD7bgnJsp\/NQR+UeDSdLOkNZkBO\/Zl3G\/SrpT0j+HtL2l\/C1JK+SFvVrSWknrJa1TH6HHbY0FflLSTEVGaTiBd5WV6pTS\/+0qncKr6i3KLaUthLzD5El1hCStkfRzSe+VtuGEpOcT7R3av2pdVCbOubkQqZ9xzi0653YQoW4h7SzVv7Ps06ANFHhYv1f1xf1oKd+EvLhXhX5eKx+cNki6VdImSVNxv6S2u1VKOwBsNbNfpDIOyVBlmdnLwP3A04nkx4BdkqbD8o9LabcAh4D\/DpEneSo1sw+Ai6HMgg\/1afNQ\/kMwG34fNrPZVqv17AD\/gxX\/rwWeAv5Sw+8bZvYCXBlvGzAxwDaoxti8CPWzNcS4h97O3JPwqyor9u1aNrNTwBOSDkTrnw2CPBiWn5CfGSnacz\/+gOqbJ0pPihz4FxCP599MOS7F38xMkixQ\/I\/cduG37ZCkA865p6tELmkzcAT4WVh1RNLtZvZunzaPhTiKV\/AR4A5AeNGm2G1mvy4WzEzAJeBSEPDKYBNAK9gEMAXcIemYmbmqBpgkevv42iNE44NmtqG0ro0X92w4QOrkSQk8JbS4rCs+FcIc2R9\/DJTXtSXtAh6mc6bYEwLIauCvwFHgoZD2W+Au4JPA2X71NUXRfknrgJeBNl7cLXpFvt\/MnqpTrqQ1wHp8UC6iuOHPom8XIu857uodiNcGpSFHsfx4vK5GnpTPogazMIL\/fB3\/qn3hnJspzaIsyI8vvyPpTUmrS\/WsDuv2qdkxeKWV2vJDSX+TdFjS3yUdkb\/OKsbcv1M0azII+bH4VvkL6o9J2ibpXkm3lfdv2a6bCD4uqkRUh1J0qu0\/bH1V+8I5N4eP5LvM7NVQ9qSZXSr7FetG2c5RCO16AH\/dY5G9A2zFR9\/dxbh7GCRtwp8VijNC8XvYzC7G210IPG5I2UZBKdPV6v1M4wSB7wceoFtHPwD+gL9mOW5mPVPRdZDUAu7GD9HKIj9pZkdjaRUXmcXAPWWjcLmPZW5AJN0OfAa\/jwtx\/9HMngvp3wf+t9TyzcxJegu4l85Fp+GvUY7G\/mWBTwIrEjYKFxMmssBvZLbT2b+FwJ8rEs3sJ6NWEET+LrClVMdkuB7puriOBT4l6fioDaho1CayuG8GHsJP8xXCO2NmBxuo5zTdEdzwY\/MugbdKv5P4ucWmmAp1tAY5Zq5rNtE9FH29iUrM7DLwPt1z46tiv54I3kRjAlP4IUoW+I1NIfAr4+8G62rRHcXXpRyK3xzBM+MgnkxocsbsDJ07nBP4G0FdLHcEzwK\/eRDgaPaaa4LuiZAebeUInhk3Z+iI2wH3NVjX2kEOhdiKyfJR5737UZxKbp7bpjcnh+mI+zKwpsG62nSeTWnhZ2+6yNE0M24O0RG3A+6RNI7HiLuQf5hrHd03JU\/HflngmXHzKh1xF0L\/UgP13EXvXff\/xE5Z4JmxYmav4SNpOYp\/ZZx1SFpB56GtCfwwZRJ4L\/bNAs80we\/pjuK3SvrqGMv\/HP5hq0LYE8A78ZOVkAWeaYaf0j1EccCjSrzMPiyStuGfJoyHJ\/9I+WeBZ8aOmR0HfkPvWPzrkr6w1HIlfRx4kF5xv556owuywDPN8SN8VC3EfRG4ADwm6ZFhCpI0FQ6ML+Lfz1xBZ3hyGj81mWTgh1QymaVgZh9I+i7+Swkr6dy2F\/BIeOtnAXjFzM6lypD0YeATwD34mzrF2aB4ruk88KKZXaxsR3ijZyOwEdgo6ZXxbGJUkdnngRPACUknmqgjc\/WJX7mTdDfwbfxFYdXLL0fxr7OdwAt3HXBn+HUVdg74lZl1aanqjZ5MphHM7C1J3wK+if+MREqsm+k8hXg+Skvxb2AhFneKPAbPNI6ZnTWz7wEvUvGeLh1BtwbYMeCXZtZzUydFEcGX48mv4oo6v3B8k2JmL0h6Cfgy8Fl6IzlUB93j+G\/cvD1UnWEM3sY\/uNKW9NqSWj+oIrNPA6eAU5KSUzqZ65+6nyCRtAr4FP5l4W3AbeVk\/Hj8GP5zEH+uW3\/VGNzhn8S6ULegJXAh1FH5ma3M9c8QXwQ5B\/wp\/H9pTGX20CNwM7sP\/xHJwkbh\/ZJlgWeWnVQEL775No434M8GO0cWeOYqkBJ4WdyVE+g1OV+yLPDMshMLPBb3+RHLjz\/6kwWeWVZigZfF3dSn27LAM8tGWeCFuBv\/+OaIZWYytfk\/Z6sZzYsO14QAAAAASUVORK5CYII="
+      },
+      {
+        "id": "FloatAssets",
+        "url": "data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAX0AAABYCAYAAAAZbydgAAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2lDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjanVNnVFPpFj333vRCS4iAlEtvUhUIIFJCi4AUkSYqIQkQSoghodkVUcERRUUEG8igiAOOjoCMFVEsDIoK2AfkIaKOg6OIisr74Xuja9a89+bN\/rXXPues852zzwfACAyWSDNRNYAMqUIeEeCDx8TG4eQuQIEKJHAAEAizZCFz\/SMBAPh+PDwrIsAHvgABeNMLCADATZvAMByH\/w\/qQplcAYCEAcB0kThLCIAUAEB6jkKmAEBGAYCdmCZTAKAEAGDLY2LjAFAtAGAnf+bTAICd+Jl7AQBblCEVAaCRACATZYhEAGg7AKzPVopFAFgwABRmS8Q5ANgtADBJV2ZIALC3AMDOEAuyAAgMADBRiIUpAAR7AGDIIyN4AISZABRG8lc88SuuEOcqAAB4mbI8uSQ5RYFbCC1xB1dXLh4ozkkXKxQ2YQJhmkAuwnmZGTKBNA\/g88wAAKCRFRHgg\/P9eM4Ors7ONo62Dl8t6r8G\/yJiYuP+5c+rcEAAAOF0ftH+LC+zGoA7BoBt\/qIl7gRoXgugdfeLZrIPQLUAoOnaV\/Nw+H48PEWhkLnZ2eXk5NhKxEJbYcpXff5nwl\/AV\/1s+X48\/Pf14L7iJIEyXYFHBPjgwsz0TKUcz5IJhGLc5o9H\/LcL\/\/wd0yLESWK5WCoU41EScY5EmozzMqUiiUKSKcUl0v9k4t8s+wM+3zUAsGo+AXuRLahdYwP2SycQWHTA4vcAAPK7b8HUKAgDgGiD4c93\/+8\/\/UegJQCAZkmScQAAXkQkLlTKsz\/HCAAARKCBKrBBG\/TBGCzABhzBBdzBC\/xgNoRCJMTCQhBCCmSAHHJgKayCQiiGzbAdKmAv1EAdNMBRaIaTcA4uwlW4Dj1wD\/phCJ7BKLyBCQRByAgTYSHaiAFiilgjjggXmYX4IcFIBBKLJCDJiBRRIkuRNUgxUopUIFVIHfI9cgI5h1xGupE7yAAygvyGvEcxlIGyUT3UDLVDuag3GoRGogvQZHQxmo8WoJvQcrQaPYw2oefQq2gP2o8+Q8cwwOgYBzPEbDAuxsNCsTgsCZNjy7EirAyrxhqwVqwDu4n1Y8+xdwQSgUXACTYEd0IgYR5BSFhMWE7YSKggHCQ0EdoJNwkDhFHCJyKTqEu0JroR+cQYYjIxh1hILCPWEo8TLxB7iEPENyQSiUMyJ7mQAkmxpFTSEtJG0m5SI+ksqZs0SBojk8naZGuyBzmULCAryIXkneTD5DPkG+Qh8lsKnWJAcaT4U+IoUspqShnlEOU05QZlmDJBVaOaUt2ooVQRNY9aQq2htlKvUYeoEzR1mjnNgxZJS6WtopXTGmgXaPdpr+h0uhHdlR5Ol9BX0svpR+iX6AP0dwwNhhWDx4hnKBmbGAcYZxl3GK+YTKYZ04sZx1QwNzHrmOeZD5lvVVgqtip8FZHKCpVKlSaVGyovVKmqpqreqgtV81XLVI+pXlN9rkZVM1PjqQnUlqtVqp1Q61MbU2epO6iHqmeob1Q\/pH5Z\/YkGWcNMw09DpFGgsV\/jvMYgC2MZs3gsIWsNq4Z1gTXEJrHN2Xx2KruY\/R27iz2qqaE5QzNKM1ezUvOUZj8H45hx+Jx0TgnnKKeX836K3hTvKeIpG6Y0TLkxZVxrqpaXllirSKtRq0frvTau7aedpr1Fu1n7gQ5Bx0onXCdHZ4\/OBZ3nU9lT3acKpxZNPTr1ri6qa6UbobtEd79up+6Ynr5egJ5Mb6feeb3n+hx9L\/1U\/W36p\/VHDFgGswwkBtsMzhg8xTVxbzwdL8fb8VFDXcNAQ6VhlWGX4YSRudE8o9VGjUYPjGnGXOMk423GbcajJgYmISZLTepN7ppSTbmmKaY7TDtMx83MzaLN1pk1mz0x1zLnm+eb15vft2BaeFostqi2uGVJsuRaplnutrxuhVo5WaVYVVpds0atna0l1rutu6cRp7lOk06rntZnw7Dxtsm2qbcZsOXYBtuutm22fWFnYhdnt8Wuw+6TvZN9un2N\/T0HDYfZDqsdWh1+c7RyFDpWOt6azpzuP33F9JbpL2dYzxDP2DPjthPLKcRpnVOb00dnF2e5c4PziIuJS4LLLpc+Lpsbxt3IveRKdPVxXeF60vWdm7Obwu2o26\/uNu5p7ofcn8w0nymeWTNz0MPIQ+BR5dE\/C5+VMGvfrH5PQ0+BZ7XnIy9jL5FXrdewt6V3qvdh7xc+9j5yn+M+4zw33jLeWV\/MN8C3yLfLT8Nvnl+F30N\/I\/9k\/3r\/0QCngCUBZwOJgUGBWwL7+Hp8Ib+OPzrbZfay2e1BjKC5QRVBj4KtguXBrSFoyOyQrSH355jOkc5pDoVQfujW0Adh5mGLw34MJ4WHhVeGP45wiFga0TGXNXfR3ENz30T6RJZE3ptnMU85ry1KNSo+qi5qPNo3ujS6P8YuZlnM1VidWElsSxw5LiquNm5svt\/87fOH4p3iC+N7F5gvyF1weaHOwvSFpxapLhIsOpZATIhOOJTwQRAqqBaMJfITdyWOCnnCHcJnIi\/RNtGI2ENcKh5O8kgqTXqS7JG8NXkkxTOlLOW5hCepkLxMDUzdmzqeFpp2IG0yPTq9MYOSkZBxQqohTZO2Z+pn5mZ2y6xlhbL+xW6Lty8elQfJa7OQrAVZLQq2QqboVFoo1yoHsmdlV2a\/zYnKOZarnivN7cyzytuQN5zvn\/\/tEsIS4ZK2pYZLVy0dWOa9rGo5sjxxedsK4xUFK4ZWBqw8uIq2Km3VT6vtV5eufr0mek1rgV7ByoLBtQFr6wtVCuWFfevc1+1dT1gvWd+1YfqGnRs+FYmKrhTbF5cVf9go3HjlG4dvyr+Z3JS0qavEuWTPZtJm6ebeLZ5bDpaql+aXDm4N2dq0Dd9WtO319kXbL5fNKNu7g7ZDuaO\/PLi8ZafJzs07P1SkVPRU+lQ27tLdtWHX+G7R7ht7vPY07NXbW7z3\/T7JvttVAVVN1WbVZftJ+7P3P66Jqun4lvttXa1ObXHtxwPSA\/0HIw6217nU1R3SPVRSj9Yr60cOxx++\/p3vdy0NNg1VjZzG4iNwRHnk6fcJ3\/ceDTradox7rOEH0x92HWcdL2pCmvKaRptTmvtbYlu6T8w+0dbq3nr8R9sfD5w0PFl5SvNUyWna6YLTk2fyz4ydlZ19fi753GDborZ752PO32oPb++6EHTh0kX\/i+c7vDvOXPK4dPKy2+UTV7hXmq86X23qdOo8\/pPTT8e7nLuarrlca7nuer21e2b36RueN87d9L158Rb\/1tWeOT3dvfN6b\/fF9\/XfFt1+cif9zsu72Xcn7q28T7xf9EDtQdlD3YfVP1v+3Njv3H9qwHeg89HcR\/cGhYPP\/pH1jw9DBY+Zj8uGDYbrnjg+OTniP3L96fynQ89kzyaeF\/6i\/suuFxYvfvjV69fO0ZjRoZfyl5O\/bXyl\/erA6xmv28bCxh6+yXgzMV70VvvtwXfcdx3vo98PT+R8IH8o\/2j5sfVT0Kf7kxmTk\/8EA5jz\/GMzLdsAAAAgY0hSTQAAeiUAAICDAAD5\/wAAgOkAAHUwAADqYAAAOpgAABdvkl\/FRgAAEKJJREFUeNrsnVtsHFcdxr\/\/OnHiXNbrtqGhFMWGVqACjYNKKbfG4QGEoGoESK2QIC63B5CoETwAUol5AvGSVOImBNSRuBSRqgUkJKCqEyFoQ1LFLbS0hGKH3oC2eHdz2Xid3T8Pe6Y5nsx1d2Z3Zv39pNHszsyeOWcu3\/n2f86ZEVUFAIgICOkUNReU8IIiJIn7KfE0CzysPTuZx820nUeDENItCpYI7VPV4SScnkMn27Sbr6j7jlmmvW0eiz0Bq0sAxgEc6lT4Q\/YTNY3tqnqvqs5qDPyOq8f3RNIPWN9W+i5mTRptn49arbatUqnsLZfL8+VyebZard7sc6zvinJdq+qw2XZ7O\/chJY54\/n0wk6rqvKruzJjox8pXkqJvbs7j7dw85kYNysdO6zAstlvhhu0nRjrz7ahkDFHOZPo+zLd7HMvl8r2VSkWdqVwuL9ZqtW22gbArmQjnxa7E9sa9D6lwqWqnqGpBVQfMJCnqc2KTW\/Qd9nUgQmmIfuR8JSX6rptTY5TfcWaevzPr7jXbDVs39b6YxzlwP22k5ZBIpZ9W+mnm31TEi+0eT+Py1WPaa\/8rc13Td4VV6BZ7Yt4vmrT4t5t+3Eq+zbwVVfUGVZ1S1a+q6t0h0\/fNth9X1SvbFPs1qrpWVQdVdZ2ZD2RZ9MU2S679LQCYFJHDcS8K57NfY16Ubby2jZKvsIbECOu3A5gxoRdEzacjPgAO2b91\/864yFEAcwAmrDKVAJREpJLEftq5mdNMJ+0G3rTzH+WcVKvVaQBTHqunhoeH73SFC6et9TMicptb8AFMBm0T8X5Bkse93fSjCnqcfBqhfg+AawDcAODVCRTxFwCeAXBQRJ7xEnwAUSYFsCwi5zsV\/aQJEn2H\/QCmo4hRl0Q\/MF+diL7HzRjnot4O4D4j6AgQ\/e1GsEsA9ovI560bfEpE7kxiP52KnapuA7AHwAb3vixeMNNBEXm8G+nHrVSSWh5EtVrd02w2p0Vk1KPcc8PDwxMe16lb1KdF5GtRK4VuVYLdqpTj5FdVP27E\/m0pZ\/u3IvLpCILvtI0WPNYtA1gSkWaeRD+W6++i6Hvmq52Ly8\/dRxVVl5CXjdubCahcdprtAatBF8AhEdmV1H46FP0fAtgY8ednROQT3Ui\/V6Jfq9W2DQ0NnbSXnTp1amej0dgvIuOqulAoFKaLxeKBSqVyuzlHKBaL+\/0Mk4fwO59nrGVzACaimq5VIvo3APh5yln+oTFlVZfgBwl8kOs\/LSKNLIi+X0zfi71RT26KMf3QfLUT01fV251YbtxYo\/mt3SC73ZXveVX16sHhxPL3WDHpxaT3004sXlU3mJjnPar6tKr+z+OQ\/M+su0dV7w47\/t1MP852Yetrtdq2crl83GqYnTXLZs33+Wq1uqeD435vwGV3PIkedVkR\/SR71Zk4\/MkUpkdNpWLvyy9+v15Vh8z1vFFVN6nqZtO2UFLVEVW9RFUvVdXLVHVjB\/qc2BSln\/4cgHHnr2eGSCxfJqQybrnvOOx35ecR1\/pRE45x4+xr1HJxpRT2087xOGt9vRLAiMdmI2Zd5tJPknq9PiUi41beJ+r1+oI5b5OlUmmsWCwe6GAXk+acuikD2B3X4a8WRORHAH6bcLKPAXiniDzktcuQqeCavLbZqKoben3swkR\/WkR2eAhMr0k8XyJy0oRWpswNF7sSEpGT3ajsurQfmHhkEtv0Kv0kHOqkx+KZBMTeue4q8G783d\/F85xXvgAgqUrxMQC3OuGcCKIfReS9pmFV3ZxF0e97d5+g63dEYTLg7\/i0xzLHPS5YvymnsJ9OWWxzXVbST6MiGLX73neY1naff2jTSQy663O3fwrApwA0O0wqUPBNI+x5AA0zNc0U1\/07lUNRVUd6ddzW+Ljor2XwHHctX8Zh7VLV242QlgK2PaCqC+bGHUdrhK3tDi8KxZgbfbcV5pmwKrXE9tMhLwDYAuB3EbfNVPpWg\/GKBkK\/5b6uqFCYajab+0WkZH63AGC8Xq8vVCqVmcHBwWl3A29MwT9kXV9Ope9836+qcxn8p91JJZd0y+SH0GoobaK9x8qEOXznelIj+HZZBMAggHUx3b4A2KyqBRF5qZdOf9W6+05dv+k9NGFu2hXbewj+MC70zpgxFYxdASSynwT4LoAzEbc9mMH0E6FYLB4YGBjYbSr\/qVKpNDY8PDyKVhvLpBH\/u+I6f2ushS34E9b5dcS\/48d09Cuq+k0AH3a+tuH4KwC+GCb4QRWBiCwBOAXgrMlDVPfvCH+p67rGp2wmehFe1Ifeo0vgrEu4R7GyUfdkEvtp14FlfXBWr9L3olarbavX69OwuloWCoWZRqMxJSK7TTq7i8XiL30Ef9wWfKfi9vkHMNFPjj+Be20SwB3O5W9rWgzH\/wUROZhgngTAZgDrrXwE9et3vr9gQlVeaVL0c3AxrrihfUbklozwL1jbxhqAE7afDv52l9rtMWLyVA4S5bymHyb+S0tLMyIy4bV+YGBgfNOmTY\/4CD6MoB925WWn65\/fHNror9+n99j1AH7iI\/gAMOBa7sWKgVcJ52+duccHPMTeXQHA\/EN5VkTq3RB9Plo5+ZBQxQj6nM\/6MREZcQl+Gd49ONreT5thNAAot\/uUMisscagP0\/dlaGjoZKlU2iUik17rG43GbuvrfS7B9xz0aJbZ6Y0joS65ORf8zQC+jguNqc6k1vw8ggebVgB8MUUNWAJQhX+jrnv5GgBbu3UMKfopCb+I7MDKkZVu7rMEvy0HF3E\/UZk0FVGnLPhUYHlPP5S1a9ce8jlPdr52W+I9KSIHAs7vAUv478OFtp\/VzGcBXOEh9Pa8iVZXX78Yf9tx\/Bj3Zg2t3mcF4\/gL8I7rO983qOplXdEnhnd65lheDvMwVts\/lMvlWTvMo6pzpVJph8f53xa1H36cbfv8nrkCwO8Dwjpe87Uuc\/ugiNzaxTxvAvAKVzhHAr6fEJHlNMM7FH1CEqZard6squMAysVicYZx+MQE9E4A744g+FUA3wbwFbNsnSX8t\/iMuE0z31sADIeIvfO9LCLPdkv0CxFqTa95z66BmPMmbxtCciv416H1ELQwLRK0wmZHVfVLaD3JFWj1qDnSTZfvyv+r0HrAYBThf8Jx+2zIJYSsVm5CeBxfARwQkaPGyH4DwONmeQ3Avh7m\/3m0Bnf59dm3v29JMyNrPCqAgZjzXtGIOafTJySfLn8TgJ1GvDXA7T+D1qA\/m68AuAfAURE50qsyiEhTVZ9Ha2xNWGw\/1WfzrOElRQjJOBMANlnGzXlGvXv+PfcgJxF5UlW\/DuDJXhdCRM6q6llTlqAQz0ZVHfTqt5+W03eWrY047xXLEed8OTQh+ebGAMF3lj0nIr\/yEdufZKgsLxgnHxbb3wwglefyMKZPCMk6OxAcx28C+HUeCiIiZ9AaPBYW2y+mlYcgpz8IAKr6nzxdHSJyucvhN3jPEJJPVHUrWr1emvCO4zuu\/9c5KtaLaL0gKCi2fwmA+bRFnxBCssbVluCrz\/w5EXk+R2U6De9n8Kxw\/+YtW2e77vRzyKDL4S\/zviEkt1yFC7123HF8Z34sZ9GImqrWceFpnH7Cf2naok8IIVnjcpfTh4fbP5HDcp0BsMFD6G3xX5\/GjvvZ6S+7ykUIybfoewm+APh7Dst1CuHP5Eld9AkhJGs4PXS84vmOUP4jh+U6i\/C4fio9ePrZ6S\/R6ROSe5yeO4BP7x0ROZ23QpmBWgUPoXc\/IZROnxCyqrjK+mw\/RNF2\/XklbIBWKvSz019Dp09I39JE\/kfb9+SpBhREQkiWcYdu1D2p6sa8Fco8RK4nFFyfnfc1rjGOOY9u38m3U44CKzdCcstTfmJvTa\/JYbmihNZTaaugGBJCMm+MQ6Zrc1imTbj4mTtuzqdd24irIhjI6QUy4CoH3wNJSH8IPjw+AxcGOeWJDUaj\/LqipgadPiEky8xFcPpvymG5nMcrFzzmzudU3q1M0SeEZJmnIoj+mKq+ImfluixE8Atojdql6BNCKPoe01vzUiBTQYmP07c\/lyn6hJBVhYj8F63HLPiJvdNf\/905KtaYj8jbTv+0iKTSkEvRJ4RknUddAu81jarqG3Lg8ocAbIF3OMeuBBbTygNFnxCSde4PcPj2dEsOyrIjQPBt4X+Wok8IWZWIyDyAfyM8rn+Nqr4lwy7\/MuPy\/UI7LzfgisiptPJB0SeE5IGfIVqD7qR5zWAWeTP8e+rYy+bTzARFnxCSB7f\/AID\/RBD9LQA+k0GXfy0u7pvv5fTPi8gzFH1CCAHuRnAPHme6TlU\/miHBvxrA6xDeRbMA4J9p54eiTwjJi9ufRbTYvgJ4n6remAHBH8XKxtugwVhnReQJij4hhFzgWxFFXwF8UlXf3kPBvwrAOxDeU8f5\/Jdu5IuiTwjJk9t\/HMARhA\/WOg9gGcBtqnplDwT\/agA3ovWY94EITv9FEXmOok8IIRfzHbSeNe83WOu8mZzvd6jq+83AqG4I\/g0AdlpO3k\/4X268BfDnbh08ij4hJG9u\/yyA7\/oIfsNMwMpHMH8AwJeNA09L7K9Q1Y+g9Xx\/98vO13oIv\/P5iClTV+CL0QkheRT+Y6r6GwDvw8rQTgP+oZ9LAHxOVecAHBaRfyQg9JsBvMoI\/aVY+bx\/L711\/oE47\/n4m4g8281jR9EnhORV+H9sBmK9yxJ8INqbtt6oqk8DOArgryIS61k3qroFrdc0jqMVvon6onZb+J8SkYe7fdwo+oSQPAv\/91W1CeDtAYIPXPzmLTUO\/ZUAblLVl9B63s3DAJ4XkbJL5IsAhgFcCeC1aA0Cs9MqGOGPqrtPisiDvThmFH1CSN6F\/weqehrAe0JEPmgqGVF\/fUvj1XHu5wJ+4yaq8J8QkT\/16nixIZcQ0g\/CfzeAn8YQeY34r0BiToWQ9SdE5A+9PFZ0+oSQfhH++1X1RQB7AKyPKOpB\/wqACw2ucc20l+M\/JCJ\/7\/VxougTQvpJ+OdMA+3HAFwVIupRXH+cWL2f8L8I4AEReSkLx4iiTwjpN+F\/CcA+VX0rgA8GuP4wwXecfrvCvwzguIgczdLxsUXfKahTuEZOz3nDVQ7lbUDIqhT\/I6r6KIDrAbwXwDpEC\/HAJfpxHf8SgMcAPCQi9awdFzp9Qkg\/C38NwGEAh1X1OgDXodW\/PorLt0U\/TPjPATgB4Gm0+t8vZfWY2KLvFMZ5A3s9p+e57ipHk5c+IUREjgE4pqojAK4BMAbgcrS6awaNpA0S\/nMAjgE4lmWhp9MnhKxm8V8E8EczQVW3AtiK1otOtppKwE\/4F9B6pv+\/AfxLRCp5Kz+dPiFktVcCjojPrYbycnAWIYSsIkKdvohca75v9Jn3ijM+czp9Qgih0yeEEBIlpj9g5k5DhtPC3et+\/DXX\/BydPiGE0OkTQgiJ4fT9HP5yj\/O+5DOn0yeEEDp9QgghQU4\/zOH3evTZcsicTp8QQuj0CSGETt\/L6fs5\/AHXvFc0Is7p9AkhhE6fEELo9L0cvoTMe4XGnBNCCJ0+DwEhhKxCpz8\/Pz8IAGNjY+c6SbBWq40CwLlz58oAMDIyUrbXLy4ulgBg\/fr1JQAYGhpaCEpvfn5+fZx8Ofv3SzdsvZvZ2dk1ALBr167zvFwIIXlHVBn9IISQ1QLDO4QQQtEnhBBC0SeEEELRJ4QQQtEnhBBC0SeEENIr\/j8Ad4TMmS88aRAAAAAASUVORK5CYII=",
+        "scale": 2
+      },
+      {
+        "id": "FloatAssets",
+        "url": "data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAtoAAACjCAYAAAC0XLkTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2lDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjanVNnVFPpFj333vRCS4iAlEtvUhUIIFJCi4AUkSYqIQkQSoghodkVUcERRUUEG8igiAOOjoCMFVEsDIoK2AfkIaKOg6OIisr74Xuja9a89+bN\/rXXPues852zzwfACAyWSDNRNYAMqUIeEeCDx8TG4eQuQIEKJHAAEAizZCFz\/SMBAPh+PDwrIsAHvgABeNMLCADATZvAMByH\/w\/qQplcAYCEAcB0kThLCIAUAEB6jkKmAEBGAYCdmCZTAKAEAGDLY2LjAFAtAGAnf+bTAICd+Jl7AQBblCEVAaCRACATZYhEAGg7AKzPVopFAFgwABRmS8Q5ANgtADBJV2ZIALC3AMDOEAuyAAgMADBRiIUpAAR7AGDIIyN4AISZABRG8lc88SuuEOcqAAB4mbI8uSQ5RYFbCC1xB1dXLh4ozkkXKxQ2YQJhmkAuwnmZGTKBNA\/g88wAAKCRFRHgg\/P9eM4Ors7ONo62Dl8t6r8G\/yJiYuP+5c+rcEAAAOF0ftH+LC+zGoA7BoBt\/qIl7gRoXgugdfeLZrIPQLUAoOnaV\/Nw+H48PEWhkLnZ2eXk5NhKxEJbYcpXff5nwl\/AV\/1s+X48\/Pf14L7iJIEyXYFHBPjgwsz0TKUcz5IJhGLc5o9H\/LcL\/\/wd0yLESWK5WCoU41EScY5EmozzMqUiiUKSKcUl0v9k4t8s+wM+3zUAsGo+AXuRLahdYwP2SycQWHTA4vcAAPK7b8HUKAgDgGiD4c93\/+8\/\/UegJQCAZkmScQAAXkQkLlTKsz\/HCAAARKCBKrBBG\/TBGCzABhzBBdzBC\/xgNoRCJMTCQhBCCmSAHHJgKayCQiiGzbAdKmAv1EAdNMBRaIaTcA4uwlW4Dj1wD\/phCJ7BKLyBCQRByAgTYSHaiAFiilgjjggXmYX4IcFIBBKLJCDJiBRRIkuRNUgxUopUIFVIHfI9cgI5h1xGupE7yAAygvyGvEcxlIGyUT3UDLVDuag3GoRGogvQZHQxmo8WoJvQcrQaPYw2oefQq2gP2o8+Q8cwwOgYBzPEbDAuxsNCsTgsCZNjy7EirAyrxhqwVqwDu4n1Y8+xdwQSgUXACTYEd0IgYR5BSFhMWE7YSKggHCQ0EdoJNwkDhFHCJyKTqEu0JroR+cQYYjIxh1hILCPWEo8TLxB7iEPENyQSiUMyJ7mQAkmxpFTSEtJG0m5SI+ksqZs0SBojk8naZGuyBzmULCAryIXkneTD5DPkG+Qh8lsKnWJAcaT4U+IoUspqShnlEOU05QZlmDJBVaOaUt2ooVQRNY9aQq2htlKvUYeoEzR1mjnNgxZJS6WtopXTGmgXaPdpr+h0uhHdlR5Ol9BX0svpR+iX6AP0dwwNhhWDx4hnKBmbGAcYZxl3GK+YTKYZ04sZx1QwNzHrmOeZD5lvVVgqtip8FZHKCpVKlSaVGyovVKmqpqreqgtV81XLVI+pXlN9rkZVM1PjqQnUlqtVqp1Q61MbU2epO6iHqmeob1Q\/pH5Z\/YkGWcNMw09DpFGgsV\/jvMYgC2MZs3gsIWsNq4Z1gTXEJrHN2Xx2KruY\/R27iz2qqaE5QzNKM1ezUvOUZj8H45hx+Jx0TgnnKKeX836K3hTvKeIpG6Y0TLkxZVxrqpaXllirSKtRq0frvTau7aedpr1Fu1n7gQ5Bx0onXCdHZ4\/OBZ3nU9lT3acKpxZNPTr1ri6qa6UbobtEd79up+6Ynr5egJ5Mb6feeb3n+hx9L\/1U\/W36p\/VHDFgGswwkBtsMzhg8xTVxbzwdL8fb8VFDXcNAQ6VhlWGX4YSRudE8o9VGjUYPjGnGXOMk423GbcajJgYmISZLTepN7ppSTbmmKaY7TDtMx83MzaLN1pk1mz0x1zLnm+eb15vft2BaeFostqi2uGVJsuRaplnutrxuhVo5WaVYVVpds0atna0l1rutu6cRp7lOk06rntZnw7Dxtsm2qbcZsOXYBtuutm22fWFnYhdnt8Wuw+6TvZN9un2N\/T0HDYfZDqsdWh1+c7RyFDpWOt6azpzuP33F9JbpL2dYzxDP2DPjthPLKcRpnVOb00dnF2e5c4PziIuJS4LLLpc+Lpsbxt3IveRKdPVxXeF60vWdm7Obwu2o26\/uNu5p7ofcn8w0nymeWTNz0MPIQ+BR5dE\/C5+VMGvfrH5PQ0+BZ7XnIy9jL5FXrdewt6V3qvdh7xc+9j5yn+M+4zw33jLeWV\/MN8C3yLfLT8Nvnl+F30N\/I\/9k\/3r\/0QCngCUBZwOJgUGBWwL7+Hp8Ib+OPzrbZfay2e1BjKC5QRVBj4KtguXBrSFoyOyQrSH355jOkc5pDoVQfujW0Adh5mGLw34MJ4WHhVeGP45wiFga0TGXNXfR3ENz30T6RJZE3ptnMU85ry1KNSo+qi5qPNo3ujS6P8YuZlnM1VidWElsSxw5LiquNm5svt\/87fOH4p3iC+N7F5gvyF1weaHOwvSFpxapLhIsOpZATIhOOJTwQRAqqBaMJfITdyWOCnnCHcJnIi\/RNtGI2ENcKh5O8kgqTXqS7JG8NXkkxTOlLOW5hCepkLxMDUzdmzqeFpp2IG0yPTq9MYOSkZBxQqohTZO2Z+pn5mZ2y6xlhbL+xW6Lty8elQfJa7OQrAVZLQq2QqboVFoo1yoHsmdlV2a\/zYnKOZarnivN7cyzytuQN5zvn\/\/tEsIS4ZK2pYZLVy0dWOa9rGo5sjxxedsK4xUFK4ZWBqw8uIq2Km3VT6vtV5eufr0mek1rgV7ByoLBtQFr6wtVCuWFfevc1+1dT1gvWd+1YfqGnRs+FYmKrhTbF5cVf9go3HjlG4dvyr+Z3JS0qavEuWTPZtJm6ebeLZ5bDpaql+aXDm4N2dq0Dd9WtO319kXbL5fNKNu7g7ZDuaO\/PLi8ZafJzs07P1SkVPRU+lQ27tLdtWHX+G7R7ht7vPY07NXbW7z3\/T7JvttVAVVN1WbVZftJ+7P3P66Jqun4lvttXa1ObXHtxwPSA\/0HIw6217nU1R3SPVRSj9Yr60cOxx++\/p3vdy0NNg1VjZzG4iNwRHnk6fcJ3\/ceDTradox7rOEH0x92HWcdL2pCmvKaRptTmvtbYlu6T8w+0dbq3nr8R9sfD5w0PFl5SvNUyWna6YLTk2fyz4ydlZ19fi753GDborZ752PO32oPb++6EHTh0kX\/i+c7vDvOXPK4dPKy2+UTV7hXmq86X23qdOo8\/pPTT8e7nLuarrlca7nuer21e2b36RueN87d9L158Rb\/1tWeOT3dvfN6b\/fF9\/XfFt1+cif9zsu72Xcn7q28T7xf9EDtQdlD3YfVP1v+3Njv3H9qwHeg89HcR\/cGhYPP\/pH1jw9DBY+Zj8uGDYbrnjg+OTniP3L96fynQ89kzyaeF\/6i\/suuFxYvfvjV69fO0ZjRoZfyl5O\/bXyl\/erA6xmv28bCxh6+yXgzMV70VvvtwXfcdx3vo98PT+R8IH8o\/2j5sfVT0Kf7kxmTk\/8EA5jz\/GMzLdsAAAAgY0hSTQAAeiUAAICDAAD5\/wAAgOkAAHUwAADqYAAAOpgAABdvkl\/FRgAAIl5JREFUeNrs3X+MHOd93\/HP93g86iTydiVZv\/wjPDm2Y0tJRNlx7KJOeQpao1JbiC5cxECD8NQCLVI30KWSUST5Q1SLNmkDVPQ\/DdDCIZ2giBMpFWWnaKLU1qlxYClSrFNhKbYkWydLlU0pEnePEo88Hu\/bP3a2HA5ndn7vzt6+X8DibvbnM8\/uzn722e88Y+6uMDMTADSBRzZQxgYKANCMz6dM15uiqwAAAIDqEbQxad9A97v7I8FpPz0CAADqDB4XnIBt\/nqPus\/dW\/TMeDxf9AgAoIn5OelkMZ9d90k6ZGbdpnzQxp2ft1azqvuJud9a+6tsjeowa1zd\/R4zu3eIr42DZvbFCl4HK5IWRv2aL7I+NbZlv6RFSfPBWQt1PE709Zg3TCe9nml\/acvB31VJR83s0VG+HtfX1\/dubGwsufti0KaOma3MzMwcnp2dfSnH6\/r24L3+y1W\/dyXtq\/uzk30WgGYF7aKJ3N39xab8rO4JRnU\/CfdbW39Vvd41tfEmd39qmCOO7n6kYH\/ck\/BSeHDEr\/MjTRmx7bdlGLK+T\/O8f2l\/LY6M6LXY6nQ6j3S7XY87dTqdE1l+kXL3lrs\/WMf6BOVoPozPTn7hwTYJqBb+O85BO8spKWg35mf1MQnatfVX04N2NLgO44M3HEQK3sft7n4i5uVwzyiCRNn1qXpkbpjpreqgSvtrdXDYr8dut3tfUsgOhe0HC77fD1bwfrkp4b5r+ewkaGM7hOzgNBWcdrj7dPB3aszWpXDpSPSMVUmLo\/rpcAxKR2rtr6aWjrj7TZKOqvdzaeX3nxRK1ftJe1\/ZxwvavyypHbnogJk9NKyQXdX6VNimp6LPaZ2qLr2g\/bVaMbObh\/VgQbnIapbrTk1NLezZs+fRmNfzEfVKcJIsFi3XGrANCX8W7KuylITSEYx7yO6\/dIOTEv5uSdoys62mB+1M2\/kMQbvvsEZQuz2GQbvS\/mpi0A5Gfg\/V0Z8pH2rHdL5mNdPjBWF2KVg8amYvpXxQdiTN1\/06L7o+I3i\/LQUBqxFftDM8341q\/7j2f1D+sC\/Yjo3k9dntdu+MPv4AR1ut1h0FwnChsB1sV1arvt8cny+Zvrg18PVca\/urHuVvYH\/OSbohWLxB0lzOu3gstG6PjShgZ\/1rQR7dNLNzkxK0+9\/Qhzq6PcZBu5L+alLQThrFrnvDNOjDMkPwOhG53UL4+QjueyVys0N17tRZZn2aFmybHrTHbcSvgf1\/wftnyEE78Qt9TDuX2+32LQmXHQy2W6oiFMf9EhUX\/M3sjnELqgTt5vSnu388CNP90411vM0kPRv8\/3Dw\/7NmtjaikJ10WT9wb05C0O47rCGNbo950C7dX00J2oNGsevcMKV9SBYY4VxRZIaRmHXrqKZR7bLrQ9AmaE9Ke7rdblrZR6agnTFsd4LtwtNNCdkE7ckJ2u7+bkmfrDlU5\/FyELxfkfSwmb1SYcguMrrd\/+uSzjRlhLvuoC0NaXR7mwTtwv016qCdZRS7rg2Tu6f+dJwheD2ii6dGu6DWNOFn4CUz+3zFr+XS60PQI2hv9\/acPHly\/7lz546a2XyOmy21Wq3PlxwsSA3bCduTsGUzu2VcgypBezj9GZSA9IP1pyU1\/VgOz4RC9wMFQnaZcB133mYQuLdG\/PquPWj3HdYQ55Ee46BdqL9GGbSzjmLXsWHKsBNT5sdLuK8LykNiQnClO35VuT5NCFbufoOkWyVdJumq4JTH25L69fJPSHrUzE5tt\/bX\/UWhadevIGAfMrOFnM95p9VqZfoFKsP7MDFsZ7jtimqej5+dIZs9MJUhXH86CNefHINwnaSr3mj3w2b28ICQXSRM5w3mZ8zszCQEbanG0e1tGLRz9dcoNhx5R7Er7s9W8NgHEj4E20UeL+FDcr6\/c6S77w2el9jLm7Y+o\/ygcvdflFT1XMFvS\/o3FfR3o9pP0E63vr6+98yZM4fN7EDM4y8H78P5pJA9PT29sHv37qcr\/NJ7UdhuQsgmaI9v0Hb3T0r6r9uoq1+W9ICZHY4J2HnDddlR7nOSTo2inCRr\/KtqzsJ5Scscznr8+ysYxV7RCKYYC9U\/Hkj6ICt630HN5Erk7EOhy1\/S+aPh9S00dX1G+PrYX0NIlXojywdp\/+RYX1\/f2+12j2xsbKxGQ7a7L09NTS202+1bWq3WPsXUV7v7at6QHViK2RaEtSUd7W+bg21iWjBfbMrRlNE8wcjvM9tkdb5gZp\/IGLItYTlrmE46ha87LWnO3Wcb+\/xXNKIdtqoa55Gu6ptqVd9YK6gJG9hfw\/qGXmYUu4r+TJmGa0XBaFFMfy+odzjmpzM+RvQDtt3\/gIwplSm8U9Mw1mcUI0Lufpekj9bYhF8ys9e3S\/snbUR7bW3tYHC91enp6dW4w6O7e2ttbW1JMWVp7r46NTW1NDc391BcMN\/c3JzvL8fNm13gS\/Cg7d1KsE08nBKyF4b1fmVEu97+GULpyNc1viUjL0u6O25awJrrsfPc9qykk2bmQ3q9ZbredA2PPR+EhUd5249Vfy0oMqfzEDeO+9WbUzoulKaF3eXgPlKn5DOzp939mC4cYV6Q9FD4viLPTWPXZ0Qui35RkfSB4PzLYi6Pejt0ei4IKmFXSSocVJvW\/lEHiWEFs263e4+7L7l7u\/8BtLGxoU6nc6zVai0GXypba2trS91ud8nM2jEB+1Cr1UqcYi8I7S9V0d6gPQtBmE56n+9T+jzeC8P8UkywHl9mtubun5H0P8ew+d+Q9M8GTPs3jHrsLNedkXS5u3ebNPd21Ye7XFHvSFj38rYar\/4KZtjYFxM26w7Z9yl55PdwjhHlQ0HATbMc82Hatzrgsqauz6jdIul6SVdnCKn9oHt1cJtbaP\/4C6bhOxQNz8F25UC32z26trZ2sNvtrkSv5+6rZrbYbrevn5ub++Iw2x38knUg5stSVouj+uUJYxu2n5V015g1+34z+0yGubWzloFIxUtIsgTyHZKudPfLmtKBVQbtQ2Z2Mxue8e0vM3spmJpqqcSHT15LAz7Efjlvn2b8chO2EF7\/yGXtMVifUbo0GEEoaia4D9o\/poJSkcWU7coBd79guj5374wqYEfa9nSwDci7vSt91EdMbNh+QNL9Y9Lce83s7jyrVyIgZ6nHznOb3U0J21UE7RUxir2t+mtUo9uBjno\/xxb5EFtoYHdut\/UJO9WQ+5jU9o\/c1tbWUp7ru3tH0qFWqzU\/yoAdE7YXc9zkMCEbZQOsejXPTdWVdJeZ\/XbOkF1FQK5ylHuPu+8Z96DNKPY27a8RjW5LvfKNlW30nG+39QHC24l9eQJqq9Wab7Va9zZthg4ze0jZfkFaLvDLFBB9vZ1Ur4Rkq4HN66q30+MDOdZnS\/WUgVQRyHe7ezu0w+bYBO0VMYo9Ef01gtHtfZJWg1k7ivRzmvkhd2Hd6wOMhampqWNNnQIveH8uZbjqgrvfzrOJCj5bH5f0Jw0L2\/2Q\/XCRt5HyTctXZ+lI9LaXSnrHqMJ2kaDNKPaE9VfNo9txH25t9eYZz\/uBdjhj8A1bjXzYjtv6jNrbI7ot7W9GQF3Ncd35hq7DXiXvwBznaEXbCuBzQbhtStguGrKl3oFjzql3ePRzwTpthQJ4FaFaJW4zI+kad9\/Z5KC9IkaxNcn9VcfodnCfCzEBvi3pmLtnPQjIoYx1k4sxz1Pf\/IDLmro+o\/Z1SRsFbrcR3Jb2j\/c2IfO2wN2PdjqdR06ePNmY2XSC+bSPKd+Oz\/0vzoRtlH3\/nJT0+SCMjjps31UiZMvM3MzOBadNM9sITqfN7JSkM+rNc521zKRMIE867RxF2M56wJqRzek7pgesqay\/GnxI2TvVq2lsV3H\/KQd4Odyvi4zp70Pq1U1mOZz9QV18hLnwYdjv04Uj0svBSH4j12cY77eYA778gqTbamzCPwk2yoVev9u9\/U27fnD49JW4qf1S7vfYrl27luIOaDPkkL2s4gfpWg0GUzgiZHO+OFV6oJK65y139w9J+j1Jc6GQODWCrrs3546PVaz7jHqjzDsiAVmq72A3\/dOWpB+a2dmS65DpemlP6IoYxc5jYvqr6tHtoLRmn+JHkZfc\/Ujc4erN7N6MIbuli0sxViNT+h2IXL7c1PUZoSdrvO8nwiGV9jff7OzsS1NTU4tJJST9WUail5vZgY2NjdVut3tkfX19b0ND9tHg8k7C5fPqjWy3BJQP2dJoRrbvH3bIDrYBG2b2lnoleOdU7WHZ0w4HPyXpuiDs125Q0KYWO5+J66+qa7eD0LuQEE4XS4b6Y7p4dHkptNHbq4tLR441eH1G9Zw\/K+mJGu76bUkP0P7xMzc391C73b4++AK5HDodm56eXmi1Wve22+3rzSwukC+OKHCnhexjZnZHsD1fGnC9feP4PkYjQ\/YowvY3cs6TXcc2eTMI3F31SksGhWupXNlJ+Pwp9XaQrP0XhLjSkafUoCNejUHpSK391dTSkZjH2ave4cVvqeC++qPPixnepJbh\/u6L+bC8oCzE3Y9EHq9jZpdX1DeVrs8w329J7QlKMPYr29EU0zwh6YGYAwbVVhox7u1v6vWz6B+uPaHc5Ojc3NxSUjnGW2+9dVP\/MO979ux5tOBr\/EjKe3FFvbnvu6HbxJWdXdDuHEd9xZDzQokQaDW0cU8Qsm9Ie3jVW0bSlXSbmb3SsOdwWtJuSdOqtmQk7jJJ2jCz\/1uwrcWC9og\/54E8H4hZgsKDurgkpKNeiU+\/NvsmXTzqfLjq+XKrWJ+mBO2mtof2j8frwd1ba2trS3GBOzhq5OG5ubnDZtZdX1\/fe\/bs2YWtra2l8Lzd7r66Y8eOxTyBu0jIDt32Hg2ea5uwjSyvwf8m6eMxoXrYYfvnzOyxBvfTrHrT8u0oGK7D17WYvg6fd9LMXidoY1I3SndqwDR3gz74g5HkTsxFB4IDVPSv94guPApjR72dJLtNWh+CNkF7u70eMgTuo+6+mLSzpbt3Wq1WpvdqmZCd4z6Wgv1XgLjXzy9JujNDyLaaw\/Z9ZnZ4DPprWtIe9XaaLLJj5FRKwA6fdzyYBYagjYncOCX+bJsStPcqNE92YCG8s2HCKFWts+wUXR+CNkF7u74e+oFb2Y7OGL3tSqvVKhuQV5VxBpGEX8nCFjlEO2JeN39b0m\/lDNnhoF3Ve+8bZvaZMeo3kzSrXj171vIQyxCso+dtSXrFzDZytC3T9aZ4+aPpgg+tBeXc4TK0M+JycIqG7IMxH+wd1XygmKLrMySdyIbkzhFuYO8c1Dba38j2F31PdFut1r0zMzPzGlwLHXfbfWtra4spX2wXU\/r8QI5fsBY1eI79oxw9EpHX4Lsk\/YZ6OzoOOinh\/HOKn3o5r66ku8ep74L5uU9JOqGLD35jA0K2Zbxu\/\/8dkq6tZR0Y0cYYbawumpu6xLzdSaPKC8OaXq\/K9amwTWmjdaN0zMw+Rfub2\/6qBPNzHzWzhYyv2+V2u31Ljvd5OGQv5N2ZPcP0gIXuF9v2s+t3JH0smr\/iMlnK8rTKjWzfZWYPjHE\/XiLpykjfZJmhRCnnhf9\/w8zeyNieTO1mRBvj9M120NzUVYTsQ8Ocw7qq9anY0Qa\/BA7T\/sa3vxKzs7Mv5Tnq5ABtJY\/EFw7Dwej3ogaP8s+z1UYww9FPK33kWhmWN1V8ZPsb4xyyg\/fdaUmvh\/ogGq6nlH3WkaSA\/g5331VluwnaGLc32qC5qbNs9G5PCDNHR3GgobLrU0N7Hmpo2Dua5UsQ7R9t+yvWyfG6XU04f9CBtUqNOAe3XYhp5zH1dqZ+iC32xIfsd0r6bAUhO3zqH8Y8r7u3Q58GNdT9sB3e6XEqITgXOe86gjYmPWx3gw+4IoHkUEKIuGNM16eO9tyh3mjdagOas6rezmV30P7xaH9VZmZmjuXos+VBX2ZjDqxVybEPgvs4EPpisGRmn+Kw7Ah8Vr1ZM4rUZQ+6Tt6wfV\/T5ssu+b47K+lVSRs6P4qdpQ4763mz7n5FZe2lRhsTNsJwQhceIZK5b4GG6nQ6j6TVabv7Srvdvjnj+3+verOLVDraHPxSthJ30CJM7GfNR2MGT4rUZQ+6zU6lD5i+bGaf2KZ9PCXpXUE\/SNnrsLOcd07S82a2NeDxM7WTEW1MmkX1Rp466h2UhpANNNSuXbviDtse\/qBbnZ6eXsx6f8HoduUlHWb2ECEbEf9C1dRlD7rNhtJHtu\/erh0chODjQR\/kqcPOct60pKsraScj2gCAJltbW7vd3Q+4+3zos2q5f\/RIeghN4u4\/JelIOFrF5a+U5bjzvqrejpVzkevMKH7gdKzmzC7R35dIendMv1Uxwv2doFQl7nEJ2gAAAEMOfn8g6YMlQ3V0+UEz+zV3PyDp12OusysmbN9qZs9OSJ\/v0fl5sIuWi8RdfiKpvj1r0J6OOW8q55Nfdnni3oM1L28JAACMIvDdIunHdOEUdGmJLO0631bvgDcys2Pu\/kFJByO3ORMJ2\/dPSsgO+uWku18qqVVx2L7C3Y8njWpnQY02AABANf6xytdlh8\/rqjdLzslQqPwNSc\/G3PdpnR9sOzxpHW9mxyW9pfKzjkRrt68q0y6CNgAAQEnu\/gFJH1E182X3T3eGQ3bIYhDCo\/ezLun3t9N0fjn9UL3R\/TI7QkbPu8LddxC0AQAARucfqNr5sn\/XzJ6Ie6AgfC8m3M\/9k\/oEBDORvKZq59We1vmSlPxtitkZMlq3vaPm5UlzrublTbZ1AAAMl7svq3eAmipmGVmTdFvCaHb4MW+X9O9CZz3BtLWSu18n6fKYfi1au90xsxcjj5GpLYxoAwAAlAt2+yXtVraR6rjl6Hm\/mRaypd4c7pIeDN3PMZ4NSdJfxwTnMuUklxctHyFoAwAAlLM\/ITCnLcedXjWzL+d47P8o6a8kvVLHAZnGUTBLSCchbBctJ2kXacs0TwcAAEDpoB2tJSg6td9v5QyVJ919Sb1pBXHe65KuUPE5tKPn7ZH0RhVBeyrlOjsrXp40Zytedt5LAACMhrv\/rSCElZ0vW5J+YGZfydsGM3tV0qs8Gxf0yVl3X1NvR8Yq5tVuF2kHpSMAAADFfVjFpvKLu86X6c5Kvabq5tXeGRyBkqANAAAwoqBdNGS7pK\/QndUxs9PqHcinqnm15wjaAAAAQ+DuuyW9X+Xmy+6fHjGzH9CrlXtTxUezo+flDtpFarRnIi+y4zyHtX4buyb6vo4sn6OXAAAYifdrcN11nh0il+nOWqzFBGcN+H\/QeYxoAwAADMnNqqZkxCU9SndWz8w21Ds0fTQ4FyoncfdLCdoAAAD1e19FIfs7ZvYW3VmbN5VcEpJ3Xu1co9oEbQAAgGJ2J4TqrHXZ\/dNf0pW16g4I1soZti\/J88Cla7RRu2h\/R2uyz9JFAACMxD5Vc6Cap+jK+pjZhrufCYXkMvNqt8oGbQAAAAzg7tf2\/00J2ZZyHZP0HD1au7ckzcYE57xhe3eeB6V0BAAAIL9rVa4u+\/+fzOyHdGftTobCctF5taXeDpGZR7UZ0QYAAMhvt6qZ2u+bdOVQrCt\/mUjSebvKBG1qtJsl2t9nU54vAABQvx8NBekiddn95ZN0Zf3M7JS7Zw3TaZfPZn1cQhoAAEAxRUtGwsvP041Ds6bys46UHtEGAABA9pAdlrbzY9L9oH4bkQAtFSsdyTyiTdAGAAAoF7azhuq467xANw7NGcWPVmcJ2EmX5w7a1Gg3y0zMi2TQ8wUAAOp3U4FQHYcjQg7PpsqPZktSu0zQBgAAQH5p82WnXQf1OlUwWEf\/z4ygDQAAkN81OUJ3HEL2aJQpHSFoAwAADMG1Oa9PqG5m0M4StisN2tRoN8tMyvNBjTYAAM3mAwI3AXy4IXtHxiBeCUa0AQAAhh+yCdijCdo2zAckaAMAABCwkd3prFek7AAAACC\/Hw4I2J7yf3j5GrpyaC4ZdtCmRrv5qNEGAKB5juvCHSIH1V4P+v9qunLsgnZmlI4AAADk91aBUB0XxC+jK4eae23AF6LKMRoKAACQ33eVr0xECdd7L105NHt0fofI8DR+0fPyfMlKTfYAAADIxxNCtAYE7LjLfpKuHJpZXXiEzrjR7Swj3ptlgnb0AaKj3jt4noZqR8rzYXQRAAAjDdtZ\/4+9zN0vM7O36c4anyj3aUmX5gjZHpOzcpeZUDoCAACQ39Oh8FWkZCR8GeUj9bs89H9cqUiWkpL+\/5lLRwjaAAAA+R0vEKqTpvj7CbqzdntSwnOe80pN7wcAAIABzOy4u0vFarSj\/\/84PVq7K3RxGUjWGm2LPPdvBc99Kka0AQAAiokrH4kuZyktuZ6urE9Qn32lyo9kS9LJPI9N0AYAACjm\/yh7Hfag613m7h+jO2tzTYFArYTrvJXngQnaAAAAxXy3QKhOuh7lI\/W5YkB4lvKNbJ8gaAMAANQv64h2ltKSn6U7qxeUjVyj6naEJGgDAADULZj7+rtKH9HOEsQpH6nHNZJmNHgUO\/NsI2Z2Os+DE7QBAACK+0bGIJ0liN9Cd1buPcp2yPUsddvH8z44QRsAAKBc0C570Jr+\/x9z96vo0mq4+5ykdyh\/qYgSrncibxsI2gAAAAWZ2Ys6f\/CaMlP89f\/\/OXq1Mu9VuXrs8HmbZvYaQRsAAGC4ipaPxF32s4xql+fus5KuyxioleG814q0g6ANAABQzldVfofI8DKj2uX9mKSdKj+dX\/\/0IkEbAABgyILyke+lBOk8tdsL7n4jPVuMu18paa+qmc7PJJ0ys5NF2kLQBgAAKO\/LqmaHyL6DdGlhH6owZEvSatGGELQBAADKe1y9w3MXPSR79DbXu\/ttdGs+7v6jkq6qMGRvSnqZoA0AADAiwcFrHs8YsLOWliyyY2SukN3ShaPZWQK1Us572cw2CdoAAACj9SUV3wky6Xp3062Z3SRpV4bwnCeIf69MgwjaAAAAFQjmWf6ayh\/AJny9eXf\/RXp3MHe\/QdLVGcNz1vNeNrN1gjYAAEAzfClnqM5SWrLf3W+laxND9l5JN8YEZWU8Lyl4f7ts2wjaAAAAFTGz13V+VDspSBcJ4r\/g7j9FD18UstuS9iUE6jKHXH\/BzE4RtAEAAJrl91XdIdnD\/\/\/zYPQWvZB9qaS\/qV5ddpXT+Z1VBaPZBG0AAICKBaPaf1QgVKcF8csk\/VoQMCc9ZO+U9AlJuysO2Sbpu2Z2lqANAADQTH8g6fiAgF306JGXSfoVd5+d4JA9I+nvSLqiQKBWynlnJb1QVVsJ2gAAABUL6nvvV3U7RPZtSrpO0ucmMWy7+xWS\/q56M4zsKBCo04L4X1U1mk3QBgAAqC9sL0t6RuV3iOwvbwYnSXqPpLvd\/d0TFrJvlXRlEIp3hrJsFeUjp8zs+SrbTNAGAACoz3+W9HZKkM5SMnIuCNnhy94j6S53\/8AEhOwfkXSbzu\/4qFDY3qFqarT\/oup2E7QBAABqEuwY+UWV2yGyH7LjrneppH\/l7n9vu5aSuPt+SZ+MCdn9v9OKH9nOE7K\/EzxXBG0AAIAxCtuPKnu9djR8nwtOSdfrL\/99Sb\/q7u\/fRgF7t7v\/Q0kfiAnJSWG7yI6Qb6tX4lM5gjYAAED9YfsPJT2rfDtBbgYh26MZNGH5SklL7v7z4zy67e4z7v43JH1a0jtiQnNa2E4K1Ekj239W5Q6QBG0AAIDh+x1dWK+dFLD7IXsr4Tppyx+XdMjdf3oMQ\/a8pH8k6SYll4oMCts7dGHNdlrIfszMOnWtD0EbAABgCMzsJUl\/qPSSkU1lG\/WOBvbw8qWSft7dP+fu7xuDgP1Od79dvVlF5gYE6Sxhe0rJI9vh633PzF6sc72medkDAAAMLWz\/cXAY9Z9JCMubMeE5LXAPuuzdkv6luz8v6Y\/N7LsNCtczkj4k6XpJ74qsj2X4O+i6\/aC9Ffc0SDpuZo\/VvY4EbQAAgOH6XUmzkj4SOX9Tg0evlbI8aLT7fZI+6+5vSPoTSd8ys9MjDNg363x5iOcI11WE7TclLQ9jXQnaAAAAQ2Rmp9z9v0j6VUl7dX6e7CzT\/uVdjl52haTPSFp39xckPWlmz9S9zu4+p97o+sfUKw2Jjl5rSGH7TUl\/WtfOjwRtAACAZoTtfy\/pV4IAmrdcRCo32n2JpBsl3ejuLulbkl6VdELSs2VHu919l6Sr1DuozocktZReGlJ32P7rYYZsgjYAAMDow\/a\/lvQjFQXoIssKQvcN\/eUgfD8j6QfBKRq8tyL301JvpPrq0F9XtXXXZW77mqSvDTNkE7QBAABGG7bX3f0\/SPqnkj5cQ4DOcnnSfd2g3mh0XCnKRsz5UjUlIVWH7VeDkL0x7OeX6f0AAABGHLYlfUHS1ysO2Gk7U5YJ65bjrw3pNnG3fWlUIZugDQAA0JCwbWa\/LelPS4TgMuE8T1jXmITt58zsq6MK2QRtAACAZgXuL0n6Uo2BWhXd97CCc9Gw\/ZiZ\/dmon0+CNgAAQLPC9v+S9JuSTtUQqMuOdqvhYfuMpD8ys2814bkkaAMAADQvbD8n6d9K+k5KgK5y7m3lWK6qhrrK27wo6ffM7AdNeR4J2gAAAM0M22+Y2X+S9BUlj24XCdhJYT3PaHbTwvaTZvbwKOux4zC9HwAAQLMD9\/9w9+ckfVq9g9tkDdRVzkYyKGjXMe911tu8KunrZvZGE587gjYAAEDzw\/bzkn7d3Rck3Srp0oQQPMz67LoPMjPoNqclfdXMXmzy80bQBgAAGJ\/Avezujwdhe39FATotrKthYfsvJK00rUwka9COdu5WZPkcL\/OhOpfyfDhdBADARIXtdUn\/3d2XJX1K0k8UDNBFR7Ol4R4+vX8kyhckPW5mJ8fluWJEGwAAYDwD95uSvuDul0s6kBC4qywXGUXYPi3pWUnfHKeATdAGAADYHoH7hKQjQeD+qKSfkXSJis8+ogxhu+q66+htX5H0gpk9Nc7PDUEbAABg+wTuh939f0v6cUkfkfTeAYE7bfaR1IesOGyvS\/qmpL80szPb4TmJC9rRGuDNyPIGL+Wh2kh5PrboIgAAEArcpyU9KenJYJT7BkkflvTOhECddzS7yrC9Lul5Sd83s2e223PBiDYAAMD2Dd0nJP25pD9390skfUjS5cHfa1W8PrtM2O5I+r6k54KAfWa79j9BGwAAYDJC92lJ\/Zrnr7l7OwjbH5TUljRf5u4HhO2OpB8G4fq4mX1\/UvqcoA0AADCZwbsThOBv989z91YodLcjpzTH1SsFeSn4e1xSx8y6k9rH1Gg3HzXaAABgWOG7K6kbhGWUNEUXAAAAAARtAAAAgKANAAAATKrSNdpm9pORyy\/LuTxp3s65TI02AADAGGJEGwAAACBoAwAAAARtAAAAYGJVMY\/2jsiyRZajh\/I8N+F9vp6yfDqlv6nRBgAAGAOMaAMAAAAEbQAAAICgDQAAAEysKmq089Zkn53wPj+Tc5kabQAAgDHEiDYAAABA0AYAAAAI2gAAAMDEKlKjXbYm+8yE9\/nZksvUaAMAAIwBRrQBAAAAgjYAAABA0AYAAAAmVpEa7bw12TtSlifNuYqXqdEGAABoIEa0AQAAAII2AAAAQNAGAAAAJlaWGu20mmwruTxpvOZlAAAANAAj2gAAAABBGwAAACBoAwAAABProhrtEydOzIWXL7\/88s4oG3j27NmF8PLm5uZqeHl2dnZ10O3X19fnL1jh6ekLlnfu3Llcpn0nTpxo19lf0fXP296yt0\/z4osvXhJevv7660\/ztgIAAJDMnX3pAAAAgKpROgIAAADU4P8NAKx7sMQN7PNyAAAAAElFTkSuQmCC",
+        "scale": 4
+      },
+      {
+        "id": "FloatFormsAssets",
+        "url": "data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAiYAAAAgCAYAAAAmCLNyAAAROUlEQVR4nO1dTW8jR3p+SmN7nNgYykAOviykBXw1pBlrL4tgqbkle5EG2OwpAOVfQPpqBKAGCIzcJO85MDmXHJJgpbks9pCAmmBPGULkwMhlfZAGAQwbMwBJSY7EGc48OdTb6upidbM\/qA\/O1AMU2F1V70e9VV31dn00AQ8PDw8PDw+PawIFACQZm0EpRRJKqdRM9\/f3F27fvv1UKYUE1pOVi5FJsgRgHcCyUuoLR\/oOgKZS6mEc70l6pdE9Lk8SbVGbTIuHzQ8ASC7I\/VNXviAdQOG6demQhd805V+V7CzPlAmSC3F1ZOXbgn4OnsSkp5Z5lfa+CB0S+OcSoJRSw+GwBWA1JcnezZs375LMQnNOq5S6W0TXi7TjBNm5bTwF2TNTR0UhdXxlsgvzAM47KFchVNAZpJHVbrdLALbn5uaat2\/ffuSilcFtG8C2UuqRxO0A2FVKPTDyjckkuQSgBu2UzEN3up\/bepA8ALAIoA+gKbKeWnkAoCp8bNy3dSdZUkoNbP2Ez4Ih74lJKzpDKfXEoilBN\/ZlYdkH0JWwKMFM27N5ZK1\/0WUeQDcoi8GvBOAwxh4m+gA+sspRy6RIiK5S6mGaMh0dHa2RXL5169Y2gEFeGwDRgd2WLXaAWdcmTUz+dbPtxsgsAdhQSn1tys2qN3T7mJeo1eAZcsjaQ9h+Nlz6WW10HkDf5cS46odk2chymMZRcvES2X8P4B3J8lcA\/gO6\/Qe8HyS1EbHLIkK79AHA6F+CZy1IG9PX4E9Iv5gBDDrj4XD4fwD+YkL+05s3b\/6loXsXk5+7AH3oF7KnRXS9Bo5J4cErI2apjooiqOMrtXNxTmQQTJy\/naRpxO12u\/T48ePO48ePt0wak5ZklWSP5IHx9g2SdZHZCuIN+hLJCsmOoVsjGPATylQmuWPQdIRPyShzneNoxOjeMDtjM4+Uh\/Jrxjfi+EpZW6JDneSW2CbQ2047ILnk0m0ShK5lhAPTDkY+iuwD075Cf2DY81yH0WhUGY1GlVevXjFj6EhZJ5bp+Pi4PBgMKMFZPyntsCA2DlC26qQk5ewE9pG0iuSvW\/nLDOu+MUF2R\/J1zDJn1L\/BKA4ceUqMPisBKo68tm4U+6zF5IvTg2KHumm3mDLYv\/9G8lcSviT5O5K\/M\/IvkFyz6Yy0lsjft8KfRaeWI5BGX2PpQ4b9YdpAg88vh8Ph6+FwyJjwmuQvLZusOewZhzWDLreuOeimEgroXTTMUh1NpaxXbefCsBmb9+ZDG4fAKWm32wcyaxKhpe5AOsJ7i47Oi9FOvmrQlyWuR93xLdi0E8q2wHDQJ8W5EL1KjA5UlPyRckscqaf07DQYPHox8a60lqHLAkMnxA6Bo9aiNZCmLP8Sxx2NitRHyeRDnjfoqlEP59dBHlOHs7Oz1nA4bLx48aJydnbGlKHz8uXL8tnZWe\/ly5eJZTo9PV0YDAZb\/X6\/J45JPasNjPI1rLo+cNR1RdIahv16tr2kDoM0mjQT5I7ZPYP+Y7DSbX1sNKz8wW+Z+hnpGHmXHPmC34MEGT06nCAXL2pb\/5ahY\/KN\/P7W5EHLIZTfksj6xqAPwq+pHZPvaTmZFs8eLQc9MGvGEKmHs7Oz38cNemdnZ7+PsctOgk0D7Fg0uXXNQTeVUEDvomGW6mgqZb0Odi4Em7F5H6Qnod1uN9rtNvf39+NmFMrCN7bDkrwl6o6kZdAvMTojUeWEtzKLX9WiX7L0qzNEw0oLfhtGnrKdR3Ss03JqGG3IO1Zay+C1xXjsSJ4WMzomUv4WHbNLom\/L5EPjxrD7AaODFE0dTk5OWicnJzw5OWmcnJxU5DopdE5PT8vHx8e9k5MTnp6eRsp0dHS01u\/3W0dHR5XBYNAYDAaN09PTiDOaxQYWnQtjvBg6Jzs0nBKXbI6\/SVUsmQ0jrUdrRjCl3hW6nQHTUV5islMSoGHQuGQtSHl7CWUux+jjlGPxP\/+lboOmQ2E6GXWDpu7QoUXyXznulPyK2in5g1z\/gWQnRpetIM3gS06hMx4Oh987Br3vE+q4NMGmB7T6vSK65qCbSiigd9EwS3U0lbJeFzvnhs3YvA\/S49Butyvtdpvtdtv2FE3eCww7u7qLD6PTslVbJvUAsGM0ggaj69yT8q5ZeYLfEsMOfcFKC\/Qy0bLzTCh3VcKCldaK0z+mTC1mcEyY4JQY6ZF2lKZRmTQk0e\/3W\/1+n\/1+n0dHR5Wjo6NKcO8IndPT04V+v98J4o6Pj8sWv85gMGC\/3z84Pj6Oq99UNjDyVxgzsCfUY13y9Bhd1hnLz9CRCVCR+KoR16NjFiKD3g1q52NH9G4wdByWGF2mi0OQZ8sqS0fSD6ifnSW5t\/PF6Vlm+OyO2cHKe\/7L+BmTXzM6Y1J10P2ZbqfkK+qlHDNu36WL8GsJv+CenEJnTPJn1nLBa5I\/m1Df5YS6G3sWiuiag24qoYDeRcMs1dFUynpd7JwbNmPzPkh34fHjx2vilPSCJRyTp03LcI9Jh9H13arIbXHCGyXDZY8DGm+MVh6KjCpjZlcsvep0vEmKDRocR9nKUzdCrM0cfBsWbYd6UGhQv82ZaQfMsMdEaNYS0hdoLC8FdktkinHH5Pnz563nz5\/TCBUJZhyfPXvW6fV6C8+ePeuY8b1eL2LLwWBQFcek0+\/3W\/ZsiW3HCbpWOGFgd\/FiwhJNnGyOOycN47pHy0Hk+HMR6Nly6D1mg4Qy1xkDR97gt8ywjfXELg2OzyZMkr3G8VmbuBcCiJz\/pnZEAsfkK5L\/wqjTVbXoWnQv4QROyJdW3JeM7yvWGHVQySl1xsPh8Ctj0Psq0XihPluOqtuKyZtb1xx0UwkF9C4aZqmOplLW62TnrDBP5ZzbEsZO3mAn\/P7+fl0p1bxz585T4PwEziGAeaXU5meffXbfqhDnLnoWOJVjg+RSzCkCZ7xLP7kuSTnGTmoAcM3wdAE8NPKYBlQJtPeNtCXo00Um+kqpr6kHsbi0VKdySPaUUh\/JdUXoHxrl3YOuhweGHQ6gT3CMnfSQ9DKAXRincn744YcWrKN0Sql1kvPQJ6JAsvv++++vnp2d7Smlli22qx9\/\/LHzBNfJycnSaDTaVkp1g7gbN240P\/jgA\/vkUxX6ZNCilKsJYFPumwA2406N2PYU23Shd+CvCt8NALVJ9pfOqeYQs66so+sGnwXo58hGot5xoJ6R3HSl2bvlDR3KosM6dJvYgD5ZsBuc4Eh7CspoW8sS1Qew6DgFZp7K+QcAx5L\/FwD+Xa7nodvtfeuZJPSJuq5DhUcAXDNtj+JOC0hnGjy3kf4vJWJPIrx48WIfAN577707qZlph3BZbrtKqdsx+XLrOqXxIzOuw6kcG9ewjopi5k\/lvDM5i0gjF0l22+325srKytfQA9Q8gEOS2xNozdunAO5Z8fZ9KsQ5H5OcEodeAwCDGPn3XZEpsZnA64kEl05JaYlgeHQyGHDWoQfYVYlbQniE+oHFswZgk+RqDPs96EHrHKPRyM7TRTgYbZCs3bhxY\/2nn36qKaW2STYnFkLw4YcfPgFwdzAYVKEHTIxGo0VIe5HyBI5ugFUJTWQc2I1BdRHamXgC4HOSywC2SfYBxB4LVkp9IXlXjehN2ymxsOGI21RKFWl3qSHtYQ\/aCbknz\/KixAXpTyya8\/qAODAQWyulBiQ3hH5ewjYA17F+CO+\/m6CjK7qbRHNd8O6778bOWiZgA2H5Nqali4cbvo6uH1I7JnNzc5uvX79eB7DdbrdrCL8zsLmysjKIo5vWkeZpI41eF6X7RfCVQbWJ8Kz9IfTgcAh9pn5gDEI1+7sW0vk\/lJAalmPShXZudkWPXQDd0WjUlfsm9EPczCLj1q1bzcFgsK6UWp2bm9u1kjccJLkGdrFRE8bskmAVenDtJtHLzNSqFV0juZvgLB864jZIHtp1dBFQ+ts4mxBHBNLhGvEu\/WrG9bzQrJOsKaUeCG0NYT1vkIw4iVN4BpYxA86JUup\/c9AE9kv9kuWRH76Orh9SL+UopdButyuIDiqHKysrP3cxTjPt+yZgwlKO\/ao31W\/PWEtRu9AOxxOJM5dYtqHfbGuwnJIi9UQS3333XSCnq5SqkdxF8oeImiT3lFJNAFBKrX7yySePDJulgpHfbpOAHkw30wzs1hJBJtmm3cTp61o6LMp1F\/pjaGMf6JPrKrQN5w26VWhnYTNuaa0o8pbZmjEx0Yd8WEr4HyC0wbbMKBXqF0TnFoADuB3cfwTwRwB\/MuL+GsAvlFL37MzUe2A2ANy7iKWci4RfysmEWaqjwmJnfSlnLkvmlZWVB3Nzc6sIv6zYLKrAG4JNI1wqYpySKsIp9C6kvqAHx6m+hY9GI7x8+bL76tWr2osXL3ZHo9H8aDRCQtgYjUarr1692gjiAiilUgeD5gHCWZo96MHqENoBajHlyac8sgMYM1EBmkqpnyMcOJcB7DFmI7ZS6mul1D2l1F2l1OdKqbsInco9RjeFVxlumh7jxwybX\/OWWemv1y6KjptG0jyizoKZtu4qe05sQzsbLvwJwG+suN9Atw8XaglpHh4eV4BMMyYBgk\/PA6jFLeO8ZTMmEVzWjAn05+B3EXVKgg2qqzLdmOjBFp0x+fbbb7cA7MpyxXwG8mDm5PDTTz99lEeHJN3FDpsIZx42lP5EdBXaUTiEbsODIrINp2RekppK\/iaB4xtBu5CZk7R2l+WhTWhHoGvwAmQWwsqfevNrVsTp7JC5bLTHHkLbLEP+sqGoDjIj+C3CjbIm\/lni\/wjgbwD8rXJsThTb1pRStw2+fsbkAuFnTC5H7KzPmKR2THIxfwsckzhckmNSh\/zfTEyeMvSmxo+S+BRxTJRS6HQ6wQxNVvrdO3fuPMmrQxq6SQM7gC\/yyoZ2DPeQsDvf4Zw0lVKfZy2zlKNpx9sN6jIcE1n+WIbR9hhdOjzf42PFr0NOs01Bh2BP1U0A\/2Rl+xDhUtNPsJbRhE8Dsj\/GdBRdM0tpcIWDXmZ4x+QShXrHpAAn6xyyee+RD4Ytk2bTi\/LvJaQvccLnwQM+BXWYSsgrP0PeiqM+cteJ6G3y7DD+mzklRv+2oJxHLse\/ERJb\/xcBKfOSpcOSpJm2aBk0dSO+XqS9BTpY91skj6i\/AvuNhP8y6oTU366pM\/qfVFtJfN90cIrPbpYgsnkFsq+kgq+yrLNs50x7TDyuHfp0f20weEuPbHSdNrLsUci6b+MCdH2AcK9NAPs+D89l6Df3sbdyI98AetZgF3qZI+9m1tqEe9sRiCCnTBurMfeHU+KfCbKU9SmA\/4H+FMFTAP8J\/V2i25B\/0zZI+tB1EFkC8\/DwuGawPR7z3iMfDFtewNgQeXs9YPRT5yXKPymn5TOryKo7HZ+Oz1v+abxd5JS7RD3jspBQxpYr5BIY5Q2O\/0VDsCnXjN+x9Clsb0uHCwlvEy7SjpNsLG1hJt\/kc9j5yso6y3ZOtcfEIzvEpnUr+v40l9+MzZe7CL9Zsg75eFoWPrOIPLqLveYBHMpm2Jkt\/2XDaHMlhHtMzCPQZcjMkDK+7UC94biv5IN+3t5Xjysap\/0ek0sSO+t7TLxjckGIe\/Cn7ZjIdQnhtH5kUMjCZ9Ywrc51Vst\/2fD2fnPgHZNLEuodk1zwjsmMYpodi69jD4+3C94xuSSh3jHJhdSfpPe4XvDOhIeHh4fHmwh\/KsfDw8PDw8Pj2sB2TGj9enh4eHh4eHhcGkzHxHZGvHPi4eHh4eHhcakIHJM4J8Q7Jx4eHh4eHh6XhneAq\/mfBw8PDw8PDw8PG37zq4eHh4eHh8e1gXdMPDw8PDw8PK4NvGPi4eHh4eHhcW3gP7Dm4eHh8Zbhxx9\/HDvYIF9ljaUx\/gIjMc7Fz7gO9jO+TQcrrrKsb5OdPTw8PDw8PDymj\/8HH7\/WBBK1ozwAAAAASUVORK5CYII="
+      },
+      {
+        "id": "FloatFormsAssets",
+        "url": "data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAABCwAAABDCAYAAABX\/5QMAAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2lDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjanVNnVFPpFj333vRCS4iAlEtvUhUIIFJCi4AUkSYqIQkQSoghodkVUcERRUUEG8igiAOOjoCMFVEsDIoK2AfkIaKOg6OIisr74Xuja9a89+bN\/rXXPues852zzwfACAyWSDNRNYAMqUIeEeCDx8TG4eQuQIEKJHAAEAizZCFz\/SMBAPh+PDwrIsAHvgABeNMLCADATZvAMByH\/w\/qQplcAYCEAcB0kThLCIAUAEB6jkKmAEBGAYCdmCZTAKAEAGDLY2LjAFAtAGAnf+bTAICd+Jl7AQBblCEVAaCRACATZYhEAGg7AKzPVopFAFgwABRmS8Q5ANgtADBJV2ZIALC3AMDOEAuyAAgMADBRiIUpAAR7AGDIIyN4AISZABRG8lc88SuuEOcqAAB4mbI8uSQ5RYFbCC1xB1dXLh4ozkkXKxQ2YQJhmkAuwnmZGTKBNA\/g88wAAKCRFRHgg\/P9eM4Ors7ONo62Dl8t6r8G\/yJiYuP+5c+rcEAAAOF0ftH+LC+zGoA7BoBt\/qIl7gRoXgugdfeLZrIPQLUAoOnaV\/Nw+H48PEWhkLnZ2eXk5NhKxEJbYcpXff5nwl\/AV\/1s+X48\/Pf14L7iJIEyXYFHBPjgwsz0TKUcz5IJhGLc5o9H\/LcL\/\/wd0yLESWK5WCoU41EScY5EmozzMqUiiUKSKcUl0v9k4t8s+wM+3zUAsGo+AXuRLahdYwP2SycQWHTA4vcAAPK7b8HUKAgDgGiD4c93\/+8\/\/UegJQCAZkmScQAAXkQkLlTKsz\/HCAAARKCBKrBBG\/TBGCzABhzBBdzBC\/xgNoRCJMTCQhBCCmSAHHJgKayCQiiGzbAdKmAv1EAdNMBRaIaTcA4uwlW4Dj1wD\/phCJ7BKLyBCQRByAgTYSHaiAFiilgjjggXmYX4IcFIBBKLJCDJiBRRIkuRNUgxUopUIFVIHfI9cgI5h1xGupE7yAAygvyGvEcxlIGyUT3UDLVDuag3GoRGogvQZHQxmo8WoJvQcrQaPYw2oefQq2gP2o8+Q8cwwOgYBzPEbDAuxsNCsTgsCZNjy7EirAyrxhqwVqwDu4n1Y8+xdwQSgUXACTYEd0IgYR5BSFhMWE7YSKggHCQ0EdoJNwkDhFHCJyKTqEu0JroR+cQYYjIxh1hILCPWEo8TLxB7iEPENyQSiUMyJ7mQAkmxpFTSEtJG0m5SI+ksqZs0SBojk8naZGuyBzmULCAryIXkneTD5DPkG+Qh8lsKnWJAcaT4U+IoUspqShnlEOU05QZlmDJBVaOaUt2ooVQRNY9aQq2htlKvUYeoEzR1mjnNgxZJS6WtopXTGmgXaPdpr+h0uhHdlR5Ol9BX0svpR+iX6AP0dwwNhhWDx4hnKBmbGAcYZxl3GK+YTKYZ04sZx1QwNzHrmOeZD5lvVVgqtip8FZHKCpVKlSaVGyovVKmqpqreqgtV81XLVI+pXlN9rkZVM1PjqQnUlqtVqp1Q61MbU2epO6iHqmeob1Q\/pH5Z\/YkGWcNMw09DpFGgsV\/jvMYgC2MZs3gsIWsNq4Z1gTXEJrHN2Xx2KruY\/R27iz2qqaE5QzNKM1ezUvOUZj8H45hx+Jx0TgnnKKeX836K3hTvKeIpG6Y0TLkxZVxrqpaXllirSKtRq0frvTau7aedpr1Fu1n7gQ5Bx0onXCdHZ4\/OBZ3nU9lT3acKpxZNPTr1ri6qa6UbobtEd79up+6Ynr5egJ5Mb6feeb3n+hx9L\/1U\/W36p\/VHDFgGswwkBtsMzhg8xTVxbzwdL8fb8VFDXcNAQ6VhlWGX4YSRudE8o9VGjUYPjGnGXOMk423GbcajJgYmISZLTepN7ppSTbmmKaY7TDtMx83MzaLN1pk1mz0x1zLnm+eb15vft2BaeFostqi2uGVJsuRaplnutrxuhVo5WaVYVVpds0atna0l1rutu6cRp7lOk06rntZnw7Dxtsm2qbcZsOXYBtuutm22fWFnYhdnt8Wuw+6TvZN9un2N\/T0HDYfZDqsdWh1+c7RyFDpWOt6azpzuP33F9JbpL2dYzxDP2DPjthPLKcRpnVOb00dnF2e5c4PziIuJS4LLLpc+Lpsbxt3IveRKdPVxXeF60vWdm7Obwu2o26\/uNu5p7ofcn8w0nymeWTNz0MPIQ+BR5dE\/C5+VMGvfrH5PQ0+BZ7XnIy9jL5FXrdewt6V3qvdh7xc+9j5yn+M+4zw33jLeWV\/MN8C3yLfLT8Nvnl+F30N\/I\/9k\/3r\/0QCngCUBZwOJgUGBWwL7+Hp8Ib+OPzrbZfay2e1BjKC5QRVBj4KtguXBrSFoyOyQrSH355jOkc5pDoVQfujW0Adh5mGLw34MJ4WHhVeGP45wiFga0TGXNXfR3ENz30T6RJZE3ptnMU85ry1KNSo+qi5qPNo3ujS6P8YuZlnM1VidWElsSxw5LiquNm5svt\/87fOH4p3iC+N7F5gvyF1weaHOwvSFpxapLhIsOpZATIhOOJTwQRAqqBaMJfITdyWOCnnCHcJnIi\/RNtGI2ENcKh5O8kgqTXqS7JG8NXkkxTOlLOW5hCepkLxMDUzdmzqeFpp2IG0yPTq9MYOSkZBxQqohTZO2Z+pn5mZ2y6xlhbL+xW6Lty8elQfJa7OQrAVZLQq2QqboVFoo1yoHsmdlV2a\/zYnKOZarnivN7cyzytuQN5zvn\/\/tEsIS4ZK2pYZLVy0dWOa9rGo5sjxxedsK4xUFK4ZWBqw8uIq2Km3VT6vtV5eufr0mek1rgV7ByoLBtQFr6wtVCuWFfevc1+1dT1gvWd+1YfqGnRs+FYmKrhTbF5cVf9go3HjlG4dvyr+Z3JS0qavEuWTPZtJm6ebeLZ5bDpaql+aXDm4N2dq0Dd9WtO319kXbL5fNKNu7g7ZDuaO\/PLi8ZafJzs07P1SkVPRU+lQ27tLdtWHX+G7R7ht7vPY07NXbW7z3\/T7JvttVAVVN1WbVZftJ+7P3P66Jqun4lvttXa1ObXHtxwPSA\/0HIw6217nU1R3SPVRSj9Yr60cOxx++\/p3vdy0NNg1VjZzG4iNwRHnk6fcJ3\/ceDTradox7rOEH0x92HWcdL2pCmvKaRptTmvtbYlu6T8w+0dbq3nr8R9sfD5w0PFl5SvNUyWna6YLTk2fyz4ydlZ19fi753GDborZ752PO32oPb++6EHTh0kX\/i+c7vDvOXPK4dPKy2+UTV7hXmq86X23qdOo8\/pPTT8e7nLuarrlca7nuer21e2b36RueN87d9L158Rb\/1tWeOT3dvfN6b\/fF9\/XfFt1+cif9zsu72Xcn7q28T7xf9EDtQdlD3YfVP1v+3Njv3H9qwHeg89HcR\/cGhYPP\/pH1jw9DBY+Zj8uGDYbrnjg+OTniP3L96fynQ89kzyaeF\/6i\/suuFxYvfvjV69fO0ZjRoZfyl5O\/bXyl\/erA6xmv28bCxh6+yXgzMV70VvvtwXfcdx3vo98PT+R8IH8o\/2j5sfVT0Kf7kxmTk\/8EA5jz\/GMzLdsAAAAgY0hSTQAAeiUAAICDAAD5\/wAAgOkAAHUwAADqYAAAOpgAABdvkl\/FRgAAHhtJREFUeNrsnU1sI8eZhr+SBmMEsIcaI5ckE1B2MjAMeEFmIt8WJucW5CIFCLKnBWnvNTBl7CXrCzUX75Ga7HXXlG5BEEDjQ4zcyElyEyNK1ziENIAzzgCJulvSeCQqZO1B1ZpSq6u7qn\/IJvk+QGM07K7urt+u762vqhjnnAAAAAAAAAAAAACyxBySAAAAAAAAAAAAAFkDggUAAAAAAAAAAAAyBwQLAAAAAAAAAAAAZI4b0t+RFrNgjDEkozmc8zwRrRLRBmNsT+P6ChEtiOsdpCAAAMzs96Mivr+bSA2QYjkb6SJnbn\/y7OysTkRrKT1m7ZVXXnkg4tciovKIotdmjN0fZ7qiHM8GqEfTna989hafZEQT5mHR6XRy09DRFJX7gC4EiwXNoItEtE5ENue8yTkvoTsFAAAz1\/luENEGEW2IvwGYKl555ZUHnPN2CnWn7RpZgioR2SOIki2eBQDqEeoRiFjwSBZruCajfs9Op1P505\/+VI8Z1zznvB5wvi48H5JO4zznvME5t3ySsqR5j7pP2H3OeY1znovwTi2uz36E+EJQmex2ocA53zIsJ15a4h6FWUm3Fy9e5B3Hqdu2vW\/bduvo6GgZpUmrrDWjtGOK+1WC2vkRxy0v4ubWh5brHRHxfk2fetZEKQIpld+R9Pf8nsM5z5+dnVlnZ2c8ocPy699xzpd5+ixnJV1RjmcrnqhH05evsxbvS51iEgSLTqfT3N7e7sbxsBCGvSW8G4KMeItzXkuw4xxk8DV1BRLOeUnjXiWDdysZNBIVw3g3g9JZESYn0ss1krcM0qSlaxxrGuLX7iUa45ZpuDEZSA2fdKkZ3mc\/wY\/MvmZeWnx0WN6PXxLYtr3lOA53D9u2rRcvXuQn\/KOhLSiIetzUrQOiXb6sPwm8q9yuddMQoA3epR5Q\/uoR2sdmSPs\/8R6IGSjjLZ+jrvi9mWZbL\/I8HyFcPqlyP27Dut\/vV5IytPr9fiXg+Vspfmu2spauECxmK56oRxAsplKwCBMuRixU5IRQwXd2dkoRI5z3GJlhgoVsfEbtLDQCjK\/IXhHS\/esBBqX2\/TVHz6N4Vxh5j\/gYLi6NkA6mKv65hAzxltRxTNRAT7GDGxS\/rsF9ZGoR3qUmCQM8rMy4eToYDKzBYMBTPizX0EjSyBPeFdznqI+50Y88yu8xuluGbUo9pIxtJektINoEaxTClKZYHUbJoD52Ne7XjVOefQz2epIGeYDh3xDplR9T\/Whwzo84559yzj\/0HJ+7nWUhhslHXZSvRkJtd008x1IIrC1xTd5Tt2vSYItKSI\/qiTl2w\/rs7GwrAUNrK+a3M7JY75fuECwgWKAeTU49gmABwUJbrNje3m5EjGzN5yNeMzCatb0tQrwprDTWnRCj\/mGjbqWA8DpeFlG8K4xHTFUd8ohiy5aGIV4KSdeWnPeSV0ZYelrjaEg8Rk3X07FelupB07ChKIiPxZbBCPuWCFPQaTf6\/f6locU5L5yfn1vn5+c8peOKWNHv97tJpb\/jOA2FYFEbY4Mfa5Tfx\/Buatb9wLYjzFssIbHCWBxIMN21BIYExYpYokWIwNKKm34GHn37aXsu+MT7Kef8x5zz9zzHJ0LIcP+tBHTQKxGfnw\/5hqtoiMOUpokwlAXDmnOei+nSbml+u0opGFqlrKYrBIvZiifqEQSLqRUsxpkwsljR6XT2TaeC+HhVuB25gkbYgk8HMdTbIqDzWEnbVVeaTtFVeQlENBzieFeYjiJyQ8Ei0pSltMvzOOqLx6ix\/Mq5Z35h0yQeXhEipO5cETd00uP09JSfnp5eGlr9fr9wenpqid+TPKx+v38pVpyennZPT09j59XR0VHFtu19P7HCtu0uH5OrflKj\/D6iR1NDrGhqlNmgkZiaYflP5F4pfGgjT63UEGGCpjsVUigr9RjpEcVVuJXylIu8ECI+8BErfuY594H4fz4gn\/IR0tzN3yPO+a+FV8d7iuNDcc2RJ68bGkK67PVpGXhYZcKwPj8\/L0U1tM7Pz008PRsJGlmNrKcrBIvZiifqEQQLCBbpiRXGU0F8vCqsKB0txX1qBh3UxqgNFdFxbxgKFqWUvCuMvCwUwknDIL1jCRYiHUxd2fazsAhQmFihMEoaph8+yQOppqgv187ppMfXX3\/Nv\/76a\/78+fMrosXz588t91zc4\/nz51fEiufPn3fdczpp7LcOxfHxccm27a4QJvaPjo4qRESO49Qcx6k7jlMf57oCSY3yK+p23UTQiGiQVzTbvG6S3hpZECxiiBVxRYtWyHPrEdOjFSMuW2nUI1GmP1WIA5\/7nPtUVZ5EHWgaPFv+Tn+q8PBQiRZHUaY8ibpS1\/0GZM2w7vf7jQjz7RsptZux2lUIFhAsUI8mpx5BsIBg4YssVkSZCmLqGRFyr2ueGoYdVMvUBTPie7oLhllRBANFZzIJ7wqTUVzvnPZmjMawFUGwiNq4WuOsL5IhqWWgeESLUoR0uuJFEeZ9oZMeJycnXDouRYuTk5PC8fGx5TlvfIh7XIoVJycnXfl8mFDhihJCmGiJ31peoSLDjX3kUf4Q0aLiMzJv5FGiYZgvx2gHmmNIcxMX\/25AHbUS6Oxpj6Qr2uOSIi6VGO3UyOMS8E77wpPCTxh46nPuZ6rvosj3fc3nViSvig81hQp3iorLr8VhnCf86gLHlUkxrIVLe9fA0Io6PaqQQN0rTEq6QrCYrXiiHkGwgGCRAJ1Op+mKFVGmgngimIgrtncEL6QT0gpxb60kmJFB00C01rDwdGDS8K4wXsvC4HnLUUYWAwzxWsQGtT6u+mIqVkjh6kFrfYTFwyNSBK5voZMeR0dHXD4cx7kiWjiOY3mv0T0cx7kiVjiO0\/VeE\/RuqnUpsixUpCVYiHtupbB+QiGKp0BIm7M14rTORTDKKyGCYlJUYsat5ONtWIhwjySoJ1w\/VOKA6lzgoIXhd+tjA7HiYyncJwoRYzni93N5Ugzrfr9fMBgVLsR4n1qMMlpLKr4w1JEOqEfIVwgWGRMsOp1ORRIr+Pb29nLMCLou+6UYiXVtmoBGmDwP3iXEEgZjPuI7BXlTuHGumRoOHrElSe8Ko7UsIqRF1yMK5cbZwI2wI9KMYTzkkljrwx1hj5setm1zn+OKaGHbtqW4Lui4FCuE+ND0uy7k3SwfwaKZ8UY+9ii\/roDradfieLNVTESLkPiNbN0Qyc3e8mmHLZN0j9m5S6LzVxFxqfukt9cTphUhrUoaU050aCbYVo9MsPCstfK5gVjxY2kayC99zv9Sqicm3k21sHBZNKzPzs7qGoZWPYF3ijKNqZV0fGGoIx1Qj5CvECwyIljs7OyUZLGi0+lsxYhgzadD1DD8kPutBWGZLt6m4XWxpdvJF5292N4UIfdPw7siNS+LLH64RlFf4ogVuu+ZVDx07nN4eMgVR\/fw8DBHRGRZVuHw8NAKuNZ7WJZlXabNP\/7xj6bq2hDBYt\/Hu6Llt6ZFBsp2IqP8hm1FYiPfGqKFu5BrfdxiRYhQUfF8R0LXVJK+Fd5jP0Jnb19xr4phnl6ZUunj1VZKKB2XQ0T+SAKMxrNHOiVEKrd\/NhAr3pOmfuwEXLOjuy6FwphoTJJhfXp62lIZWaenp62E3ilvWCYtg\/4cBAsIFqhHE1KPIFhkQ7BgbpwZY8oA4jxLSawoDIfDNhEtuDYCES0uLS05cSoIEW0QUVn6+YCIqoyxx2GdcRF2Ufq5LcI+ifE+q0RUleLpUg57J7ezQ0Rrnp8PiGidiDYYY04ChaNFRIuMsTcM43ageblWXNOuAOLPBVWaiTjtijz\/TPzWFWVzJSBcTlyTWn0RRseGeE6ZMbYXxUgIe8+k6r3Off7+978HCSe78\/Pz5ddff92xLKswGAzaPnXoms4wPz9fvn379p64f1PUPV+++c1vKt\/NcRy\/eueycfPmzbVvfOMbT8ZcpnOifVn1pM2B+L8qvXYZYz8wfFZBtId+96wyxjZjxiUovXdF2V9X5btov+J8O5ZFWdl189jb7ot39Ka1TUTrjLEHCedtUHqoWDN9DyEArCvStOimgfhGuN\/VNmPsfsLx9fv+qohV3oSnBhfP8\/ILIvqb51xVNGXvK\/Jp0e+cVEfd+vhv4t46vEpEvyKi14joP4joL4rrvk9E\/2daB0R93lWFS7v\/F\/U5nPN8v9\/f9WmH7Js3bxaj9tUU7cEjzctX3P5C0vEdVbpOs+EzC+mAejQb+Tpr8SYiRkQ0N86X6XQ6ucFgsOGpLGtxxAqRiU9ER2rVNcxEB6gdNBIozrWlzpJNRKuMsftxKq54n48YY7dFp6cdM+k2hLH6BmPsYRJihZv2UTrHSVybxPx6TVxDxA54ptuxlI3cRdFRDwpnSwJXWqxKhtRexHusj+A9tRkMBspjOBwWz8\/P24eHh7nbt2\/vDQaD8mAwsAPC2IPB4FKsePbsWXMwGFSDnhFELpd7MD8\/XxRld\/XWrVsLc3NzZc55m4iq\/X7\/wHGc5jg8LtxRflFe16R29EAYc2+IcrsulU23XVtLQKywPfdd5zG3oRSG9obidDFErChHbQvd6WWiU7UitYUH7hx\/4QWx70lrW\/x\/MWmxYsRsKNJ9wdPRlNvwctILSjPGHotyu+YpW77vbLJug+J79FMhCvilh3zuVfH\/NYUYsRryLVwRadk1ECuIiP5ViBV\/CBArSJz7g3jGikF674n8NQo3bkSfatXn99WkjCxxv880Da1HukYWAKhHqEcgWkdtbFNCtre3G56pIPspxM+700fQDhKtpHYY0Xyvhm4HX3SWa3yM2ySmXA5HIlhIu1zouFV73aEtzXCFEaST344cNY01JZo6bnejnBLy1Vdf8bDj6dOnl9NDnj17Vnj69Knlc4317NmzgnTfps69o8ZNbGvakte2EL9tub8dHR0tR0izZTFdrK5a70YxHcFKclFCH3Hk2sKLPmsbWEmUf8OpLbGeqeGyavm0Ge5aRLmU28X6qBem9Nn+8so9Pd\/JWopxz2vMf46b93UxReMDn2kWn4pzH4t\/6yqhKyzNpcVqPzGcDvJ7g3CfRFlwVpqKtTXK\/l8Szzk7O9uS3Ni3Umz79kO++blRxHdU6Tqt\/UvEE\/VoGvIVU0ISmhIipniUl5aWHgZd1+l0XNf2S+bm5sr37t17nFLEa3QxArKrcmMVYkaRLkYfH0LOGm3B9Ps9bMqCiml1lVLVR+HeXCUiW3jy+BqB7jUUMp1EZ+qMzgeKNKbI\/PWvf9VZzNYmovKdO3f2iIi+\/PLLAl24pC\/4nX\/69Gl+OBzuuueD+M53vhOrrBwfH5cGg8EaY6zs9943btwov\/rqq3sacSyINrHoc3qFMfaZEKTW6KrLvE0XngfrCXpbefOxLb3XlfKj8Lwox\/AAktvjssalsaaaCUNtxSDIBl143jkjqO8jmRKieHZXznO3XZGmpRGlMC0koN1SYTy1ySeN\/1PE6XdEdCKd\/l8iuut9hqgTVZE3oVOBpLQMmtbhx6+I6Fua4dxpIQeG0zrdaSHXwmV96gLnPNfv9w+IiG7evLmYVp0UU5XaSbU\/mBKSjX4T4ol6NIn5iikhybFAROudTqe1s7OTV4gaebru2vsoLbFCZOxD0WFoB1zWpov5uhArQFZpi4q8rBIi4ooVrhHgGipRl\/InzSkyw+Ew8BgMBpdixOHhYe7w8DAnhAl3esi189\/+9refuOfD7h+X11577fHCwsJ9xljVp91ZGAwGocaw8KJoK8QKogv39326Or\/fJmk6wojEClc82ZPiuOcx+BfE+8b1PliRyqGKagLr4uiKFRsird8fhVgx4o5BSXgBtCSvibJUhxekNkfOk0WTsiSeIx+hZUSsC7ERcEkxjqeHEBv+nYj+hYh+S0SPpeO3ony0fdq2FVH+dMQht\/78xfD1vmUQ7i+meSLVX+NwWYAx5szNza3Mzc2tpFknRRuz7nNqfdzrcgGAegRmopym4GGRHw6HB26HmjG2\/sMf\/vDKB317e7vLGJM7wPbc3Fzx3r17T5Alswk8LHzjuKwwYNckcWJVCBEHXkMyhljhjro9SqATq3wvlydPngQtumnfuHHjUow4OjpqExHdunWr\/PrrrztffvllgXO+8N3vfvex6vw\/\/\/nPdpCnRT6fZwnlV85xnAOfZ63mcrmHIWEzOcrv4+WgXOjQM\/JOFHP0PWSBz8t0UC10GLftyUKbMsJFN2VviktvArF7xKr3vnKaGSzwZinycld0WDdDwgd5WtgUc8HVEX3fTHdWeWwY7nGUshrguQdPAI16ktX4wsNittIB9Wg28hUeFglx7969J5zzXfHfBc752vb2dndnZ6cgxIqGR6wgxtg6xAoArhmKj+jl4n\/ycSA6\/rv0ckeDYlJihaiTe2JR17i8EfbMAO8Hezgclu\/cubPX6\/VyjuO0OedFznnRcZx2r9fLnZ2dHZyfnx+ozt+5c2dvOByWxb1S8bCQ0sxhjD3ypP\/urVu3NjSC64oVGzTaUf4VerlYVuCuDOKca1A+ohiL+GmKFUREVdOtHH040Hyn\/BQ3OYuKv+2E2rPlgLws0oVHTuAaLEKYaitOL0QQdgAwpar4GwCAegRSJJVdQhhj657\/F4fD4W6n02n6rEhrc87XkRUAXBEZykKIKEvHmo9BQaQYaY8qVowalVjBOS+\/+eabe71eL0dE7eFwWJTOF0W8bM75ARHZPufbvV4v9+abb+5xzpWiRZLkcrn3GWMrIq9Wc7lcOUlhQQgVIxN3hQjzEyGSbGpcvymu\/UnMtU82NMSKy\/IftthsCBu6woZYDHQahYuqJE7I3+hd6e+2z99tzfuvaFyzQERrYhHLnMZ7+pWDrOaN+86vRgz\/akLXqOob0GsP90T9WM3q9xQA1CMwleUm6SkhLj7TPlQFd807ZQTMpJGOKSEaIkPAftar7torYnR6TRgJmRYriIi++OILv7ws371793Gv18sNBoO2TluiSM\/d+fn58ve+9z3niy++8F3w6e7duywD+b5PetNvFkcpWIwhHfzWzNA2unVEFcVzu4bPXKOUFjnNYJ7kRZv6xJNPRd15xwYLqLociPv7CbFB02TWsri9rBT\/GoWvyyKzTkQ\/0AxXJKKHZDgVS1oI71o4TF2Y7PhiSshspQPq0WzEE1NCEmZ+ft41loKAdwUAmmKFYMVbh9yOrbQg3O6kiBVERIPB4MoxHA6rrlhxfn7eHg6HRe81usdwOCyen5+3e71e7u7du4+Hw2HVe01G2NA15KZ1lF9DrNgQ51TflY2onhZiDq2fEdymi5H\/que5ayIv6tM+Qs0Ye+IVyYTnjckiaY8MH7sYUCfWA8pANaPJ6IoN3zcM9zeDcO41B4bPKEYMBwAAAIyE1AQLsSbForSehV9HaH1paclBNgCIFeFiheeadfHzAr1c10IWMdbpYjQ+8+528vQMznn1rbfe2uz1ernT01PvNJCoR\/H09LTd6\/Vyb7311ibnvJrWlJAYRuED0h95rU6psfwoQKxoi+kw3h1J\/ESLUow8WCRpGhZj7L4wzjfFuTXJWF5IW7gQ9zWlnsG83SD96SMuK35xEV4XqyqhI2r+p4wb9x8ZhvujQbgfSfXIhGrEcAAAAMBkCxZEREtLSw5jrKwQLeBdAeROqC8QK5TXfEQvRyCLngUybzPGPpoUd3VJPKi+\/fbbm71eL\/fixYs25zwJscIVQoovXrxo93q93Ntvv705HA6rWRIsRB2Y2VF+ad0WP3ZlkUKM7FeDhA8xLSpKHjxhjD12D6+hLIka8rdLFi4qnniVRP60pKNCM4ZIu\/v0cmejNQr2lLgs4355KQQkO8QAz1L8PxPve5fMvCz+SETHIlwx4LqiuMYWz9KtdyUR1igcAAAAMDWChStavPvuuz\/wihOc8w14V4BZR1OsqEud8Kp0jVunypOcBsPhkAaDQfWdd97Z7PV6uZOTk6Q8K655WpycnLR7vV7unXfe2RwMBtUsCRbCsMncKP8I64BKrLi2cKlnRxIvC0TUjipaaBrfH9H1aQsLdOHhsc85r4h62xb5U5aOjYx6QYyifD9mjD1kjD0QouptCt\/dY10lZih+z2p76MbjF4bhfiP+\/XnANT8PSauwd1onAAAAYFYFC5d33333o7m5uTIJ1\/X5+Xl8IAHECr1dPFYkseIzqfO\/JxlKk5wOq4VCYbPX6+WOj48T9azw87Q4Pj5u93q9XKFQ2OScVzNo1M3MKH8UsSILooWUT+8LA7ktnXKFjCBDfC2jUxfGUd4fUPDaJGVFWj1SXL+YZr7HFCwO6MITwkS0+A0RfSXC\/dTn\/E\/FuQMT4YFzXhPpbhQOAAAAGHlfIa1dQlR0Op0cEa0sLS1tIvlBDENnoncJkVa6DxMr3FX6F3x2DCkIo84WI5UTS6fTyc3NzbUp2u4QUdgdDoflSffyEmVjzcdwPxC\/L1JGd1QQBpPKUAqtF5qixwEpdptIIT4lER\/dMrwrpgHptBMmZHKnDI30q5B6oc1HYntdbxjV7i6Rd4wZQRlpi\/\/+D730ngijSBc7gBAR\/TcR\/U78\/SMi+i\/xd9lg1xa57inDSd\/ZdspJU56E73YK\/Rek6wjTG7uEIL7TEM9Z3SWEOOcUZPtJOw8AkKmCHMQEvL8lXrUU4x5b4h5NlIiZrw8l4TlhSmlM71sJeCfLdIRc7JyiojvKqTIhcTNqp6Zo0U3TNs2PnM\/1DcW1jSwLM9J7fs45f0\/z+EQK92txuFQi1pVKnO9s0qD\/gnRNM70RT8R3GuI5a\/G+1CkgWAAIFpPX0EqdTmsat7gEsYSLrkFftjum96wnJVZoiBbdUU8RgCGhJUTUfa7LByTXss\/1y4prWxlPj4IkWv+Zc\/6BpmjxIef8yFNflg2e2Y1bzwCAYYt4Ir4QLCBYAADBwkSsQKcT+JWRStaNZmFA7Sfp8eHjZdIYU9z2NZJ+f0bKYt1QhNjS9RwRAl1mhLiY5f\/3nPOPOec\/9hEqPuCcf+oRK2TRou73LeCc54SoI6fpPr4bAIIF4on4QrCAYAEABAtdg2bZMBzECpBIHclCXREG1ZapW3vI\/bomI88pxauRxNSNaZgSEiLe7PtcX1Ncu2VSzidM0LFMvKJEGlUMvamsWd2dBuBbCMEC8YVgAcECAAgW0TqpRsKDNGoOsQLENRQzNcqf5LQmIVrkxhyfXIgRqrWuxpQIFkZtdYDXRGsaBQtP+x60Ds2WWCzTT+AJWvsjM7sCAQDDFvFEfCFYQLAAECwmqLx65hPnIVaAhMtXY9KM2ylL\/5yPIWk0yj0lgkWQcGNBsAAAwLBFPBFfCBZBgsUNNGUAjI0yXWxrViSiR5zzst\/2i9J2fzZpbvUIAL3c7nRBcX6X1NuKgpiIuvyTmLdpk\/m2pu2MJUWbiFYU5zZ8frMV1wb9vqB5LQAAAAAmDXhYgAktt1Ox+r405951E1\/2nK\/BswLELF9bmMsOxlgG8wovC+W0GMV0ppLi2iY8hwAAs27HwMNiNuKJKSGoAABkyahMZKtHAADISDtXE1Nc6mFrKni24AxckNWn\/WwitQEAECwQXwgWECwAAMlXzrpnZNES6xDkkDoAAAAAADBsYa9BsJiVeLs6BXPjzBhTBhDnGZo9AAAAAAAAwKQYPrNgx8yavTar+Tpr8SYiRkQ0h6YMAAAAAAAAAAAAWQOCBQAAAAAAAAAAADIHBAsAAAAAAAAAAABkDggWAAAAAAAAAAAAyBwQLAAAAAAAAAAAAJA5IFgAAAAAAAAAAAAgc9xQneCct\/z+zxi7j2QDAAAAAAAAAABAmjB3m1Pvdq7S\/qdXA8zI\/r4AAAAAAACAycW1Z6bdfpmVeM56vs5avImIEfl4WHg9K1Tn4WkBAAAAAAAAAACAtLjmYaHyrLgWEJ4WAAAAAAAAgIwCDwvEd5riOfMeFmGeFT43gqcFAAAAAAAAAAAAUoFJDhU80g3gaQEAAAAAAADIGPCwQHynKZ5Yw4KojGYNAAAAAAAAAAAAWUC5SwgAAAAAAAAATCrwsEB8pymes+phMYemDAAAAAAAAAAAAFkDggUAAAAAAAAAAAAyxw0kAQAAgElEcxduMANgWisAAAAwncDDAgAAAAAAAAAAAJkDggUAAAAAAAAAAAAyBwQLAAAAAAAAAAAAZA6sYQEAAAAAAMAUwzlvzVJ8GWP3Zzn+KNeI91TVZ3fRMixYBQAAYMI+2EgEgD4MAHrt5Uw1mEw0CrMab5RnlOdpiToRPCwAAAAAAACYdsqIN0C+It6TCMMIFQAAAAAAAAAAALIGFt0EAAAAAAAAAABA5vj\/AQCIjfJ6cUv9jwAAAABJRU5ErkJggg==",
+        "scale": 2
+      }
+    ]
+  },
+  "properties": {
+    
+  }
+}

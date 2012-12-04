@@ -1,0 +1,1420 @@
+{
+    "title": "Cinematic",
+    "swfUrl": "../../pdk/skins/cinematic/cinematic.swf",
+    "fontSwfUrl": "../../pdk/fonts/arial.swf",
+    "css": ".PlayerLabelFont{font-family: Arial, Helvetica, sans-serif;font-size: 10px;color: #BEBEBE;}",
+    "assets": {
+        "ButtonSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "controlFrameColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0
+                        },
+                        {
+                            "name": "frame",
+                            "left": 1.0,
+                            "bottom": 1.0,
+                            "color": "controlBackgroundColor",
+                            "type": "solid",
+                            "right": 1.0,
+                            "top": 1.0
+                        },
+                        {
+                            "name": "gradient0",
+                            "left": 1.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#000000"
+                            ],
+                            "bottom": 1.0,
+                            "gradientAlphas": [
+                                0.1,
+                                0.1
+                            ],
+                            "type": "gradient",
+                            "right": 1.0,
+                            "rotation": 0.0,
+                            "top": 1.0
+                        },
+                        {
+                            "name": "gradient1",
+                            "left": 2.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#000000"
+                            ],
+                            "bottom": 2.0,
+                            "gradientAlphas": [
+                                0.2,
+                                0.2
+                            ],
+                            "type": "gradient",
+                            "right": 2.0,
+                            "rotation": 0.0,
+                            "top": 2.0
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "controlFrameColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0
+                        },
+                        {
+                            "name": "frame",
+                            "left": 1.0,
+                            "bottom": 1.0,
+                            "color": "controlBackgroundColor",
+                            "type": "solid",
+                            "right": 1.0,
+                            "top": 1.0
+                        },
+                        {
+                            "name": "gradient0",
+                            "left": 1.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#000000"
+                            ],
+                            "bottom": 1.0,
+                            "gradientAlphas": [
+                                0.1,
+                                0.1
+                            ],
+                            "type": "gradient",
+                            "right": 1.0,
+                            "rotation": 0.0,
+                            "top": 1.0
+                        },
+                        {
+                            "name": "gradient1",
+                            "left": 2.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#000000"
+                            ],
+                            "bottom": 2.0,
+                            "gradientAlphas": [
+                                0.2,
+                                0.2
+                            ],
+                            "type": "gradient",
+                            "right": 2.0,
+                            "rotation": 0.0,
+                            "top": 2.0
+                        },
+                        {
+                            "name": "shine",
+                            "left": 2.0,
+                            "positions": [
+                                0.0,
+                                0.54,
+                                0.56,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#FFFFFF",
+                                "#FFFFFF",
+                                "#FFFFFF"
+                            ],
+                            "bottom": 2.0,
+                            "gradientAlphas": [
+                                0.15,
+                                0.1,
+                                0.0,
+                                0.0
+                            ],
+                            "type": "gradient",
+                            "right": 2.0,
+                            "rotation": 0.0,
+                            "top": 2.0
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "controlFrameColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0
+                        },
+                        {
+                            "name": "frame",
+                            "left": 1.0,
+                            "bottom": 1.0,
+                            "color": "controlBackgroundColor",
+                            "type": "solid",
+                            "right": 1.0,
+                            "top": 1.0
+                        },
+                        {
+                            "name": "gradient0",
+                            "left": 1.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#000000"
+                            ],
+                            "bottom": 1.0,
+                            "gradientAlphas": [
+                                0.1,
+                                0.1
+                            ],
+                            "type": "gradient",
+                            "right": 1.0,
+                            "rotation": 0.0,
+                            "top": 1.0
+                        },
+                        {
+                            "name": "gradient1",
+                            "left": 2.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#000000"
+                            ],
+                            "bottom": 2.0,
+                            "gradientAlphas": [
+                                0.2,
+                                0.2
+                            ],
+                            "type": "gradient",
+                            "right": 2.0,
+                            "rotation": 0.0,
+                            "top": 2.0
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "controlFrameColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0
+                        },
+                        {
+                            "name": "frame",
+                            "left": 1.0,
+                            "bottom": 1.0,
+                            "color": "controlBackgroundColor",
+                            "type": "solid",
+                            "right": 1.0,
+                            "top": 1.0
+                        },
+                        {
+                            "name": "gradient0",
+                            "left": 1.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#000000"
+                            ],
+                            "bottom": 1.0,
+                            "gradientAlphas": [
+                                0.1,
+                                0.1
+                            ],
+                            "type": "gradient",
+                            "right": 1.0,
+                            "rotation": 0.0,
+                            "top": 1.0
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 18.0,
+                "defaultWidth": 24.0
+            }
+
+        },
+        "RowSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "controlFrameColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0
+                        },
+                        {
+                            "name": "frame",
+                            "left": 1.0,
+                            "bottom": 1.0,
+                            "color": "controlBackgroundColor",
+                            "type": "solid",
+                            "right": 1.0,
+                            "top": 1.0
+                        },
+                        {
+                            "name": "gradient0",
+                            "left": 1.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#000000"
+                            ],
+                            "bottom": 1.0,
+                            "gradientAlphas": [
+                                0.1,
+                                0.1
+                            ],
+                            "type": "gradient",
+                            "right": 1.0,
+                            "rotation": 0.0,
+                            "top": 1.0
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 18.0,
+                "defaultWidth": 24.0,
+				"horizontalGap": -1
+            }
+
+        },
+        "GroupSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "controlFrameColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0
+                        },
+                        {
+                            "name": "frame",
+                            "left": 1.0,
+                            "bottom": 1.0,
+                            "color": "controlBackgroundColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 1.0
+                        },
+                        {
+                            "name": "gradient0",
+                            "left": 1.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#000000"
+                            ],
+                            "bottom": 1.0,
+                            "gradientAlphas": [
+                                0.1,
+                                0.1
+                            ],
+                            "type": "gradient",
+                            "right": 0.0,
+                            "rotation": 0.0,
+                            "top": 1.0
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 18.0,
+                "defaultWidth": 24.0,
+                "height": 18.0,
+                "verticalAlign": "middle"
+            }
+
+        },
+        "ScrubberSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "gradient0",
+                            "left": 0.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#FFFFFF",
+                                "#FFFFFF"
+                            ],
+                            "bottom": 0.0,
+                            "gradientAlphas": [
+                                0.0,
+                                0.0
+                            ],
+                            "type": "gradient",
+                            "right": 0.0,
+                            "rotation": 0.0,
+                            "top": 0.0
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 18.0,
+                "defaultWidth": 150.0,
+                "paddingLeft": 8,
+                "paddingRight": 8
+            }
+
+        },
+        "ScrubberTrackSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "scrubTrackColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0,
+                            "alpha": 0.25
+                        },
+                        {
+                            "name": "gradient0",
+                            "left": 0.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#000000",
+                                "#FFFFFF"
+                            ],
+                            "bottom": 0.0,
+                            "gradientAlphas": [
+                                0.25,
+                                0.25
+                            ],
+                            "type": "gradient",
+                            "right": 0.0,
+                            "rotation": 0.0,
+                            "top": 0.0
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "scrubTrackColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0,
+                            "alpha": 0.15
+                        },
+                        {
+                            "name": "gradient0",
+                            "left": 0.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "#000000",
+                                "#FFFFFF"
+                            ],
+                            "bottom": 0.0,
+                            "gradientAlphas": [
+                                0.15,
+                                0.15
+                            ],
+                            "type": "gradient",
+                            "right": 0.0,
+                            "rotation": 0.0,
+                            "top": 0.0
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 8.0,
+                "defaultWidth": 50.0,
+                "paddingLeft": 8,
+                "paddingRight": 8
+
+            }
+
+        },
+        "ScrubberProgressSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "gradient0",
+                            "left": 0.0,
+                            "positions": [
+                                0.0,
+                                1.0
+                            ],
+                            "gradientColors": [
+                                "playProgressColor",
+                                "playProgressColor"
+                            ],
+                            "bottom": 0.0,
+                            "gradientAlphas": [
+                                1.0,
+                                0.0
+                            ],
+                            "type": "gradient",
+
+                            "right": 0.0,
+                            "rotation": 90.0,
+                            "top": 0.0
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 8.0,
+                "defaultWidth": 50.0,
+                "paddingLeft": 8,
+                "paddingRight": 8
+            }
+
+        },
+        "ScrubberThumbSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "frame",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "scrubberFrameColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0
+                        },
+                        {
+                            "name": "background",
+                            "left": 1.0,
+                            "bottom": 1.0,
+                            "color": "scrubberColor",
+                            "type": "solid",
+                            "right": 1.0,
+                            "top": 1.0
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 8.0,
+                "defaultWidth": 8.0,
+                "paddingLeft": 12,
+                "paddingRight": 12,
+                "originX": 4.0,
+                "originY": 4.0
+            }
+
+        },
+        "ScrubberLoadedSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "loadProgressColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0,
+                            "alpha": 0.25
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 8.0,
+                "defaultWidth": 60.0,
+                "paddingLeft": 8,
+                "paddingRight": 8
+            }
+
+        },
+        "ScrubberChapterTickSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 0.0,
+                            "bottom": 0.0,
+                            "color": "scrubberColor",
+                            "type": "solid",
+                            "right": 0.0,
+                            "top": 0.0
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 8.0,
+                "defaultWidth": 1.0,
+                "paddingLeft": 12,
+                "paddingRight": 12
+            }
+
+        },
+
+        "IconPlay": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "playIcon",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 6.0,
+                            "cropHeight": 7.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAHCAYAAAArkDztAAAAQUlEQVR4nG2OQQ3AIAADDwWTMEngBGmTMEnMwfGBhDTrt722qKg3qWUMtf8ZW++miwrgkf2AlsRQa1Y96pUbNU9NEDBNoAhZx9MAAAAASUVORK5CYII=",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "playIcon",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 6.0,
+                            "cropHeight": 7.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAHCAYAAAArkDztAAAAQUlEQVR4nG2OQQ3AIAADDwWTMEngBGmTMEnMwfGBhDTrt722qKg3qWUMtf8ZW++miwrgkf2AlsRQa1Y96pUbNU9NEDBNoAhZx9MAAAAASUVORK5CYII=",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "playIcon",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 6.0,
+                            "cropHeight": 7.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAHCAYAAAArkDztAAAAQUlEQVR4nG2OQQ3AIAADDwWTMEngBGmTMEnMwfGBhDTrt722qKg3qWUMtf8ZW++miwrgkf2AlsRQa1Y96pUbNU9NEDBNoAhZx9MAAAAASUVORK5CYII=",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "playIcon",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 6.0,
+                            "cropHeight": 7.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAHCAYAAAArkDztAAAAQUlEQVR4nG2OQQ3AIAADDwWTMEngBGmTMEnMwfGBhDTrt722qKg3qWUMtf8ZW++miwrgkf2AlsRQa1Y96pUbNU9NEDBNoAhZx9MAAAAASUVORK5CYII=",
+                            "color": "controlColor",
+                            "alpha": 0.5
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 7.0,
+                "defaultWidth": 6.0
+            }
+
+        },
+        "IconPause": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "pauseIcon",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 6.0,
+                            "cropHeight": 7.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAHCAYAAAArkDztAAAANklEQVR4nK3JoQGAQAzF0HwWg83a0XqTBQECg7snk6gFTJIFoJ7AhY/ipZbqwY/No4H5tAH6BpzlGfgpKY3GAAAAAElFTkSuQmCC",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "pauseIcon",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 6.0,
+                            "cropHeight": 7.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAHCAYAAAArkDztAAAANklEQVR4nK3JoQGAQAzF0HwWg83a0XqTBQECg7snk6gFTJIFoJ7AhY/ipZbqwY/No4H5tAH6BpzlGfgpKY3GAAAAAElFTkSuQmCC",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "pauseIcon",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 6.0,
+                            "cropHeight": 7.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAHCAYAAAArkDztAAAANklEQVR4nK3JoQGAQAzF0HwWg83a0XqTBQECg7snk6gFTJIFoJ7AhY/ipZbqwY/No4H5tAH6BpzlGfgpKY3GAAAAAElFTkSuQmCC",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "pauseIcon",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 6.0,
+                            "cropHeight": 7.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAHCAYAAAArkDztAAAANklEQVR4nK3JoQGAQAzF0HwWg83a0XqTBQECg7snk6gFTJIFoJ7AhY/ipZbqwY/No4H5tAH6BpzlGfgpKY3GAAAAAElFTkSuQmCC",
+                            "color": "controlColor",
+                            "alpha": 0.5
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 7.0,
+                "defaultWidth": 6.0
+            }
+
+        },
+        "IconPrevious": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "prevIcon",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 7.0,
+                            "cropHeight": 7.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAARElEQVR4nHXOQRGAMAxFwTioBKRUQiUhASmVhIRKWC7AFCZ91538SWCPJJSABBrGB1HQ3b2IDcPU/7LiTHGaPh5cfVsv/WxjtZeqVX4AAAAASUVORK5CYII=",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "prevIcon",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 7.0,
+                            "cropHeight": 7.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAARElEQVR4nHXOQRGAMAxFwTioBKRUQiUhASmVhIRKWC7AFCZ91538SWCPJJSABBrGB1HQ3b2IDcPU/7LiTHGaPh5cfVsv/WxjtZeqVX4AAAAASUVORK5CYII=",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "prevIcon",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 7.0,
+                            "cropHeight": 7.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAARElEQVR4nHXOQRGAMAxFwTioBKRUQiUhASmVhIRKWC7AFCZ91538SWCPJJSABBrGB1HQ3b2IDcPU/7LiTHGaPh5cfVsv/WxjtZeqVX4AAAAASUVORK5CYII=",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "prevIcon",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 7.0,
+                            "cropHeight": 7.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAARElEQVR4nHXOQRGAMAxFwTioBKRUQiUhASmVhIRKWC7AFCZ91538SWCPJJSABBrGB1HQ3b2IDcPU/7LiTHGaPh5cfVsv/WxjtZeqVX4AAAAASUVORK5CYII=",
+                            "color": "controlColor",
+                            "alpha": 0.5
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 7.0,
+                "defaultWidth": 7.0
+            }
+
+        },
+        "IconNext": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "nextIcon",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 7.0,
+                            "cropHeight": 7.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAQklEQVR4nG3NQQ2AMBQE0e+gEpCChEpBQiVVApIq4fVCAiE718nOFo4KYBQWriCVl/tb+UtP5UxyoaflREufvQIYG8JqZHUbLugrAAAAAElFTkSuQmCC",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "nextIcon",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 7.0,
+                            "cropHeight": 7.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAQklEQVR4nG3NQQ2AMBQE0e+gEpCChEpBQiVVApIq4fVCAiE718nOFo4KYBQWriCVl/tb+UtP5UxyoaflREufvQIYG8JqZHUbLugrAAAAAElFTkSuQmCC",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "nextIcon",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 7.0,
+                            "cropHeight": 7.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAQklEQVR4nG3NQQ2AMBQE0e+gEpCChEpBQiVVApIq4fVCAiE718nOFo4KYBQWriCVl/tb+UtP5UxyoaflREufvQIYG8JqZHUbLugrAAAAAElFTkSuQmCC",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "nextIcon",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 7.0,
+                            "cropHeight": 7.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAQklEQVR4nG3NQQ2AMBQE0e+gEpCChEpBQiVVApIq4fVCAiE718nOFo4KYBQWriCVl/tb+UtP5UxyoaflREufvQIYG8JqZHUbLugrAAAAAElFTkSuQmCC",
+                            "color": "controlColor",
+                            "alpha": 0.5
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 7.0,
+                "defaultWidth": 7.0
+            }
+
+        },
+        "IconUnmuted": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "muteIcon",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 10.0,
+                            "cropHeight": 10.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAfklEQVR4nIXQUQ3DMAyE4TAIhEIIhEIYhEIYhEIohEIYhEIIhEEohG8PSyvLmrST8uDz77OcUoJQU/3IXkFFT17DG1M0OgSoj8QVrws6sftqSfAEZTTX0YAzgAfmC1xGYhvglhLrPRxg4bBtvBl7vvBeGwaOX1/UUv3M3l99AHBJvol9ZV+HAAAAAElFTkSuQmCC",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "muteIcon",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 10.0,
+                            "cropHeight": 10.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAfklEQVR4nIXQUQ3DMAyE4TAIhEIIhEIYhEIYhEIohEIYhEIIhEEohG8PSyvLmrST8uDz77OcUoJQU/3IXkFFT17DG1M0OgSoj8QVrws6sftqSfAEZTTX0YAzgAfmC1xGYhvglhLrPRxg4bBtvBl7vvBeGwaOX1/UUv3M3l99AHBJvol9ZV+HAAAAAElFTkSuQmCC",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "muteIcon",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 10.0,
+                            "cropHeight": 10.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAfklEQVR4nIXQUQ3DMAyE4TAIhEIIhEIYhEIYhEIohEIYhEIIhEEohG8PSyvLmrST8uDz77OcUoJQU/3IXkFFT17DG1M0OgSoj8QVrws6sftqSfAEZTTX0YAzgAfmC1xGYhvglhLrPRxg4bBtvBl7vvBeGwaOX1/UUv3M3l99AHBJvol9ZV+HAAAAAElFTkSuQmCC",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "muteIcon",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 10.0,
+                            "cropHeight": 10.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAfklEQVR4nIXQUQ3DMAyE4TAIhEIIhEIYhEIYhEIohEIYhEIIhEEohG8PSyvLmrST8uDz77OcUoJQU/3IXkFFT17DG1M0OgSoj8QVrws6sftqSfAEZTTX0YAzgAfmC1xGYhvglhLrPRxg4bBtvBl7vvBeGwaOX1/UUv3M3l99AHBJvol9ZV+HAAAAAElFTkSuQmCC",
+                            "color": "controlColor",
+                            "alpha": 0.5
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 10.0,
+                "defaultWidth": 10.0
+            }
+
+        },
+        "IconMuted": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "unMuteIcon",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 10.0,
+                            "cropHeight": 10.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAa0lEQVR4nIXQ0QnDMAyE4XMXyCgZKaN0hKzUDdJNPMLXh9rBJAEfCIH0o5OUDMKSmbDgmEErDrjUz3hhTfJJ8m3N7bpGKSXx17s1oY4Tz4wNtdnD/mTdCx2+7Tjm8aA6BTv8BCZJeX7YHfwBRJuAvUNbsCoAAAAASUVORK5CYII=",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "unMuteIcon",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 10.0,
+                            "cropHeight": 10.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAa0lEQVR4nIXQ0QnDMAyE4XMXyCgZKaN0hKzUDdJNPMLXh9rBJAEfCIH0o5OUDMKSmbDgmEErDrjUz3hhTfJJ8m3N7bpGKSXx17s1oY4Tz4wNtdnD/mTdCx2+7Tjm8aA6BTv8BCZJeX7YHfwBRJuAvUNbsCoAAAAASUVORK5CYII=",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "unMuteIcon",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 10.0,
+                            "cropHeight": 10.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAa0lEQVR4nIXQ0QnDMAyE4XMXyCgZKaN0hKzUDdJNPMLXh9rBJAEfCIH0o5OUDMKSmbDgmEErDrjUz3hhTfJJ8m3N7bpGKSXx17s1oY4Tz4wNtdnD/mTdCx2+7Tjm8aA6BTv8BCZJeX7YHfwBRJuAvUNbsCoAAAAASUVORK5CYII=",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "unMuteIcon",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 10.0,
+                            "cropHeight": 10.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAa0lEQVR4nIXQ0QnDMAyE4XMXyCgZKaN0hKzUDdJNPMLXh9rBJAEfCIH0o5OUDMKSmbDgmEErDrjUz3hhTfJJ8m3N7bpGKSXx17s1oY4Tz4wNtdnD/mTdCx2+7Tjm8aA6BTv8BCZJeX7YHfwBRJuAvUNbsCoAAAAASUVORK5CYII=",
+                            "color": "controlColor",
+                            "alpha": 0.5
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 10.0,
+                "defaultWidth": 10.0
+            }
+
+        },
+        "IconNormalscreen": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconNormalScreen",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 12.0,
+                            "cropHeight": 10.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAjElEQVR4nI2PsQ3CQBAEZy1HOCEidQk0QG10QC1ugRKISCEnIIKEYEj+LctC6Ee6YP927/6gEVWArohJvfmDpVmVUqpjy4ZUkSTqERiBofhewDXJqQb7EkTdAHvgAOxK/1nDdWhXk0newAfYLn4ysKJf6Qcwrd7u62Pmg/5RPX0S1EtD6AyQhuEzSfgC2CpmFShw5rgAAAAASUVORK5CYII=",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "IconNormalScreen",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 12.0,
+                            "cropHeight": 10.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAjElEQVR4nI2PsQ3CQBAEZy1HOCEidQk0QG10QC1ugRKISCEnIIKEYEj+LctC6Ee6YP927/6gEVWArohJvfmDpVmVUqpjy4ZUkSTqERiBofhewDXJqQb7EkTdAHvgAOxK/1nDdWhXk0newAfYLn4ysKJf6Qcwrd7u62Pmg/5RPX0S1EtD6AyQhuEzSfgC2CpmFShw5rgAAAAASUVORK5CYII=",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "IconNormalScreen",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 12.0,
+                            "cropHeight": 10.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAjElEQVR4nI2PsQ3CQBAEZy1HOCEidQk0QG10QC1ugRKISCEnIIKEYEj+LctC6Ee6YP927/6gEVWArohJvfmDpVmVUqpjy4ZUkSTqERiBofhewDXJqQb7EkTdAHvgAOxK/1nDdWhXk0newAfYLn4ysKJf6Qcwrd7u62Pmg/5RPX0S1EtD6AyQhuEzSfgC2CpmFShw5rgAAAAASUVORK5CYII=",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "IconNormalScreen",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 12.0,
+                            "cropHeight": 10.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAjElEQVR4nI2PsQ3CQBAEZy1HOCEidQk0QG10QC1ugRKISCEnIIKEYEj+LctC6Ee6YP927/6gEVWArohJvfmDpVmVUqpjy4ZUkSTqERiBofhewDXJqQb7EkTdAHvgAOxK/1nDdWhXk0newAfYLn4ysKJf6Qcwrd7u62Pmg/5RPX0S1EtD6AyQhuEzSfgC2CpmFShw5rgAAAAASUVORK5CYII=",
+                            "color": "controlColor",
+                            "alpha": 0.5
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 10.0,
+                "defaultWidth": 12.0
+            }
+
+        },
+        "IconFullscreen": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconFullScreen",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 12.0,
+                            "cropHeight": 10.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAiklEQVR4nJ2QsRWCYAyEv/NRYYGVLSOwgLOxgbOwgiNY2WpvYYWNxdn8gR/0Ic+rktwllwT+ge3O9tVfkPgxt12luF4zXDFBkmy3QA1sE98DF0nH0BTZWiXQAAdgn8qPrBmAzWAlPYEXsMv4iRigmOV3oJvVbh+HxDeWEJpwOK9oOsH4pV8GAEjiDUEoWSzCGIE9AAAAAElFTkSuQmCC",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "IconFullScreen",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 12.0,
+                            "cropHeight": 10.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAiklEQVR4nJ2QsRWCYAyEv/NRYYGVLSOwgLOxgbOwgiNY2WpvYYWNxdn8gR/0Ic+rktwllwT+ge3O9tVfkPgxt12luF4zXDFBkmy3QA1sE98DF0nH0BTZWiXQAAdgn8qPrBmAzWAlPYEXsMv4iRigmOV3oJvVbh+HxDeWEJpwOK9oOsH4pV8GAEjiDUEoWSzCGIE9AAAAAElFTkSuQmCC",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "IconFullScreen",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 12.0,
+                            "cropHeight": 10.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAiklEQVR4nJ2QsRWCYAyEv/NRYYGVLSOwgLOxgbOwgiNY2WpvYYWNxdn8gR/0Ic+rktwllwT+ge3O9tVfkPgxt12luF4zXDFBkmy3QA1sE98DF0nH0BTZWiXQAAdgn8qPrBmAzWAlPYEXsMv4iRigmOV3oJvVbh+HxDeWEJpwOK9oOsH4pV8GAEjiDUEoWSzCGIE9AAAAAElFTkSuQmCC",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "IconFullScreen",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 12.0,
+                            "cropHeight": 10.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAiklEQVR4nJ2QsRWCYAyEv/NRYYGVLSOwgLOxgbOwgiNY2WpvYYWNxdn8gR/0Ic+rktwllwT+ge3O9tVfkPgxt12luF4zXDFBkmy3QA1sE98DF0nH0BTZWiXQAAdgn8qPrBmAzWAlPYEXsMv4iRigmOV3oJvVbh+HxDeWEJpwOK9oOsH4pV8GAEjiDUEoWSzCGIE9AAAAAElFTkSuQmCC",
+                            "color": "controlColor",
+                            "alpha": 0.5
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 10.0,
+                "defaultWidth": 12.0
+            }
+
+        },
+        "IconCC": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconCC",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 12.0,
+                            "cropHeight": 10.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAaUlEQVR4nJWRwQ2EMBADx+j+VwIl0wol0AklXAlzDwIKUUCKpWj9SJyxNiojmpIALMAO+HD2cgfUr4fmp1R1Vn8XjRXXm1eZmiRTGGt/6zDUuH2QJCdG7V9/qDF6SJ8y115aow0go4v7A58sS25Ppr1KAAAAAElFTkSuQmCC",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "IconCC",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 12.0,
+                            "cropHeight": 10.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAaUlEQVR4nJWRwQ2EMBADx+j+VwIl0wol0AklXAlzDwIKUUCKpWj9SJyxNiojmpIALMAO+HD2cgfUr4fmp1R1Vn8XjRXXm1eZmiRTGGt/6zDUuH2QJCdG7V9/qDF6SJ8y115aow0go4v7A58sS25Ppr1KAAAAAElFTkSuQmCC",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "IconCC",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 12.0,
+                            "cropHeight": 10.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAaUlEQVR4nJWRwQ2EMBADx+j+VwIl0wol0AklXAlzDwIKUUCKpWj9SJyxNiojmpIALMAO+HD2cgfUr4fmp1R1Vn8XjRXXm1eZmiRTGGt/6zDUuH2QJCdG7V9/qDF6SJ8y115aow0go4v7A58sS25Ppr1KAAAAAElFTkSuQmCC",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "IconCC",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 12.0,
+                            "cropHeight": 10.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAaUlEQVR4nJWRwQ2EMBADx+j+VwIl0wol0AklXAlzDwIKUUCKpWj9SJyxNiojmpIALMAO+HD2cgfUr4fmp1R1Vn8XjRXXm1eZmiRTGGt/6zDUuH2QJCdG7V9/qDF6SJ8y115aow0go4v7A58sS25Ppr1KAAAAAElFTkSuQmCC",
+                            "color": "controlColor",
+                            "alpha": 0.5
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 10.0,
+                "defaultWidth": 12.0
+            }
+
+
+        },
+        "IconMenuClosed": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconMenu",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 9.0,
+                            "cropHeight": 9.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAd0lEQVR4nHWQUQ3CUBAEBwXFARIqARyAAyzgoDhoHSABCZVQCTiZ5edIILx3yX1cMru3d9CoJIM6q6s6thjUUU31c9cArsClxj2woE6leKhbQX/KraBXkkNv/7ECzj2nn0xJhiQ34FR5AO499/PXdWsTKnD6/OkNtIlzoIq7hAAAAAAASUVORK5CYII=",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "IconMenu",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 9.0,
+                            "cropHeight": 9.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAd0lEQVR4nHWQUQ3CUBAEBwXFARIqARyAAyzgoDhoHSABCZVQCTiZ5edIILx3yX1cMru3d9CoJIM6q6s6thjUUU31c9cArsClxj2woE6leKhbQX/KraBXkkNv/7ECzj2nn0xJhiQ34FR5AO499/PXdWsTKnD6/OkNtIlzoIq7hAAAAAAASUVORK5CYII=",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "IconMenu",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 9.0,
+                            "cropHeight": 9.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAd0lEQVR4nHWQUQ3CUBAEBwXFARIqARyAAyzgoDhoHSABCZVQCTiZ5edIILx3yX1cMru3d9CoJIM6q6s6thjUUU31c9cArsClxj2woE6leKhbQX/KraBXkkNv/7ECzj2nn0xJhiQ34FR5AO499/PXdWsTKnD6/OkNtIlzoIq7hAAAAAAASUVORK5CYII=",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "IconMenu",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 9.0,
+                            "cropHeight": 9.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAd0lEQVR4nHWQUQ3CUBAEBwXFARIqARyAAyzgoDhoHSABCZVQCTiZ5edIILx3yX1cMru3d9CoJIM6q6s6thjUUU31c9cArsClxj2woE6leKhbQX/KraBXkkNv/7ECzj2nn0xJhiQ34FR5AO499/PXdWsTKnD6/OkNtIlzoIq7hAAAAAAASUVORK5CYII=",
+                            "color": "controlColor",
+                            "alpha": 0.5
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 9.0,
+                "defaultWidth": 9.0
+            }
+
+
+        },
+        "IconMenuOpened": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "IconMenuClosed",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 8.0,
+                            "cropHeight": 8.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAa0lEQVR4nGWNsQ2AQAwDHYmGjvKpfxBWYAeWYAvmYA7W+IKSLY6ChH+BJRc524qAAZj1ETADScDCo6kJJ2dLgChldw2bVZT+oRdyU8jBOw+TpCJpd16A0cwuAT1wAgdg7sNZL2B9j/ouRtsNn7GNWTfB9ugAAAAASUVORK5CYII=",
+                            "color": "controlColor"
+                        }
+                    ]
+                },
+                "hover": {
+                    "layers": [
+                        {
+                            "name": "IconMenuClosed",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 8.0,
+                            "cropHeight": 8.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAa0lEQVR4nGWNsQ2AQAwDHYmGjvKpfxBWYAeWYAvmYA7W+IKSLY6ChH+BJRc524qAAZj1ETADScDCo6kJJ2dLgChldw2bVZT+oRdyU8jBOw+TpCJpd16A0cwuAT1wAgdg7sNZL2B9j/ouRtsNn7GNWTfB9ugAAAAASUVORK5CYII=",
+                            "color": "controlHoverColor"
+                        }
+                    ]
+                },
+                "selected": {
+                    "layers": [
+                        {
+                            "name": "IconMenuClosed",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 8.0,
+                            "cropHeight": 8.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAa0lEQVR4nGWNsQ2AQAwDHYmGjvKpfxBWYAeWYAvmYA7W+IKSLY6ChH+BJRc524qAAZj1ETADScDCo6kJJ2dLgChldw2bVZT+oRdyU8jBOw+TpCJpd16A0cwuAT1wAgdg7sNZL2B9j/ouRtsNn7GNWTfB9ugAAAAASUVORK5CYII=",
+                            "color": "controlSelectedColor"
+                        }
+                    ]
+                },
+                "disabled": {
+                    "layers": [
+                        {
+                            "name": "IconMenuClosed",
+                            "type": "image",
+                            "cropX": 0,
+                            "cropY": 0,
+                            "cropWidth": 8.0,
+                            "cropHeight": 8.0,
+                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAa0lEQVR4nGWNsQ2AQAwDHYmGjvKpfxBWYAeWYAvmYA7W+IKSLY6ChH+BJRc524qAAZj1ETADScDCo6kJJ2dLgChldw2bVZT+oRdyU8jBOw+TpCJpd16A0cwuAT1wAgdg7sNZL2B9j/ouRtsNn7GNWTfB9ugAAAAASUVORK5CYII=",
+                            "color": "controlColor",
+                            "alpha": 0.5
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 8.0,
+                "defaultWidth": 8.0
+            }
+
+
+        },
+
+        "Spacer": {
+            "properties": {
+                "defaultHeight": 4.0,
+                "defaultWidth": 4.0
+            }
+        },
+
+        "PlayerBackgroundSkin": {
+            "properties": {
+                "paddingTop": 1.0,
+                "paddingRight": 1.0,
+                "paddingBottom": 1.0,
+                "paddingLeft": 1.0,
+                "controlPaddingTop": -1.0,
+                "controlPaddingRight": -1.0,
+                "controlPaddingBottom": -1.0,
+                "controlPaddingLeft": -1.0
+            }
+        },
+
+        "MediaAreaBorderSkin": {
+            "properties": {
+                "paddingTop": 0.0,
+                "paddingRight": 0.0,
+                "paddingBottom": 0.0,
+                "paddingLeft": 0.0
+            }
+        },
+        "ToolTipBackgroundSkin": {
+            "states": {
+                "normal": {
+                    "layers": [
+                        {
+                            "name": "background",
+                            "left": 2.0,
+                            "bottom": 1.0,
+                            "color": "frameColor",
+                            "type": "solid",
+                            "right": 2.0,
+                            "top": 1.0
+                        },
+                        {
+                            "name": "frame",
+                            "left": 3.0,
+                            "bottom": 2.0,
+                            "color": "textBackgroundColor",
+                            "type": "solid",
+                            "right": 3.0,
+                            "top": 2.0
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "defaultHeight": 18.0,
+                "defaultWidth": 24.0
+            }
+
+        }
+
+    },
+    "fonts": {
+    },
+    "properties":{
+    }
+}
