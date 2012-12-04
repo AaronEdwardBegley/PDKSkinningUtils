@@ -11,6 +11,8 @@ parser.add_option("-q", "--quiet",
     help="don't print status messages to stdout")
 
 (options, args) = parser.parse_args()
+
+test
 """
 
 import re
